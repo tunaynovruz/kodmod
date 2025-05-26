@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Kodmod",
+    "description": "Navbar-da başlıq"
+  },
+  "logo.alt": {
+    "message": "Saytımın Loqosu",
+    "description": "Navbar loqosunun alt mətni"
+  },
+  "item.label.Tutorial": {
+    "message": "Təlimat",
+    "description": "Navbar elementində Təlimat etiketi"
+  },
+  "item.label.Blog": {
+    "message": "Bloq",
+    "description": "Navbar elementində Bloq etiketi"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar elementində GitHub etiketi"
+  }
+}

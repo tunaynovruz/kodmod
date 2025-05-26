@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Növbəti",
+    "description": "Cari versiya üçün etiket"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Təlimat - Əsaslar",
+    "description": "sidebar tutorialSidebar-da Təlimat - Əsaslar kateqoriyası üçün etiket"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "Ən vacib Docusaurus konsepsiyalarını öyrənmək üçün 5 dəqiqə.",
+    "description": "sidebar tutorialSidebar-da Təlimat - Əsaslar kateqoriyası üçün yaradılmış indeks səhifəsinin təsviri"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Təlimat - Əlavələr",
+    "description": "sidebar tutorialSidebar-da Təlimat - Əlavələr kateqoriyası üçün etiket"
+  }
+}

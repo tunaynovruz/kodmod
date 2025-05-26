@@ -1,0 +1,313 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Bu səhifə çökdü.",
+    "description": "Səhifə çökdüyündə göstərilən ehtiyat səhifənin başlığı"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Yuxarıya qayıt",
+    "description": "Yuxarıya qayıt düyməsi üçün ARIA etiketi"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arxiv",
+    "description": "Bloq arxiv səhifəsinin başlığı"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arxiv",
+    "description": "Bloq arxiv səhifəsinin təsviri"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Bloq siyahısı səhifə naviqasiyası",
+    "description": "Bloq səhifələməsi üçün ARIA etiketi"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Yeni yazılar",
+    "description": "Yeni bloq yazıları səhifəsinə keçid üçün istifadə olunan etiket (əvvəlki səhifə)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Köhnə yazılar",
+    "description": "Köhnə bloq yazıları səhifəsinə keçid üçün istifadə olunan etiket (növbəti səhifə)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Bloq yazısı səhifə naviqasiyası",
+    "description": "Bloq yazıları səhifələməsi üçün ARIA etiketi"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Növbəti",
+    "description": "Yeni/əvvəlki yazıya keçid üçün bloq yazısı düyməsi etiketi"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Əvvəlki",
+    "description": "Köhnə/növbəti yazıya keçid üçün bloq yazısı düyməsi etiketi"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Bütün etiketləri göstər",
+    "description": "Etiketlər siyahısı səhifəsinə keçid etiketi"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Qaranlıq və işıqlı rejim arasında keçid edin (hazırda {mode})",
+    "description": "Navbar rəng rejimi keçid düyməsi üçün ARIA etiketi"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "qaranlıq rejim",
+    "description": "Qaranlıq rəng rejimi üçün ad"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "işıqlı rejim",
+    "description": "İşıqlı rəng rejimi üçün ad"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "Breadcrumbs üçün ARIA etiketi"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 maddə|{count} maddə",
+    "description": "Bu kateqoriyaya daxil olan maddələrin sayını göstərən yaradılmış indeksdə kateqoriya kartı üçün standart təsvir"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Sənədlər səhifələri",
+    "description": "Sənədlər səhifələməsi üçün ARIA etiketi"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Əvvəlki",
+    "description": "Əvvəlki sənədə keçid üçün istifadə olunan etiket"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Növbəti",
+    "description": "Növbəti sənədə keçid üçün istifadə olunan etiket"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Bir sənəd etiketlənib|{count} sənəd etiketlənib",
+    "description": "Etiketlənmiş \"{count} sənəd\" üçün çoxluq etiketi. Dilinizin dəstəklədiyi qədər çoxluq formalarından istifadə edin (\"|\" ilə ayrılmış) (bax https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\" ilə {nDocsTagged}",
+    "description": "Sənədlər etiketi səhifəsinin başlığı"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versiya: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Bu {siteTitle} {versionLabel} versiyası üçün buraxılmamış sənədlərdir.",
+    "description": "İstifadəçiyə buraxılmamış sənəd versiyasına baxdığını bildirmək üçün istifadə olunan etiket"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Bu {siteTitle} {versionLabel} üçün sənədlərdir, artıq aktiv şəkildə saxlanılmır.",
+    "description": "İstifadəçiyə baxdığı sənəd versiyasının artıq aktiv şəkildə saxlanılmadığını bildirmək üçün istifadə olunan etiket"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Ən son sənədlər üçün {latestVersionLink} ({versionLabel}) baxın.",
+    "description": "İstifadəçiyə ən son versiyanı yoxlamağı bildirmək üçün istifadə olunan etiket"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "ən son versiya",
+    "description": "Ən son versiya təklifi keçid etiketi üçün istifadə olunan etiket"
+  },
+  "theme.common.editThisPage": {
+    "message": "Bu səhifəni redaktə edin",
+    "description": "Cari səhifəni redaktə etmək üçün keçid etiketi"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} üçün birbaşa keçid",
+    "description": "Başlığa keçid üçün başlıq"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} tarixində",
+    "description": "Səhifənin son yeniləndiyi tarixi təsvir etmək üçün istifadə olunan sözlər"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} tərəfindən",
+    "description": "Səhifənin son yeniləndiyi şəxsi təsvir etmək üçün istifadə olunan sözlər"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Son yenilənmə{atDate}{byUser}",
+    "description": "Səhifənin son yeniləndiyi və kim tərəfindən yeniləndiyi göstərilən cümlə"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versiyalar",
+    "description": "Mobil görünüşdə navbar versiyaları açılan menyusu üçün etiket"
+  },
+  "theme.NotFound.title": {
+    "message": "Səhifə Tapılmadı",
+    "description": "404 səhifəsinin başlığı"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etiketlər:",
+    "description": "Etiketlər siyahısı ilə yanaşı etiket"
+  },
+  "theme.admonition.caution": {
+    "message": "ehtiyat",
+    "description": "Ehtiyat xəbərdarlığı üçün istifadə olunan standart etiket (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "təhlükə",
+    "description": "Təhlükə xəbərdarlığı üçün istifadə olunan standart etiket (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "məlumat",
+    "description": "Məlumat xəbərdarlığı üçün istifadə olunan standart etiket (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "qeyd",
+    "description": "Qeyd xəbərdarlığı üçün istifadə olunan standart etiket (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "məsləhət",
+    "description": "Məsləhət xəbərdarlığı üçün istifadə olunan standart etiket (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "xəbərdarlıq",
+    "description": "Xəbərdarlıq xəbərdarlığı üçün istifadə olunan standart etiket (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Bağla",
+    "description": "Elan çubuğunun bağlanma düyməsi üçün ARIA etiketi"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Bloq son yazılar naviqasiyası",
+    "description": "Bloq yan panelində son yazılar üçün ARIA etiketi"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopyalandı",
+    "description": "Kod bloklarında kopyalanmış düymə etiketi"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kodu panoya kopyalayın",
+    "description": "Kod blokları düyməsi üçün ARIA etiketi"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopyala",
+    "description": "Kod bloklarında kopyala düyməsi etiketi"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Söz sarğısını dəyişdirin",
+    "description": "Kod blokları xətlərinin söz sarğısı düyməsi üçün başlıq atributu"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Yan panel kateqoriyasını genişləndirin '{label}'",
+    "description": "Yan panel kateqoriyasını genişləndirmək üçün ARIA etiketi"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Yan panel kateqoriyasını daraldın '{label}'",
+    "description": "Yan panel kateqoriyasını daraltmaq üçün ARIA etiketi"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Əsas",
+    "description": "Əsas naviqasiya üçün ARIA etiketi"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Dillər",
+    "description": "Mobil dil dəyişdirici açılan menyusu üçün etiket"
+  },
+  "theme.NotFound.p1": {
+    "message": "Axtardığınız şeyi tapa bilmədik.",
+    "description": "404 səhifəsinin ilk paraqrafı"
+  },
+  "theme.NotFound.p2": {
+    "message": "Zəhmət olmasa sizi orijinal URL-ə yönləndirən sayt sahibinə müraciət edin və onların linkinin qırıldığını bildirin.",
+    "description": "404 səhifəsinin ikinci paraqrafı"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Bu səhifədə",
+    "description": "Qatlanan TOC komponentindəki düymə tərəfindən istifadə olunan etiket"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Davamını oxu...",
+    "description": "Bloq yazısı maddə xülasələrində tam bloq yazılarına keçid üçün istifadə olunan etiket"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} yazısının davamını oxu...",
+    "description": "Xülasələrdən tam bloq yazılarına keçid üçün ARIA etiketi"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Bir dəqiqə oxuma müddəti| Oxuma müddəti: {readingTime} dəqiqə ",
+    "description": "\"{readingTime} dəqiqə oxumaq\" üçün çoxluq etiketi. Dilinizin dəstəklədiyi qədər çoxluq formalarından istifadə edin (\"|\" ilə ayrılmış) (bax https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Ana səhifə",
+    "description": "Breadcrumbs-də ana səhifə üçün ARIA etiketi"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Yan paneli daraldın",
+    "description": "Sənəd yan panelinin daraltma düyməsi üçün başlıq atributu"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Yan paneli daraldın",
+    "description": "Sənəd yan panelinin daraltma düyməsi üçün ARIA etiketi"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Sənədlər yan paneli",
+    "description": "Yan panel naviqasiyası üçün ARIA etiketi"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Naviqasiya panelini bağlayın",
+    "description": "Mobil yan panelin bağlanma düyməsi üçün ARIA etiketi"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Əsas menyuya qayıt",
+    "description": "Mobil navbar yan paneli ikinci menyusunda əsas menyuya qayıtmaq üçün geri düyməsinin etiketi (xüsusilə sənədlər yan panelini göstərmək üçün istifadə olunur)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Naviqasiya panelini dəyişdirin",
+    "description": "Mobil naviqasiya üçün hamburger menyu düyməsi üçün ARIA etiketi"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Yan paneli genişləndirin",
+    "description": "Sənəd yan panelinin genişləndirmə düyməsi üçün ARIA etiketi və başlıq atributu"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Yan paneli genişləndirin",
+    "description": "Sənəd yan panelinin genişləndirmə düyməsi üçün ARIA etiketi və başlıq atributu"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Bir yazı|{count} yazı",
+    "description": "\"{count} yazı\" üçün çoxluq etiketi. Dilinizin dəstəklədiyi qədər çoxluq formalarından istifadə edin (\"|\" ilə ayrılmış) (bax https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" ilə {nPosts} etiketlənib",
+    "description": "Bloq etiketi səhifəsinin başlığı"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName}",
+    "description": "Bloq müəllifi səhifəsinin başlığı"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Müəlliflər",
+    "description": "Müəlliflər səhifəsinin başlığı"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Bütün müəllifləri göstər",
+    "description": "Bloq müəllifləri səhifəsinə keçid etiketi"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Bu müəllif hələ heç bir yazı yazmayıb.",
+    "description": "0 bloq yazısı olan müəlliflər üçün mətn"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Siyahıya alınmamış səhifə",
+    "description": "Siyahıya alınmamış məzmun banner başlığı"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Bu səhifə siyahıya alınmamışdır. Axtarış motorları onu indeksləşdirməyəcək və yalnız birbaşa keçidi olan istifadəçilər ona daxil ola bilərlər.",
+    "description": "Siyahıya alınmamış məzmun banner mesajı"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Qaralama səhifəsi",
+    "description": "Qaralama məzmun banner başlığı"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Bu səhifə qaralamadır. O, yalnız inkişafda görünəcək və istehsal quruluşundan xaric ediləcək.",
+    "description": "Qaralama məzmun banner mesajı"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Yenidən cəhd edin",
+    "description": "React səhv sərhədi səhv tutduqda yenidən render etməyə cəhd etmək üçün düymə etiketi"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Əsas məzmuna keçin",
+    "description": "Əsas məzmuna keçmək üçün istifadə olunan etiket, klaviatura tab/enter naviqasiyası ilə sürətli naviqasiya üçün"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Etiketlər",
+    "description": "Etiketlər siyahısı səhifəsinin başlığı"
+  }
+}

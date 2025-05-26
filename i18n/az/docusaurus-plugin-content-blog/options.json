@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Bloq",
+    "description": "SEO üçün istifadə olunan bloqun başlığı"
+  },
+  "description": {
+    "message": "Bloq",
+    "description": "SEO üçün istifadə olunan bloqun təsviri"
+  },
+  "sidebar.title": {
+    "message": "Bütün yazılar",
+    "description": "Sol yan panel üçün etiket"
+  }
+}

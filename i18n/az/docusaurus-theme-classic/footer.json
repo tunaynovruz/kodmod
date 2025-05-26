@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Sənədlər",
+    "description": "Altbilgidə başlıq=Sənədlər olan altbilgi bağlantıları sütununun başlığı"
+  },
+  "link.title.Community": {
+    "message": "İcma",
+    "description": "Altbilgidə başlıq=İcma olan altbilgi bağlantıları sütununun başlığı"
+  },
+  "link.title.More": {
+    "message": "Daha çox",
+    "description": "Altbilgidə başlıq=Daha çox olan altbilgi bağlantıları sütununun başlığı"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Təlimat",
+    "description": "Altbilgidə başlıq=Təlimat olan və /docs/intro səhifəsinə keçid edən bağlantının etiketi"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "Altbilgidə başlıq=Stack Overflow olan və https://stackoverflow.com/questions/tagged/docusaurus səhifəsinə keçid edən bağlantının etiketi"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "Altbilgidə başlıq=Discord olan və https://discordapp.com/invite/docusaurus səhifəsinə keçid edən bağlantının etiketi"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "Altbilgidə başlıq=X olan və https://x.com/docusaurus səhifəsinə keçid edən bağlantının etiketi"
+  },
+  "link.item.label.Blog": {
+    "message": "Bloq",
+    "description": "Altbilgidə başlıq=Bloq olan və /blog səhifəsinə keçid edən bağlantının etiketi"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Altbilgidə başlıq=GitHub olan və https://github.com/facebook/docusaurus səhifəsinə keçid edən bağlantının etiketi"
+  }
+}
