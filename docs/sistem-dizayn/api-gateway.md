@@ -1,5 +1,5 @@
 ---
-slug: \api-gateway
+slug: /api-gateway
 ---
 
 

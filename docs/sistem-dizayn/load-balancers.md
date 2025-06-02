@@ -1,5 +1,5 @@
 ---
-slug: \load-balancer
+slug: /load-balancer
 ---
 
 # Load Balancer

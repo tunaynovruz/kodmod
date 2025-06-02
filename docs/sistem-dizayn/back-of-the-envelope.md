@@ -1,5 +1,5 @@
 ---
-slug: \back-of-envelope
+slug: /back-of-envelope
 author: [tunay]
 ---
 
