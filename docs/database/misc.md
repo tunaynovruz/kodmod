@@ -34,3 +34,4 @@
 6. **Code Optimization:** Alqoritmləri optimallaşdırın, lazımsız hesablardan qaçının.
 7. **Minimize External Calls:** Xarici API çağırışlarının sayını azaltmaq.
 
+Strong consitency vs eventual consistency

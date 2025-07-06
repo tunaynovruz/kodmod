@@ -51,3 +51,11 @@
 
 - Redundancy bənzər ehtiyat sistem və komponentlərdən ibarətdir.
 - Replication məlumatın müxtəlif sistemlərdə yayılması və sinxronizasiyasıdır.
+
+
+Digər
+- conflict həlləri
+  - sonuncu yazan qalib gəlir
+- leaderless replication
+- distibuted vs centrilazied
+- 

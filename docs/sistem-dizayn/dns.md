@@ -19,3 +19,13 @@ slug: /dns
 
 - **TCP/IP model:**
     - Data paketləri **segments** (transport layer) → **frames** (data link layer) → **datagram** (network layer) şəklində göndərilir.
+
+
+- Resource Records (A, NS)
+- Dns Resolver
+- Root level name servers
+- Top-level NS
+- Authoritative NS
+- Iterative query
+- Recursive query
+- DHCP

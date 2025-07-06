@@ -31,3 +31,13 @@ slug: /load-balancer
 - **Random:** Sorğuları təsadüfi serverlərə paylayır.
 - **Least Response Time:** Ən sürətli cavab verən serveri seçir.
 - **Least Bandwidth:** Ən az bant genişliyindən istifadə edən serverə yönləndirir.
+
+
+load balanceri hara qoymaq olar?
+db-lərdən əvvəl qoyula bilər
+app-lərdən əvvəl qoyula bilər
+
+- tls termination
+- service registery. discovery kimi də işlənə bilər
+- Security dos
+- 

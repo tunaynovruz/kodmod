@@ -4,7 +4,7 @@ const topics = [
     {
         title: 'Sistem Dizaynı',
         description: 'Müasir tətbiqlər üçün miqyaslana bilən və etibarlı sistemlər qurun.',
-        link: '/system-design',
+        link: '/sistem-dizayn',
     },
     {
         title: 'API',
