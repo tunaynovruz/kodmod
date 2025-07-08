@@ -1,12 +1,11 @@
 ---
-title: Mikroservislər
 description: Mikroservis arxitekturasının əsasları, üstünlükləri və çətinlikləri
 slug: /mikroservisler/giris
 authors: [tunay]
 sidebar_position: 1
 ---
 
-# Mikroservislərə Giriş
+# ⌛ Mikroservislər
 
 ## Niyə mikroservislərə ehtiyac var?
 
