@@ -60,25 +60,25 @@ Java 8, `java.util.function` paketində bir sıra hazır funksional interfeyslə
 
 ### Əsas Funksional İnterfeyslər
 
-1. **Function<T, R>**: T tipli arqument qəbul edir və R tipli nəticə qaytarır
+1. **``Function<T, R>``**: T tipli arqument qəbul edir və R tipli nəticə qaytarır
    ```java
    Function<String, Integer> length = s -> s.length();
    Integer len = length.apply("Java");  // 4 qaytarır
    ```
 
-2. **Predicate<T>**: T tipli arqument qəbul edir və boolean qaytarır
+2. **``Predicate<T>``**: T tipli arqument qəbul edir və boolean qaytarır
    ```java
    Predicate<String> isEmpty = s -> s.isEmpty();
    boolean result = isEmpty.test("Java");  // false qaytarır
    ```
 
-3. **Consumer<T>**: T tipli arqument qəbul edir və heç nə qaytarmır
+3. **``Consumer<T>``**: T tipli arqument qəbul edir və heç nə qaytarmır
    ```java
    Consumer<String> print = s -> System.out.println(s);
    print.accept("Java");  // "Java" çap edir
    ```
 
-4. **Supplier<T>**: Heç bir arqument qəbul etmir və T tipli nəticə qaytarır
+4. **``Supplier<T>``**: Heç bir arqument qəbul etmir və T tipli nəticə qaytarır
    ```java
    Supplier<Double> random = () -> Math.random();
    Double value = random.get();  // Təsadüfi ədəd qaytarır
@@ -86,19 +86,19 @@ Java 8, `java.util.function` paketində bir sıra hazır funksional interfeyslə
 
 ### İki Parametrli Funksional İnterfeyslər
 
-1. **BiFunction<T, U, R>**: T və U tipli arqumentlər qəbul edir və R tipli nəticə qaytarır
+1. **```BiFunction<T, U, R>```**: T və U tipli arqumentlər qəbul edir və R tipli nəticə qaytarır
    ```java
    BiFunction<String, String, String> concat = (s1, s2) -> s1 + s2;
    String result = concat.apply("Java", "Script");  // "JavaScript" qaytarır
    ```
 
-2. **BiPredicate<T, U>**: T və U tipli arqumentlər qəbul edir və boolean qaytarır
+2. **```BiPredicate<T, U>```**: T və U tipli arqumentlər qəbul edir və boolean qaytarır
    ```java
    BiPredicate<String, Integer> checkLength = (s, len) -> s.length() == len;
    boolean result = checkLength.test("Java", 4);  // true qaytarır
    ```
 
-3. **BiConsumer<T, U>**: T və U tipli arqumentlər qəbul edir və heç nə qaytarmır
+3. **``BiConsumer<T, U>``**: T və U tipli arqumentlər qəbul edir və heç nə qaytarmır
    ```java
    BiConsumer<String, Integer> printWithCount = (s, count) -> {
        for (int i = 0; i < count; i++) {
