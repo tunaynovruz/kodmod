@@ -60,6 +60,46 @@ const config = {
             label: 'Giriş',
           },
           {
+            to: '/java',
+            label: 'Java',
+            position: 'left',
+          },
+          {
+            to: '/design-patterns',
+            label: 'Dizayn Pattern-lər',
+            position: 'left',
+          },
+          {
+            to: '/sistem-dizayn',
+            label: 'Sistem Dizaynı',
+            position: 'left',
+          },
+          {
+            to: '/alqoritmler',
+            label: 'Alqoritmlər',
+            position: 'left',
+          },
+          {
+            to: '/data-strukturlar',
+            label: 'Data Strukturları',
+            position: 'left',
+          },
+          {
+            to: '/verilenler-bazasi',
+            label: 'Verilənlər Bazası',
+            position: 'left',
+          },
+          {
+            to: '/tech',
+            label: 'Texnologiyalar',
+            position: 'left',
+          },
+          {
+            to: '/mikroservisler/giris',
+            label: 'Mikroservislər',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/tunaynovruz/kodmod',
             label: 'GitHub',
             position: 'right',
@@ -70,50 +110,62 @@ const config = {
         style: 'dark',
         links: [
           {
+            title: 'Əsas Mövzular',
             items: [
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Java',
+                to: '/java',
               },
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Dizayn Pattern-lər',
+                to: '/design-patterns',
+              },
+              {
+                label: 'Sistem Dizaynı',
+                to: '/sistem-dizayn',
               },
             ],
           },
           {
+            title: 'Digər Mövzular',
             items: [
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Alqoritmlər',
+                to: '/alqoritmler',
               },
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Data Strukturları',
+                to: '/data-strukturlar',
+              },
+              {
+                label: 'Verilənlər Bazası',
+                to: '/verilenler-bazasi',
               },
             ],
           },
           {
+            title: 'Texnologiyalar',
             items: [
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Texnologiyalar',
+                to: '/tech',
               },
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Mikroservislər',
+                to: '/mikroservisler/giris',
               },
             ],
           },
           {
+            title: 'Əlaqə',
             items: [
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'GitHub',
+                href: 'https://github.com/tunaynovruz/kodmod',
               },
               {
-                label: 'Giriş',
-                to: '/docs/intro',
+                label: 'Töhfə Ver',
+                to: '/contribute',
               },
             ],
           }
