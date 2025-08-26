@@ -106,6 +106,6 @@ Client bir aggregate-i yeniləyib dərhal sorğu göndərdikdə köhnə məlumat
 - **Monitoring əlavə edin**: Replication lag-i izləyin
 - **Idempotency təmin edin**: Event handler-lər idempotent olmalıdır
 
-## Nəticə
-
-CQRS güclü pattern-dir, lakin həmişə lazım deyil. Sadə API composition ilə başlayın və yalnız performans və ya mürəkkəblik problemləri yarananda CQRS-ə keçin. Məlumat bazalarının ayrılması məcburi deyil - əvvəlcə sadə command/query ayrılığı kifayət edə bilər.
+Faydalı resurslar:
+- https://martinfowler.com/bliki/CQRS.html
+- 

@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KodMod',
-  tagline: 'Proqramlaşdırmaya dair',
+  tagline: 'Bir proqramçının qeydləri',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

@@ -2,17 +2,12 @@ import React from 'react';
 import styles from './index.module.css';
 
 const topics = [
+
     {
-        title: 'Java',
-        description: 'Java proqramlaşdırma dili, collections, streams, multithreading və digər xüsusiyyətlər.',
-        link: '/java',
-        icon: '☕',
-    },
-    {
-        title: 'Dizayn Pattern-lər',
-        description: 'Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da implementasiyaları.',
-        link: '/design-patterns',
-        icon: '🧩',
+        title: 'Mikroservislər',
+        description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
+        link: '/mikroservisler/giris',
+        icon: '🔌',
     },
     {
         title: 'Sistem Dizaynı',
@@ -21,16 +16,21 @@ const topics = [
         icon: '🏗️',
     },
     {
-        title: 'Alqoritmlər',
-        description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
-        link: '/alqoritmler',
-        icon: '🧮',
+        title: 'Dizayn Pattern-lər',
+        description: 'Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da implementasiyaları.',
+        link: '/design-patterns',
+        icon: '🧩',
     },
     {
         title: 'Data Strukturları',
         description: 'Əsas data strukturları, onların implementasiyası və istifadə sahələri.',
         link: '/data-strukturlar',
         icon: '📊',
+    },{
+        title: 'Alqoritmlər',
+        description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
+        link: '/alqoritmler',
+        icon: '🧮',
     },
     {
         title: 'Verilənlər Bazası',
@@ -39,16 +39,16 @@ const topics = [
         icon: '🗄️',
     },
     {
+        title: 'Java',
+        description: 'Java proqramlaşdırma dili, collections, streams, multithreading və digər xüsusiyyətlər.',
+        link: '/java',
+        icon: '☕',
+    },
+    {
         title: 'Texnologiyalar',
         description: 'Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.',
         link: '/tech',
         icon: '🚀',
-    },
-    {
-        title: 'Mikroservislər',
-        description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
-        link: '/mikroservisler/giris',
-        icon: '🔌',
     },
     {
         title: 'Necə dəstək olmaq olar?',
@@ -74,14 +74,10 @@ export default function HomePage() {
         <div className={styles.homepageWrapper}>
             <main className={styles.homepageContainer}>
                 <header className={styles.hero}>
-                    <h1 className={styles.heroTitle}>KodMod</h1>
-                    <p className={styles.heroSubtitle}>
-                        Proqramlaşdırma və sistem dizaynı üzrə Azərbaycan dilində resurslar
-                    </p>
+                    <h1 className={styles.heroTitle}>Kodmod</h1>
                     <div className={styles.heroDescription}>
                         <p>
-                            KodMod layihəsi proqramçılar üçün Azərbaycan dilində texniki bilikləri paylaşmaq məqsədi daşıyır. 
-                            Burada Java, sistem dizaynı, alqoritmlər, data strukturları və digər mövzular üzrə materiallar tapa bilərsiniz.
+                            Bu layihə proqramlaşdırma öyrənən və Software Development Engineer olmaq istəyən şəxslər üçün hazırlanmışdır. Sistem dizaynı, alqoritmlər, data strukturları, verilənlər bazası və digər texniki mövzular haqqında qısa qeydlər, faydalı resurslar və praktik nümunələr təqdim olunur.
                         </p>
                     </div>
                 </header>
@@ -98,11 +94,10 @@ export default function HomePage() {
                 <footer className={styles.footer}>
                     <div className={styles.footerContent}>
                         <div className={styles.footerLinks}>
-                            <a href="/about" className={styles.footerLink}>Haqqımızda</a>
                             <a href="https://github.com/tunaynovruz/kodmod" className={styles.footerLink}>GitHub</a>
                         </div>
                         <div className={styles.copyright}>
-                            © {new Date().getFullYear()} KodMod. Bütün hüquqlar qorunur.
+                            © {new Date().getFullYear()} Kodmod
                         </div>
                     </div>
                 </footer>

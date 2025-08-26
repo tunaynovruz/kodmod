@@ -4,73 +4,98 @@ slug: /mikroservisler/giris
 authors: [tunay]
 sidebar_position: 1
 ---
-
-# ⌛ Mikroservislər
-
-## Niyə mikroservislərə ehtiyac var?
-
-Müasir biznes mühitində tətbiqlər tez-tez və etibarlı şəkildə dəyişikliklər tələb edir. Böyük, mürəkkəb monolitik tətbiqlər bu tələblərə cavab verməkdə çətinlik çəkir. Mikroservislər bu problemi kiçik, müstəqil komponentlərə bölünməklə həll edir.
-
-## Mikroservis hansı problemi həll edir?
-
-Mikroservis arxitekturası əsasən aşağıdakı problemləri həll edir:
-
-- **Komanda asılılığı**: Monolitik tətbiqlərdə komandalar bir-birini gözləməli olur
-- **Ləng deployment prosesi**: Kiçik dəyişikliklər üçün də bütün tətbiqi yenidən deploy etmək lazımdır
-- **Texnologiya məhdudiyyəti**: Bütün tətbiq eyni texnologiya stack-i istifadə etməlidir
-- **Miqyaslanma problemləri**: Bütün tətbiqi miqyaslamaq lazımdır, yalnız lazım olan hissəni deyil
+# Mikroservislərə Giriş
 
 ## Mikroservis nədir?
 
-Mikroservis arxitekturası tətbiqi bir neçə müstəqil, zəif əlaqəli komponentə (servislərə) bölür. Hər servis:
-- Bir və ya bir neçə subdomain-i əhatə edir
-- Öz məlumat bazasına sahibdir
-- Müstəqil deploy edilə bilir
-- Komanda tərəfindən müstəqil idarə olunur
+Mikroservis böyük tətbiqi kiçik və müstəqil hissələrə ayıran arxitektura yanaşmasıdır.
+
+Hər servis:
+- Öz işini görür
+- Ayrı-ayrı işləyir
+- Başqa servislə rabitə qurur
+
+## Niyə ehtiyac var?
+
+- Böyük layihələr idarə etmək çətindir
+- Komanda işi daha asan olur
+- Yenilik əlavə etmək sürətlənir
+- Xəta bir yerdə qalarsa, bütün sistem dayanmır
 
 ## Üstünlükləri
 
-- **Komanda muxtariyyəti**: Hər komanda öz servisini müstəqil inkişaf etdirə, test edə və deploy edə bilər
-- **Sürətli deployment**: Kiçik servislər daha tez test edilir və müstəqil deploy edilə bilir
-- **Texnologiya müxtəlifliyi**: Müxtəlif servislər müxtəlif texnologiya stack-lərindən istifadə edə bilər
-- **Miqyaslanma (scalability)**: Hər servis öz ehtiyacına görə ayrıca miqyaslanır
-- **Əlçatanlıq (availability)**: Bir servisin nasazlığı bütün sistemi dayandırmır
-- **Təhlükəsizlik seqmentasiyası**: Servislər təhlükəsizlik tələblərinə görə fərqli konfiqurasiya edilə bilər
+- **Müstəqillik**: Hər servis ayrı işləyir
+- **Scale**: Lazım olan servis böyüdülür
+- **Texnologiya seçimi**: Hər servis üçün uyğun texnologiya
+- **Deploy**: Hər servis ayrı yenilənir
+- **Performance**: Daha yaxşı performans
+- **Komanda işi**: Kiçik qruplar işləyir
 
-## Problemlər və Çətinliklər
+## Çətinlikləri
 
-- **Mürəkkəb əməliyyatlar**: Bəzi əməliyyatlar bir neçə servisi əhatə edir və anlaşılması çətin ola bilər
-- **Səmərəsizlik (performance) riski**: Şəbəkə əlaqələri və böyük data transferi səmərəsizliyə səbəb ola bilər
-- **Tranzaksiya idarəetməsi**: ACID tranzaksiyalar əvəzinə eventually consistent sagalar istifadə etmək lazım gəlir
-- **Runtime asılılığı**: Servislər arası sıx əlaqə mövcudluğu azalda və gecikmə artıra bilər
-- **Design-time asılılığı**: Servislər arası sıx dizayn əlaqəsi lockstep dəyişikliklərinə səbəb olur
+- Şəbəkə rabitəsi mürəkkəbdir
+- Servislər arası əlaqə çətindir
+- Test etmək çox vaxt alır
+- Monitorinq çətinləşir
+- Data consistency problemi
 
-## Monolitik və Mikroservis Arasında Seçim
+## Monolitik vs Microservice
 
-### Monolitik Seçin Əgər:
-- Tətbiq sadə və kiçikdirsə
-- Komanda kiçik və eyni yerdə işləyirsə
-- Performans kritik əhəmiyyət daşıyırsa
-- Əməliyyatlar əsasən lokal tranzaksiyalar tələb edirsə
+### Monolitik Arxitektura
+- Bütün kod bir yerdədir
+- Bir database istifadə olunur
+- Bütün sistem birlikdə deploy olunur
+- Sadə başlanğıc üçün yaxşıdır
 
-### Mikroservis Seçin Əgər:
-- Böyük, mürəkkəb tətbiq inkişaf etdirirsinizsə
-- Birdən çox komanda müstəqil işləməlidir
-- Tez-tez deployment və dəyişikliklər tələb olunur
-- Müxtəlif texnologiya stack-lərindən istifadə etmək lazımdır
-- Yüksək əlçatanlıq (high availability) tələb olunur
+### Microservice Arxitektura
+- Kod ayrı servislərə bölünür
+- Hər servisin öz database-i var
+- Servislər ayrı-ayrı deploy olunur
+- Böyük sistemlər üçün uyğundur
+
+## Arxitektura Diaqramları
+
+### Monolitik Sistem
+```
+┌──────────────────────────────┐
+│                              │
+│        Monolitik App         │
+│                              │
+│  ┌─────────────────────────┐ │
+│  │    UI Layer             │ │
+│  ├─────────────────────────┤ │
+│  │    Business Logic       │ │
+│  ├─────────────────────────┤ │
+│  │    Data Access          │ │
+│  └─────────────────────────┘ │
+│                              │
+└─────────────┬────────────────┘
+              │
+    ┌─────────▼─────────┐
+    │                   │
+    │     Database      │
+    │                   │
+    └───────────────────┘
+```
+
+### Mikroservis Sistemi (sadə)
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│             │    │             │    │             │
+│   User      │    │   Order     │    │   Payment   │
+│   Service   │    │   Service   │    │   Service   │
+│             │    │             │    │             │
+└──────┬──────┘    └──────┬──────┘    └──────┬──────┘
+       │                  │                  │
+┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
+│             │    │             │    │             │
+│   User DB   │    │  Order DB   │    │ Payment DB  │
+│             │    │             │    │             │
+└─────────────┘    └─────────────┘    └─────────────┘
+```
 
 ## Nəticə
 
-Mikroservis arxitekturası güclü üstünlüklər təklif edir, lakin həmçinin əlavə mürəkkəblik gətirir. Seçim tətbiqin xüsusiyyətlərinə, komanda strukturuna və biznes tələblərinə əsaslanmalıdır.
+Mikroservislər böyük və mürəkkəb sistemlər üçün yaxşı həldir. Kiçik layihələr üçün monolitik yanaşma daha uyğundur.
 
-## Mikroservis vs Serverless
-
-| Aspekt | Mikroservis | Serverless |
-|--------|-------------|-----------|
-| **İnfrastruktur** | Dev komandalar idarə edir (Kubernetes) | Bulud təminatçısı idarə edir |
-| **Miqyaslanma (Scaling)** | Manual idarəetmə, daha çox nəzarət | Avtomatik miqyaslanma |
-| **Xərc** | Provision edilmiş infrastruktur üçün ödəniş | İstifadə əsasında ödəniş (pay-per-use) |
-| **Mürəkkəblik** | Çoxlu xidmətlərə görə yüksək | Aşağı, amma icra limitləri var |
-| **İstifadə sahələri** | Böyük, mürəkkəb tətbiqlər | Hadisə əsaslı (event-driven), qısa ömürlü tapşırıqlar |
-
+Seçim etməzdən əvvəl layihənin ölçüsünü və komandanın imkanlarını nəzərə alın.

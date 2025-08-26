@@ -68,14 +68,6 @@ Gəlin circuit breaker pattern-ni bir example ilə başa düşək:
 
 ## State-lər Arasında Transition
 
-```mermaid
-graph TD
-    A[Closed State] -->|Failure threshold aşdı| B[Open State]
-    B -->|Timeout bitdi| C[Half-Open State]
-    C -->|Test successful| A
-    C -->|Test failed| B
-```
-
 ## Circuit Breaker Pattern-nin Implementation-u
 
 ### Step 1: Dependency-ləri Müəyyən Etmək
