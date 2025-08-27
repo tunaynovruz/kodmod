@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Backtracking Pattern
 description: Backtracking pattern-in ətraflı izahı və nümunələr
 slug: backtracking-pattern

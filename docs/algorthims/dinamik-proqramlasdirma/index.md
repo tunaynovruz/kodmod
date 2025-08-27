@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Dinamik Proqramlaşdırma
 description: Dinamik proqramlaşdırma alqoritmlərinin ətraflı izahı və Java implementasiyası
 slug: dinamik-proqramlasdirma

@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Software Testing Fundamentals
+draft: true
 
 Software testing is a critical process in software development that ensures the quality, reliability, and performance of applications. This document provides an overview of key testing concepts and methodologies.
 

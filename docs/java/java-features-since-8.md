@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java 8-dən Sonrakı Yeni Xüsusiyyətlər
 description: Java 8, 9, 10, 11, 12, 13, 14, 15, 16 və sonrakı versiyalarda təqdim edilmiş yeni xüsusiyyətlər
 slug: java-new-features

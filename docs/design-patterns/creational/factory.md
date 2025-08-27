@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Factory Design Pattern
 description: Factory design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: factory-design-pattern

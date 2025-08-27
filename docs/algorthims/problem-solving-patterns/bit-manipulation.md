@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Bit Manipulation Pattern
 description: Bit Manipulation pattern-in ətraflı izahı və nümunələr
 slug: bit-manipulation-pattern

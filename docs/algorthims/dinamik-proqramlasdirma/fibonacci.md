@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Fibonacci Alqoritmi
 description: Fibonacci ardıcıllığının müxtəlif implementasiyaları və dinamik proqramlaşdırma yanaşmaları
 slug: fibonacci-algorithm

@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Kafka
+draft: true
 
 - **QUEUE:** 1 consumer, 1 data read.
 - **Pub-Sub:** Bir neçə subscriber, mesaj bir neçə dəfə oxuna bilər.

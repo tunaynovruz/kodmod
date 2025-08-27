@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Prefix Sum Pattern
 description: Prefix Sum pattern-in ətraflı izahı və nümunələr
 slug: prefix-sum-pattern

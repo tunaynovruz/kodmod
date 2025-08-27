@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Concurrency
 description: Java-da concurrency və multithreading-in ətraflı izahı
 slug: java-concurrency

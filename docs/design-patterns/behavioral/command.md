@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Command Design Pattern
 description: Command design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: command-design-pattern

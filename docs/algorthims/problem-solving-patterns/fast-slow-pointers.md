@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Fast & Slow Pointers Pattern
 description: Fast & Slow Pointers pattern-in ətraflı izahı və nümunələr
 slug: fast-slow-pointers-pattern

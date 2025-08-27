@@ -1,4 +1,5 @@
 ---
+draft: true
 title: LinkedList Data Structure
 description: LinkedList data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: linkedlist-data-structure

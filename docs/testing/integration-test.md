@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Integration Testing
+draft: true
 
 Integration testing verifies that different components of an application work together correctly. This guide covers key concepts and approaches to integration testing.
 

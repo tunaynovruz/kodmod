@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Elevator System Design
 description: Design an elevator system for a building
 slug: elevator-system

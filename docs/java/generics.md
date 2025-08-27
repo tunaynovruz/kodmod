@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Generics
 description: Java-da Generics konsepti, istifadəsi və üstünlükləri
 slug: java-generics

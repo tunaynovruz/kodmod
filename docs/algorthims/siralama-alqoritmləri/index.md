@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Sıralama Alqoritmləri
 description: Sıralama alqoritmlərinin ətraflı izahı və Java implementasiyaları
 slug: siralama-alqoritmləri

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Axtarış Alqoritmləri
 description: Axtarış alqoritmlərinin ətraflı izahı və Java implementasiyaları
 slug: axtaris-alqoritmləri

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Facade Design Pattern
 description: Facade design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: facade-design-pattern

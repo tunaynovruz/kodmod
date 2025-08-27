@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Proxy Design Pattern
 description: Proxy design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: proxy-design-pattern

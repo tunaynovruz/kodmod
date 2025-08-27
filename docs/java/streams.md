@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Streams API
 description: Java Streams API-nin ətraflı izahı və istifadə nümunələri
 slug: java-streams

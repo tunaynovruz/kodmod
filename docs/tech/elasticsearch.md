@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Elasticsearch
+draft: true
 
 - **Distributed Search Engine:** Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
 - **Document-Oriented:** Stores data as JSON documents, making it flexible for various data structures.

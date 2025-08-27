@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Two Pointers Pattern
 description: Two Pointers pattern-in ətraflı izahı və nümunələr
 slug: two-pointers-pattern

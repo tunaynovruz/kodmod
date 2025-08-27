@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Restaurant Management System Design
 description: Design a system for managing restaurant operations
 slug: restaurant-system

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Merge Sort
 description: Merge Sort alqoritminin ətraflı izahı və Java-da implementasiyası
 slug: merge-sort

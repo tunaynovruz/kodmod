@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+draft: true
+sidebar_position: 4
 slug: /data-strukturlar
 title: Data Strukturlar
 ---

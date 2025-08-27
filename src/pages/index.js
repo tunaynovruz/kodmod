@@ -2,18 +2,24 @@ import React from 'react';
 import styles from './index.module.css';
 
 const topics = [
-
-    {
-        title: 'Mikroservislər',
-        description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
-        link: '/mikroservisler/giris',
-        icon: '🔌',
-    },
     {
         title: 'Sistem Dizaynı',
         description: 'Müasir tətbiqlər üçün miqyaslana bilən və etibarlı sistemlər qurun.',
         link: '/sistem-dizayn',
         icon: '🏗️',
+    },
+    {
+        title: 'Mikroservislər',
+        description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
+        link: '/mikroservisler',
+        icon: '🔌',
+    },
+
+    {
+        title: 'DataBase',
+        description: 'SQL və NoSQL database-lər, indexing, optimization və digər konseptlər.',
+        link: '/db',
+        icon: '🗄️',
     },
     {
         title: 'Dizayn Pattern-lər',
@@ -31,12 +37,6 @@ const topics = [
         description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
         link: '/alqoritmler',
         icon: '🧮',
-    },
-    {
-        title: 'Verilənlər Bazası',
-        description: 'SQL və NoSQL database-lər, indexing, optimization və digər konseptlər.',
-        link: '/verilenler-bazasi',
-        icon: '🗄️',
     },
     {
         title: 'Java',

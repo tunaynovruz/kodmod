@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Gradle
+draft: true
 
 - **Build Automation Tool:** Gradle is a build automation tool that supports multi-language development and many platforms.
 - **Groovy/Kotlin DSL:** Uses Groovy or Kotlin-based DSL (Domain Specific Language) for declaring builds.

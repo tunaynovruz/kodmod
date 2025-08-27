@@ -1,4 +1,9 @@
+---
+draft: true
+---
+
 # Testing with Cucumber
+draft: true
 
 Cucumber is a popular tool that supports Behavior-Driven Development (BDD) by allowing tests to be written in a natural language format that can be understood by non-technical stakeholders. This guide covers key concepts and examples of Cucumber testing.
 

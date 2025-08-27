@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Binary Search
 description: Binary Search alqoritminin ətraflı izahı və Java implementasiyası
 slug: binary-search

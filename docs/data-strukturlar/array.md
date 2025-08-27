@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Array Data Structure
 description: Array data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: array-data-structure

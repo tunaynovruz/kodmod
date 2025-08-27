@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Dijkstra's Algorithm
 description: Dijkstra alqoritminin ətraflı izahı və Java-da implementasiyası
 slug: dijkstra-algorithm

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Əsasları
 description: Java proqramlaşdırma dilinin əsasları və başlanğıc səviyyəli konseptlər
 slug: java-basics

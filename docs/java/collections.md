@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Collections Framework
 description: Java Collections Framework-un ətraflı izahı və istifadə nümunələri
 slug: java-collections

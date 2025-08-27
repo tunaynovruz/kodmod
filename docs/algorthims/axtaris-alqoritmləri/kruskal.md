@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Kruskal's Algorithm
 description: Kruskal alqoritminin ətraflı izahı və Java-da implementasiyası
 slug: kruskal-algorithm

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Observer Design Pattern
 description: Observer design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: observer-design-pattern

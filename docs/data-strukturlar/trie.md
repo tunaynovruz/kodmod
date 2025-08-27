@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Trie Data Structure
 description: Trie data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: trie-data-structure

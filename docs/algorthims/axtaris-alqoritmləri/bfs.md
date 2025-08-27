@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Breadth-First Search (BFS)
 description: Breadth-First Search alqoritminin ətraflı izahı və Java-da implementasiyası
 slug: breadth-first-search

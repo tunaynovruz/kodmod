@@ -1,4 +1,9 @@
+
+---
+draft: true
+---
 # Naming Conventions in Testing
+draft: true
 
 Good naming conventions in testing improve code readability, maintainability, and help developers quickly understand the purpose of tests. This guide covers best practices for naming tests across different languages and frameworks.
 

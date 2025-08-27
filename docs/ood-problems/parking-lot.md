@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Parking Lot Design
 description: Design a parking lot system with different vehicle types and payment processing
 slug: parking-lot

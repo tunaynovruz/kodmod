@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Texnologiyalar
 description: Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.
 ---

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Bubble Sort
 description: Bubble Sort alqoritminin ətraflı izahı və Java implementasiyası
 slug: bubble-sort

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Bridge Design Pattern
 description: Bridge design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: bridge-design-pattern

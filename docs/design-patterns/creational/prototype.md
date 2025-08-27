@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Prototype Design Pattern
 description: Prototype design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: prototype-design-pattern

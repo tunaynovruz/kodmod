@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Movie Ticket Booking System Design
 description: Design a system for booking movie tickets
 slug: movie-ticket-system

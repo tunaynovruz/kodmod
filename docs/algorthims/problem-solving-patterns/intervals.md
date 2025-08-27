@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Intervals Pattern
 description: Intervals pattern-in ətraflı izahı və nümunələr
 slug: intervals-pattern

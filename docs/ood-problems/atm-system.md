@@ -1,4 +1,5 @@
 ---
+draft: true
 title: ATM System Design
 description: Design an ATM system with various banking operations
 slug: atm-system

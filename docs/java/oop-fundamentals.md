@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java-da OOP Əsasları
 description: Java-da Obyekt Yönümlü Proqramlaşdırma (OOP) prinsipləri və konseptləri
 slug: java-oop

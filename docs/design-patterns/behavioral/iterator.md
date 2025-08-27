@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Iterator Design Pattern
 description: Iterator design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: iterator-design-pattern

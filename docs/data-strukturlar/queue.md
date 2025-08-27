@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Queue Data Structure
 description: Queue data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: queue-data-structure

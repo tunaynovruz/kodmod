@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Dizayn Pattern-lər
 description: Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da implementasiyaları.
 ---

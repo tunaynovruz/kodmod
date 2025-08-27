@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java
 description: Java proqramlaşdırma dili, collections, streams, multithreading və digər xüsusiyyətlər.
 ---

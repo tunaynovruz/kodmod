@@ -53,25 +53,26 @@ const config = {
       navbar: {
         title: 'Kodmod',
         items: [
+
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/sistem-dizayn',
+            label: 'Sistem Dizaynı',
             position: 'left',
-            label: 'Giriş',
           },
           {
-            to: '/java',
-            label: 'Java',
+            to: '/mikroservisler',
+            label: 'Mikroservislər',
+            position: 'left',
+          },
+
+          {
+            to: '/db',
+            label: 'DataBase',
             position: 'left',
           },
           {
             to: '/design-patterns',
             label: 'Dizayn Pattern-lər',
-            position: 'left',
-          },
-          {
-            to: '/sistem-dizayn',
-            label: 'Sistem Dizaynı',
             position: 'left',
           },
           {
@@ -85,18 +86,13 @@ const config = {
             position: 'left',
           },
           {
-            to: '/verilenler-bazasi',
-            label: 'Verilənlər Bazası',
-            position: 'left',
-          },
-          {
             to: '/tech',
             label: 'Texnologiyalar',
             position: 'left',
           },
           {
-            to: '/mikroservisler/giris',
-            label: 'Mikroservislər',
+            to: '/java',
+            label: 'Java',
             position: 'left',
           },
           {
@@ -177,6 +173,11 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;

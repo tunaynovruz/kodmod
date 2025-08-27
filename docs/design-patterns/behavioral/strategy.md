@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Strategy Design Pattern
 description: Strategy design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: strategy-design-pattern

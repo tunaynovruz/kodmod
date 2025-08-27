@@ -1,4 +1,5 @@
 ---
+draft: true
 title: HashMap Data Structure
 description: HashMap data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: hashmap-data-structure

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Divide and Conquer Pattern
 description: Divide and Conquer pattern-in ətraflı izahı və nümunələr
 slug: divide-and-conquer-pattern

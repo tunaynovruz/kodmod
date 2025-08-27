@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Quick Sort
 description: Quick Sort alqoritminin ətraflı izahı və Java implementasiyası
 slug: quick-sort

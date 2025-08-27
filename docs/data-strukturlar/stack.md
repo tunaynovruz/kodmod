@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Stack Data Structure
 description: Stack data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: stack-data-structure

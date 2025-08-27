@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Tree Data Structure
 description: Tree data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: tree-data-structure

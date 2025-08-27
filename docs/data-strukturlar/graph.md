@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Graph Data Structure
 description: Graph data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: graph-data-structure

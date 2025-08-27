@@ -1,4 +1,5 @@
 ---
+draft: true
 title: HashSet Data Structure
 description: HashSet data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: hashset-data-structure

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Builder Design Pattern
 description: Builder design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: builder-design-pattern

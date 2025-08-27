@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Money Transfer System Design
 description: Design a system for transferring money between accounts
 slug: money-transfer-system

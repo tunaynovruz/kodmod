@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Heap Data Structure
 description: Heap data strukturunun ətraflı izahı və Java-da implementasiyası
 slug: heap-data-structure

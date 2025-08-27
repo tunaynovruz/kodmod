@@ -1,4 +1,5 @@
 ---
+draft: true
 title: URL Shortener Design
 description: Design a URL shortener system using the strategy pattern
 slug: url-shortener

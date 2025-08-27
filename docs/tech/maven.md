@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Maven
+draft: true
 
 - **Build Automation Tool:** Maven is a build automation and project management tool primarily used for Java projects.
 - **Convention over Configuration:** Follows a standard directory structure and build lifecycle, reducing the need for configuration.

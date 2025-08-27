@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Object-Oriented Design Problems
 description: Common Object-Oriented Design (OOD) problems and their solutions
 slug: ood-problems

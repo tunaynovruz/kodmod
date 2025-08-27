@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Docker
+draft: true
 
 - **Container:** Lightweight, standalone, executable software package that includes everything needed to run an application.
 - **Image:** Read-only template used to create containers, containing application code, libraries, dependencies, tools, and other files.

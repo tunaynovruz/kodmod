@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Decorator Design Pattern
 description: Decorator design pattern-nin ətraflı izahı və Java-da implementasiyası
 slug: decorator-design-pattern

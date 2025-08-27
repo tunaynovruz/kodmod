@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Load Balancer Design
 description: Design a load balancer system using the strategy pattern
 slug: load-balancer

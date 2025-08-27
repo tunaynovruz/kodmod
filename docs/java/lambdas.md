@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Java Lambda İfadələri
 description: Java-da Lambda ifadələri, funksional interfeyslər və Stream API ilə istifadəsi
 slug: java-lambdas

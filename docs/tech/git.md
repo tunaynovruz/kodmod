@@ -1,4 +1,8 @@
+---
+draft: true
+---
 # Git
+draft: true
 
 - **Distributed Version Control System:** Git is a distributed version control system that tracks changes in source code during software development.
 - **Snapshot-Based:** Git stores data as snapshots of the project over time, not just differences between files.

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Depth-First Search (DFS)
 description: Depth-First Search alqoritminin ətraflı izahı və Java-da implementasiyası
 slug: depth-first-search

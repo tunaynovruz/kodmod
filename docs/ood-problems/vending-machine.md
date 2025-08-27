@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Vending Machine Design
 description: Design a vending machine with product selection and payment processing
 slug: vending-machine

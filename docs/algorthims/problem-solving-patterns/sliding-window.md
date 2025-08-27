@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Sliding Window Pattern
 description: Sliding Window pattern-in ətraflı izahı və nümunələr
 slug: sliding-window-pattern
