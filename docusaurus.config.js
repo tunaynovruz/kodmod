@@ -59,7 +59,7 @@ const config = {
             label: 'Sistem Dizaynı',
             position: 'left',
           },
-          {
+          /*{
             to: '/mikroservisler',
             label: 'Mikroservislər',
             position: 'left',
@@ -94,7 +94,7 @@ const config = {
             to: '/java',
             label: 'Java',
             position: 'left',
-          },
+          },*/
           {
             href: 'https://github.com/tunaynovruz/kodmod',
             label: 'GitHub',
@@ -108,14 +108,14 @@ const config = {
           {
             title: 'Əsas Mövzular',
             items: [
-              {
+              /*{
                 label: 'Java',
                 to: '/java',
               },
               {
                 label: 'Dizayn Pattern-lər',
                 to: '/design-patterns',
-              },
+              },*/
               {
                 label: 'Sistem Dizaynı',
                 to: '/sistem-dizayn',
@@ -125,7 +125,7 @@ const config = {
           {
             title: 'Digər Mövzular',
             items: [
-              {
+              /*{
                 label: 'Alqoritmlər',
                 to: '/alqoritmler',
               },
@@ -136,20 +136,20 @@ const config = {
               {
                 label: 'Verilənlər Bazası',
                 to: '/verilenler-bazasi',
-              },
+              },*/
             ],
           },
           {
             title: 'Texnologiyalar',
             items: [
-              {
+              /*{
                 label: 'Texnologiyalar',
                 to: '/tech',
               },
               {
                 label: 'Mikroservislər',
                 to: '/mikroservisler/giris',
-              },
+              },*/
             ],
           },
           {
