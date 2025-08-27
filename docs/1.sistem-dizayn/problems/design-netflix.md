@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Design Netflix (Video Streaming Service)
 draft: true
 

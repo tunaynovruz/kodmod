@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Design YouTube (Video Streaming Platform)
 draft: true
 

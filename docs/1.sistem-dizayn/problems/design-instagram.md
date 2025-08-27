@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Design Instagram (Photo Sharing Platform)
 draft: true
 
