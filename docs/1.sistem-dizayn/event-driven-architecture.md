@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Event-Driven Architecture
 draft: true
 

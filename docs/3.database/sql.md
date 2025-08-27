@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SQL (Structured Query Language)
 draft: true
 

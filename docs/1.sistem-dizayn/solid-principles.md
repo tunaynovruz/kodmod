@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SOLID Principles
 draft: true
 

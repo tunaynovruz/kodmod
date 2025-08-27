@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Transactions (Tranzaksiyalar)
 draft: true
 

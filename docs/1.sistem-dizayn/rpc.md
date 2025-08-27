@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # RPC (Remote Procedure Call)
 draft: true
 

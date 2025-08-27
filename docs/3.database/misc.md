@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Verilənlər Bazası: Əlavə Mövzular
 draft: true
 

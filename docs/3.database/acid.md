@@ -1,5 +1,8 @@
-# ACID Prinsipləri
+---
 draft: true
+---
+# ACID Prinsipləri
+
 
 ## ACID Nədir?
 

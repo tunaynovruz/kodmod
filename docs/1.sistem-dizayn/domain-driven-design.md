@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Domain-Driven Design
 draft: true
 

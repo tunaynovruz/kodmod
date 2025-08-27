@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Misc
 draft: true
 

@@ -1,4 +1,6 @@
-
+---
+draft: true
+---
 draft: true
 # Proxy və onun istifadəsi
 

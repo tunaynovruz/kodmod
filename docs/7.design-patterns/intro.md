@@ -21,41 +21,41 @@ Design pattern-lər üç əsas kateqoriyaya bölünür:
 Creational pattern-lər, obyektlərin yaradılması prosesini idarə edir və sistemin hansı obyektləri yaratdığını gizlədir. Bu pattern-lər, sistemin konkret class-lardan asılılığını azaldır və obyektlərin yaradılması və dəyişdirilməsi prosesini daha flexible edir.
 
 Əsas creational pattern-lər:
-- [Factory Method](/docs/design-patterns/creational/factory)
-- [Abstract Factory](/docs/design-patterns/creational/factory)
-- [Builder](/docs/design-patterns/creational/builder)
-- [Prototype](/docs/design-patterns/creational/prototype)
-- [Singleton](/docs/design-patterns/creational/singleton)
+- [Factory Method](/docs/7.design-patterns/creational/factory)
+- [Abstract Factory](/docs/7.design-patterns/creational/factory)
+- [Builder](/docs/7.design-patterns/creational/builder)
+- [Prototype](/docs/7.design-patterns/creational/prototype)
+- [Singleton](/docs/7.design-patterns/creational/singleton)
 
 ### 2. Structural Patterns
 
 Structural pattern-lər, class-ların və obyektlərin daha böyük strukturlara birləşdirilməsi üçün istifadə olunur. Bu pattern-lər, strukturun flexibility və efficiency-ni artırır.
 
 Əsas structural pattern-lər:
-- [Adapter](/docs/design-patterns/structural/adapter)
-- [Bridge](/docs/design-patterns/structural/bridge)
-- [Composite](/docs/design-patterns/structural/composite)
-- [Decorator](/docs/design-patterns/structural/decorator)
-- [Facade](/docs/design-patterns/structural/facade)
-- [Flyweight](/docs/design-patterns/structural/flyweight)
-- [Proxy](/docs/design-patterns/structural/proxy)
+- [Adapter](/docs/7.design-patterns/structural/adapter)
+- [Bridge](/docs/7.design-patterns/structural/bridge)
+- [Composite](/docs/7.design-patterns/structural/composite)
+- [Decorator](/docs/7.design-patterns/structural/decorator)
+- [Facade](/docs/7.design-patterns/structural/facade)
+- [Flyweight](/docs/7.design-patterns/structural/flyweight)
+- [Proxy](/docs/7.design-patterns/structural/proxy)
 
 ### 3. Behavioral Patterns
 
 Behavioral pattern-lər, obyektlər arasındakı kommunikasiya və məsuliyyət bölgüsünü idarə edir. Bu pattern-lər, obyektlər arasındakı əlaqələri daha flexible edir.
 
 Əsas behavioral pattern-lər:
-- [Chain of Responsibility](/docs/design-patterns/behavioral/chain-of-responsibility)
-- [Command](/docs/design-patterns/behavioral/command)
-- [Interpreter](/docs/design-patterns/behavioral/interpreter)
-- [Iterator](/docs/design-patterns/behavioral/iterator)
-- [Mediator](/docs/design-patterns/behavioral/mediator)
-- [Memento](/docs/design-patterns/behavioral/memento)
-- [Observer](/docs/design-patterns/behavioral/observer)
-- [State](/docs/design-patterns/behavioral/state)
-- [Strategy](/docs/design-patterns/behavioral/strategy)
-- [Template Method](/docs/design-patterns/behavioral/template-method)
-- [Visitor](/docs/design-patterns/behavioral/visitor)
+- [Chain of Responsibility](/docs/7.design-patterns/behavioral/chain-of-responsibility)
+- [Command](/docs/7.design-patterns/behavioral/command)
+- [Interpreter](/docs/7.design-patterns/behavioral/interpreter)
+- [Iterator](/docs/7.design-patterns/behavioral/iterator)
+- [Mediator](/docs/7.design-patterns/behavioral/mediator)
+- [Memento](/docs/7.design-patterns/behavioral/memento)
+- [Observer](/docs/7.design-patterns/behavioral/observer)
+- [State](/docs/7.design-patterns/behavioral/state)
+- [Strategy](/docs/7.design-patterns/behavioral/strategy)
+- [Template Method](/docs/7.design-patterns/behavioral/template-method)
+- [Visitor](/docs/7.design-patterns/behavioral/visitor)
 
 ## Design Pattern-lərin Üstünlükləri
 

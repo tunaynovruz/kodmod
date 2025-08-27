@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Optimistic vs Pessimistic Lock
 draft: true
 

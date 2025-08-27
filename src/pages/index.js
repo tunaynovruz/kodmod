@@ -7,7 +7,7 @@ const topics = [
         description: 'Müasir tətbiqlər üçün miqyaslana bilən və etibarlı sistemlər qurun.',
         link: '/sistem-dizayn',
         icon: '🏗️',
-    },
+    },/*
     {
         title: 'Mikroservislər',
         description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
@@ -49,7 +49,7 @@ const topics = [
         description: 'Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.',
         link: '/tech',
         icon: '🚀',
-    },
+    },*/
     {
         title: 'Necə dəstək olmaq olar?',
         description: 'Layihəyə töhfə vermək və əməkdaşlıq etmək haqqında məlumat.',
@@ -83,7 +83,7 @@ export default function HomePage() {
                 </header>
 
                 <section className={styles.topicsSection}>
-                    <h2 className={styles.sectionTitle}>Əsas Mövzular</h2>
+                    <h2 className={styles.sectionTitle}>Mövzular</h2>
                     <div className={styles.topicsGrid}>
                         {topics.map((topic) => (
                             <TopicCard key={topic.title} {...topic} />

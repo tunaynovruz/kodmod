@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 sidebar_position: 1
 title: Sistem Dizayn
 ---

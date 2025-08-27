@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Verilənlər Bazası Replikasiyası
 draft: true
 

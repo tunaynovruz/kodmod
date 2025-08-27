@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # İndekslər (Indexes)
 draft: true
 
