@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Töhfə"
 slug: /contribute
 ---
