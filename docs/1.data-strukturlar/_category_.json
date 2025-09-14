@@ -1,0 +1,14 @@
+{
+  "position": 1,
+  "label": "Data Strukturlar",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Data Strukturlar"
+  },
+  "customProps": {
+    "description": "Data Strukturlar"
+  }
+}

@@ -2,6 +2,8 @@
 draft: false
 sidebar_position: 1
 title: Sistem Dizayn
+sidebar_label: Sistem Dizayn
+sidebar_class_name: green
 ---
 
 # Sistem Dizayn Interview Yanaşması
