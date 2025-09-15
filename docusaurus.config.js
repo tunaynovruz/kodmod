@@ -77,7 +77,7 @@ const config = {
             to: '/design-patterns',
             label: 'Dizayn Pattern-lər',
             position: 'left',
-          },
+          },*/
           {
             to: '/alqoritmler',
             label: 'Alqoritmlər',
@@ -87,7 +87,7 @@ const config = {
             to: '/data-strukturlar',
             label: 'Data Strukturları',
             position: 'left',
-          },
+          },/*
           {
             to: '/tech',
             label: 'Texnologiyalar',
@@ -128,14 +128,14 @@ const config = {
           {
             title: 'Digər Mövzular',
             items: [
-              /*{
+              {
                 label: 'Alqoritmlər',
                 to: '/alqoritmler',
               },
               {
                 label: 'Data Strukturları',
                 to: '/data-strukturlar',
-              },
+              },/*
               {
                 label: 'Verilənlər Bazası',
                 to: '/verilenler-bazasi',
@@ -162,10 +162,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/tunaynovruz/kodmod',
               },
-              {
+              /*{
                 label: 'Töhfə Ver',
                 to: '/contribute',
-              },
+              },*/
             ],
           }
         ],

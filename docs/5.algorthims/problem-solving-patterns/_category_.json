@@ -6,7 +6,8 @@
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Coding interview patternləri"
+    "title": "Coding interview patternləri",
+    "slug": "coding-interview"
   },
   "customProps": {
     "description": "Coding interview patternləri"

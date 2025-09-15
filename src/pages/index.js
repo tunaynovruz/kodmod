@@ -26,7 +26,7 @@ const topics = [
         description: 'Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da implementasiyaları.',
         link: '/design-patterns',
         icon: '🧩',
-    },
+    },*/
     {
         title: 'Data Strukturları',
         description: 'Əsas data strukturları, onların implementasiyası və istifadə sahələri.',
@@ -37,7 +37,7 @@ const topics = [
         description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
         link: '/alqoritmler',
         icon: '🧮',
-    },
+    },/*
     {
         title: 'Java',
         description: 'Java proqramlaşdırma dili, collections, streams, multithreading və digər xüsusiyyətlər.',
@@ -49,13 +49,13 @@ const topics = [
         description: 'Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.',
         link: '/tech',
         icon: '🚀',
-    },*/
+    },
     {
         title: 'Necə dəstək olmaq olar?',
         description: 'Layihəyə töhfə vermək və əməkdaşlıq etmək haqqında məlumat.',
         link: '/contribute',
         icon: '🤝',
-    },
+    },*/
 ];
 
 function TopicCard({ title, description, link, icon }) {

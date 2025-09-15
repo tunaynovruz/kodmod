@@ -6,7 +6,8 @@
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Alqoritmlər"
+    "title": "Alqoritmlər",
+    "slug": "alqoritmler"
   },
   "customProps": {
     "description": "Alqoritmlər"

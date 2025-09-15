@@ -6,7 +6,8 @@
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Data Strukturlar"
+    "title": "Data Strukturlar",
+    "slug": "data-strukturlar"
   },
   "customProps": {
     "description": "Data Strukturlar"
