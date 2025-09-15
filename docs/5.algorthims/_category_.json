@@ -1,0 +1,14 @@
+{
+  "position": 1,
+  "label": "Alqoritmlər",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Alqoritmlər"
+  },
+  "customProps": {
+    "description": "Alqoritmlər"
+  }
+}

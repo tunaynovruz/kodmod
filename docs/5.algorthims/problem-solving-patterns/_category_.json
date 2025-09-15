@@ -1,0 +1,14 @@
+{
+  "position": 1,
+  "label": "Coding interview patternləri",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Coding interview patternləri"
+  },
+  "customProps": {
+    "description": "Coding interview patternləri"
+  }
+}

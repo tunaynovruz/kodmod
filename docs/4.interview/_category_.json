@@ -1,0 +1,14 @@
+{
+  "position": 4,
+  "label": "Interview",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Interview"
+  },
+  "customProps": {
+    "description": "Interview"
+  }
+}
