@@ -137,12 +137,12 @@ public class Dijkstra {
 }
 ```
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: 
   - Priority Queue ilə: O((V + E) log V), burada V vertex-lərin sayı, E isə kənarların sayıdır
   - Sadə array ilə: O(V²)
-- **Məkan Mürəkkəbliyi**: O(V + E)
+- **Yaddaş Mürəkkəbliyi**: O(V + E)
 
 ## Dijkstra Alqoritminin Üstünlükləri və Çatışmazlıqları
 

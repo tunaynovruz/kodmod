@@ -186,14 +186,14 @@ Bu problem daha mürəkkəbdir, lakin əsas ideya aşağıdakı kimidir:
 4. Orta xətt ətrafında ən yaxın cütü tapın
 5. Üç məsafədən minimumunu qaytarın
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: 
   - Binary Search: O(log n)
   - Merge Sort: O(n log n)
   - Quick Sort: Orta halda O(n log n), ən pis halda O(n²)
   - Maximum Subarray: O(n log n)
-- **Məkan Mürəkkəbliyi**: 
+- **Yaddaş Mürəkkəbliyi**: 
   - Rekursiya stack-i üçün O(log n)
   - Bəzi alqoritmlər üçün əlavə məkan (məsələn, Merge Sort üçün O(n))
 

@@ -109,13 +109,13 @@ public class MergeSort {
 }
 ```
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: 
   - Ən yaxşı hal: O(n log n)
   - Orta hal: O(n log n)
   - Ən pis hal: O(n log n)
-- **Məkan Mürəkkəbliyi**: O(n), əlavə massivlər üçün
+- **Yaddaş Mürəkkəbliyi**: O(n), əlavə massivlər üçün
 
 ## Merge Sort-un Üstünlükləri və Çatışmazlıqları
 

@@ -122,10 +122,10 @@ public class DFS {
 }
 ```
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: O(V + E), burada V vertex-lərin sayı, E isə kənarların sayıdır
-- **Məkan Mürəkkəbliyi**: O(V), ən pis halda bütün vertex-ləri stack-də saxlamalı ola bilərik
+- **Yaddaş Mürəkkəbliyi**: O(V), ən pis halda bütün vertex-ləri stack-də saxlamalı ola bilərik
 
 ## Nəticə
 

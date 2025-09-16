@@ -151,10 +151,10 @@ public class Kruskal {
 }
 ```
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: O(E log E) və ya O(E log V), burada E kənarların sayı, V isə vertex-lərin sayıdır. Dominant əməliyyat kənarların sıralanmasıdır.
-- **Məkan Mürəkkəbliyi**: O(V + E), disjoint set və kənarlar siyahısı üçün.
+- **Yaddaş Mürəkkəbliyi**: O(V + E), disjoint set və kənarlar siyahısı üçün.
 
 ## Kruskal Alqoritminin Üstünlükləri və Çatışmazlıqları
 

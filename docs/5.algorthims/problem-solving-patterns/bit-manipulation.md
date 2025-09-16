@@ -174,10 +174,10 @@ public int getSum(int a, int b) {
 }
 ```
 
-## Zaman və Məkan Mürəkkəbliyi
+## Zaman və Yaddaş Mürəkkəbliyi
 
 - **Zaman Mürəkkəbliyi**: Adətən O(1) və ya O(log n), çünki bir integer-də bit sayı məhduddur (32 və ya 64)
-- **Məkan Mürəkkəbliyi**: Adətən O(1), çünki əlavə məkan istifadəsi minimaldır
+- **Yaddaş Mürəkkəbliyi**: Adətən O(1), çünki əlavə məkan istifadəsi minimaldır
 
 ## Üstünlüklər və Çatışmazlıqlar
 
