@@ -112,19 +112,19 @@ public class JavaSearch {
 ## Müsahibə Sualları
 
 1. **Binary Search-un şərti nədir?**
-   - Cavab: Massiv və ya list sıralanmış olmalıdır. Əks halda binary search işləməz.
+    - Cavab: Massiv və ya list sıralanmış olmalıdır. Əks halda binary search işləməz.
 
 2. **DFS və BFS arasındakı fərq nədir?**
-   - Cavab: DFS dərinliyə, BFS genişliyə görə axtarış edir. DFS stack, BFS queue istifadə edir.
+    - Cavab: DFS dərinliyə, BFS genişliyə görə axtarış edir. DFS stack, BFS queue istifadə edir.
 
 3. **Binary Search-un time complexity-si nədir?**
-   - Cavab: O(log n) - çünki hər addımda axtarış sahəsi yarıya bölünür.
+    - Cavab: O(log n) - çünki hər addımda axtarış sahəsi yarıya bölünür.
 
 4. **Nə vaxt Linear Search istifadə etmək lazımdır?**
-   - Cavab: Kiçik data setləri, sıralanmamış data, və ya yalnız bir dəfə axtarış aparıldıqda.
+    - Cavab: Kiçik data setləri, sıralanmamış data, və ya yalnız bir dəfə axtarış aparıldıqda.
 
 5. **A* Search-un üstünlüyü nədir?**
-   - Cavab: Heuristic function istifadə edərək optimal yolu daha sürətli tapır.
+    - Cavab: Heuristic function istifadə edərək optimal yolu daha sürətli tapır.
 
 ## Real Dünya Tətbiqləri
 

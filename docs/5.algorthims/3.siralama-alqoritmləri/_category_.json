@@ -1,0 +1,15 @@
+{
+  "position": 3,
+  "label": "Sıralama (Sort)",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Sıralama (Sort) Alqoritmləri",
+    "slug": "siralama"
+  },
+  "customProps": {
+    "description": "Sıralama (Sort) Alqoritmləri"
+  }
+}

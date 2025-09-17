@@ -1,0 +1,15 @@
+{
+  "position": 2,
+  "label": "Axtarış Alqoritmləri",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Axtarış Alqoritmləri",
+    "slug": "axtaris-alqoritmleri"
+  },
+  "customProps": {
+    "description": "Axtarış Alqoritmləri"
+  }
+}
