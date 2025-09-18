@@ -1,6 +1,5 @@
 ---
 draft: true
-sidebar_position: 3
 title: Database
 slug:  /db
 ---

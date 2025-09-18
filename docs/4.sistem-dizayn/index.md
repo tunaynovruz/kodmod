@@ -1,6 +1,5 @@
 ---
 draft: false
-sidebar_position: 4
 title: Sistem Dizayn
 sidebar_label: Sistem Dizayn
 sidebar_class_name: green
