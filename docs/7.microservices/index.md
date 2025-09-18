@@ -3,7 +3,6 @@ draft: true
 description: Mikroservis arxitekturasının əsasları, üstünlükləri və çətinlikləri
 slug: /mikroservisler
 authors: [tunay]
-sidebar_position: 2
 ---
 # Mikroservislər
 

@@ -1,8 +1,6 @@
 ---
-draft: true
 title: Dinamik Proqramlaşdırma
 description: Dinamik proqramlaşdırma alqoritmlərinin ətraflı izahı və Java implementasiyası
-slug: dinamik-proqramlasdirma
 tags: [alqoritmlər, dinamik-proqramlaşdırma, dp, java]
 keywords: [dynamic programming, dp, memoization, tabulation, optimization]
 hide_table_of_contents: false
