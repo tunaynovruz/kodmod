@@ -231,6 +231,3 @@ NoSQL ("Not Only SQL" və ya "Non-SQL"), ənənəvi relyasion verilənlər bazal
 4. **Performans hədəflərini təyin edin:** Latency, throughput, concurrent users.
 5. **Ekosistem və inteqrasiya ehtiyaclarını nəzərə alın:** Mövcud sistemlər, tooling, komanda təcrübəsi.
 
-## Nəticə
-
-NoSQL verilənlər bazaları, müasir tətbiqlərin artan məlumat həcmi, çeviklik və miqyaslanabilirlik tələblərinə cavab vermək üçün yaradılmışdır. Relyasion verilənlər bazalarını əvəz etmək üçün deyil, onları tamamlamaq üçün nəzərdə tutulmuşdur. Düzgün istifadə halında, NoSQL həlləri böyük həcmli məlumatların idarə edilməsi, yüksək əlçatanlıq və performans kimi üstünlüklər təqdim edir. Lakin, hər layihə üçün ən uyğun verilənlər bazası texnologiyasını seçmək, konkret tətbiqin tələblərinə, məlumat strukturuna və iş yükünə əsaslanmalıdır.

@@ -22,6 +22,10 @@ Java-da dörd əsas OOP prinsipi var:
 
 Enkapsulasiya, data və metodların bir vahid içərisində (class) birləşdirilməsi və data-nın gizlədilməsidir. Bu, class-ın daxili vəziyyətini qoruyur və yalnız təyin olunmuş interfeys vasitəsilə əlçatan edir.
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 public class Student {
     // Private dəyişənlər (data gizlədilməsi)
@@ -48,10 +52,15 @@ public class Student {
     }
 }
 ```
+</details>
 
 ### 2. Varislik (Inheritance)
 
 Varislik, bir class-ın (subclass) başqa bir class-dan (superclass) xüsusiyyətlər (dəyişənlər və metodlar) əldə etməsinə imkan verir. Bu, kodun təkrar istifadəsini təmin edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Superclass (Valideyn class)
@@ -88,12 +97,17 @@ public class Main {
     }
 }
 ```
+</details>
 
 ### 3. Polimorfizm (Polymorphism)
 
 Polimorfizm, eyni adlı metodun müxtəlif class-larda fərqli davranışlar göstərməsidir. Java-da iki növ polimorfizm var:
 
 #### Compile-time Polimorfizm (Method Overloading)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Calculator {
@@ -111,8 +125,13 @@ public class Calculator {
     }
 }
 ```
+</details>
 
 #### Runtime Polimorfizm (Method Overriding)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Superclass
@@ -149,12 +168,17 @@ public class Main {
     }
 }
 ```
+</details>
 
 ### 4. Abstraksiya (Abstraction)
 
 Abstraksiya, mürəkkəbliyi gizlədərək yalnız əsas xüsusiyyətləri göstərməkdir. Java-da abstraksiya iki yolla əldə edilir: abstract class-lar və interface-lər vasitəsilə.
 
 #### Abstract Class
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Abstract class
@@ -187,8 +211,13 @@ public class Car extends Vehicle {
     }
 }
 ```
+</details>
 
 #### Interface
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Interface
@@ -216,12 +245,17 @@ public class Circle implements Drawable {
     }
 }
 ```
+</details>
 
 ## Java-da Class və Obyektlər
 
 ### Class Nədir?
 
 Class, obyektlərin şablonudur. O, data (dəyişənlər) və davranışları (metodlar) təyin edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Person {
@@ -258,10 +292,15 @@ public class Person {
     }
 }
 ```
+</details>
 
 ### Obyekt Nədir?
 
 Obyekt, class-ın nümunəsidir. Obyektlər `new` açar sözü ilə yaradılır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Main {
@@ -280,10 +319,15 @@ public class Main {
     }
 }
 ```
+</details>
 
 ## Konstruktorlar
 
 Konstruktorlar, obyektləri inicializasiya etmək üçün istifadə olunan xüsusi metodlardır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Box {
@@ -318,12 +362,17 @@ public class Box {
     }
 }
 ```
+</details>
 
 ## `this` və `super` Açar Sözləri
 
 ### `this` Açar Sözü
 
 `this` açar sözü cari obyektə istinad edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Person {
@@ -338,10 +387,15 @@ public class Person {
     }
 }
 ```
+</details>
 
 ### `super` Açar Sözü
 
 `super` açar sözü superclass-a (valideyn class) istinad edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Animal {
@@ -371,7 +425,5 @@ public class Cat extends Animal {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Bu təlimat, Java-da Obyekt Yönümlü Proqramlaşdırmanın əsas prinsiplərini və konseptlərini əhatə edir. OOP, böyük və mürəkkəb proqramların daha asan idarə olunmasına, kodun təkrar istifadəsinə və daha yaxşı təşkil olunmasına imkan verir.

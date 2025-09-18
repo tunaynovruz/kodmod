@@ -30,10 +30,15 @@ Good naming conventions in testing improve code readability, maintainability, an
 ### Language-Specific Conventions
 
 #### Java (JUnit)
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Class under test: UserService
 public class UserServiceTest { }
 ```
+</details>
 
 #### C# (.NET)
 ```csharp
@@ -86,6 +91,10 @@ class TestUserService:
 ### Language-Specific Examples
 
 #### Java (JUnit)
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 @Test
 void getUserById_WithValidId_ReturnsCorrectUser() { }
@@ -93,6 +102,7 @@ void getUserById_WithValidId_ReturnsCorrectUser() { }
 @Test
 void createUser_WithExistingUsername_ThrowsDuplicateException() { }
 ```
+</details>
 
 #### C# (.NET)
 ```csharp
@@ -123,21 +133,36 @@ def test_create_user_raises_error_with_invalid_data():
 
 ### Unit Tests
 Focus on the specific method/function and expected behavior:
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 calculateTotal_WithValidItems_ReturnsSumOfPrices()
 ```
+</details>
 
 ### Integration Tests
 Focus on the interaction between components:
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 userController_SavesUserToDatabase_WhenValidUserSubmitted()
 ```
+</details>
 
 ### End-to-End Tests
 Focus on user flows or scenarios:
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 userRegistration_WithValidCredentials_CreatesAccountAndRedirectsToDashboard()
 ```
+</details>
 
 ## BDD-Style Naming (Given-When-Then)
 
@@ -166,4 +191,3 @@ Scenario: User login with valid credentials
 4. **Be consistent** within your team and project
 5. **Update test names** when requirements or behaviors change
 6. **Group related tests** using nested classes or describe blocks
-7. **Avoid abbreviations** that might be unclear to new team members

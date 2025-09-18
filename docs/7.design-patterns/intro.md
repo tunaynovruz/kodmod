@@ -6,7 +6,6 @@ slug: design-patterns
 
 # Design Patterns
 
-## Giriş
 
 Design pattern-lər, proqram təminatı mühəndisliyində tez-tez rast gəlinən problemlərin həlli üçün təkrar istifadə edilə bilən şablonlardır. Bu pattern-lər, illər ərzində təcrübəli proqramçılar tərəfindən inkişaf etdirilmiş və sınaqdan keçirilmişdir.
 
@@ -73,4 +72,3 @@ Design pattern-ləri istifadə edərkən, aşağıdakı prinsipləri nəzərə a
 3. **Pattern-ləri Kombinə Edin**: Bəzən bir neçə pattern-i birlikdə istifadə etmək daha effektiv ola bilər.
 4. **Context-i Nəzərə Alın**: Pattern-ləri tətbiq edərkən, sistemin ümumi kontekstini nəzərə alın.
 
-Bu bölmədə, müxtəlif design pattern-ləri ətraflı şəkildə araşdıracağıq və Java dilində nümunələrlə izah edəcəyik.

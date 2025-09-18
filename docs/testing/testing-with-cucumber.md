@@ -59,6 +59,10 @@ Feature: User Authentication
 
 ### Java (with Cucumber-JVM)
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -111,6 +115,7 @@ public class LoginStepDefinitions {
     }
 }
 ```
+</details>
 
 ### JavaScript (with Cucumber.js)
 
@@ -189,6 +194,10 @@ npm install --save-dev @cucumber/cucumber chai selenium-webdriver
 
 Create a runner class:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -203,6 +212,7 @@ import org.junit.runner.RunWith;
 public class CucumberRunner {
 }
 ```
+</details>
 
 ### JavaScript
 
@@ -276,25 +286,3 @@ Feature: Shopping Cart
 
 ### Hooks
 
-```java
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-
-public class Hooks {
-    
-    @Before
-    public void setUp() {
-        // Code to run before each scenario
-    }
-    
-    @After
-    public void tearDown() {
-        // Code to run after each scenario
-    }
-    
-    @Before("@database")
-    public void setUpDatabase() {
-        // Code to run before scenarios tagged with @database
-    }
-}
-```

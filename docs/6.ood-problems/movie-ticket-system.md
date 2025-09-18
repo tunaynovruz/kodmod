@@ -47,6 +47,10 @@ Design a movie ticket booking system that allows users to browse movies, select 
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -1283,6 +1287,7 @@ public class MovieTicketSystemDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -1313,4 +1318,3 @@ public class MovieTicketSystemDemo {
 2. **Seat Types**: Different types of seats with varying prices
 3. **Cancellation Policy**: Rules for when bookings can be cancelled
 4. **Multiple Theaters**: Support for multiple theaters and screens
-5. **Showtime Management**: Prevents scheduling conflicts for screens

@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Observer Design Pattern
 
-## Giriş
 
 Observer Design Pattern, behavioral design pattern-lərdən biridir və obyektlər arasında one-to-many asılılıq əlaqəsi yaradır. Bu pattern, bir obyektin vəziyyəti dəyişdikdə, ona bağlı olan bütün asılı obyektlərin avtomatik olaraq xəbərdar edilməsini və yenilənməsini təmin edir.
 
@@ -33,6 +32,10 @@ Observer pattern, xüsusilə distributed event handling sistemlərində geniş i
 ## Java-da Observer Pattern İmplementasiyası
 
 ### Sadə Observer Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -125,10 +128,15 @@ public class ObserverPatternExample {
     }
 }
 ```
+</details>
 
 ### Java Built-in Observer Pattern
 
 Java, `java.util.Observable` class-ı və `java.util.Observer` interface-i vasitəsilə built-in observer pattern dəstəyi təqdim edir (Java 9-dan etibarən deprecated olsa da, hələ də istifadə olunur).
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Observable;
@@ -224,10 +232,15 @@ public class BuiltInObserverExample {
     }
 }
 ```
+</details>
 
 ### Property Change Listener
 
 Java, `java.beans.PropertyChangeListener` və `java.beans.PropertyChangeSupport` class-ları vasitəsilə daha güclü observer pattern implementasiyası təqdim edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.beans.PropertyChangeListener;
@@ -329,6 +342,7 @@ public class PropertyChangeListenerExample {
     }
 }
 ```
+</details>
 
 ## Push və Pull Modelləri
 
@@ -337,6 +351,10 @@ Observer pattern-də data-nın ötürülməsi üçün iki əsas model var:
 ### Push Model
 
 Push model-də, subject observer-lərə bütün data-nı göndərir. Bu, observer-lərin lazımsız data almasına səbəb ola bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Push model example
@@ -368,10 +386,15 @@ class PushSubject {
     }
 }
 ```
+</details>
 
 ### Pull Model
 
 Pull model-də, subject observer-lərə yalnız dəyişiklik haqqında xəbər verir və observer-lər lazım olan data-nı özləri alır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Pull model example
@@ -434,6 +457,7 @@ class PullObserverImpl implements PullObserver {
     }
 }
 ```
+</details>
 
 ## Observer Pattern-nin Üstünlükləri
 
@@ -461,6 +485,10 @@ class PullObserverImpl implements PullObserver {
 ### Event Listeners in Java Swing
 
 Java Swing, observer pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import javax.swing.*;
@@ -490,8 +518,13 @@ public class SwingObserverExample {
     }
 }
 ```
+</details>
 
 ### Chat Application
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -570,7 +603,5 @@ public class ChatApplication {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Observer Design Pattern, obyektlər arasında one-to-many asılılıq əlaqəsi yaratmaq üçün güclü bir vasitədir. Bu pattern, bir obyektin vəziyyəti dəyişdikdə, ona bağlı olan bütün asılı obyektlərin avtomatik olaraq xəbərdar edilməsini və yenilənməsini təmin edir. Observer pattern, xüsusilə event handling sistemlərində, MVC arxitekturasında və real-time data processing sistemlərində geniş istifadə olunur. Java-da observer pattern-i tətbiq etmək üçün custom implementasiya, built-in Observable/Observer və PropertyChangeListener kimi müxtəlif üsullar mövcuddur.

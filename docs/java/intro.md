@@ -27,6 +27,10 @@ Java, 1995-ci ildə Sun Microsystems (hal-hazırda Oracle Corporation) tərəfin
 
 Gəlin ənənəvi "Hello World" proqramı ilə başlayaq:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -34,6 +38,7 @@ public class HelloWorld {
     }
 }
 ```
+</details>
 
 Bu sadə proqramı izah edək:
 
@@ -68,6 +73,10 @@ Java-da iki növ data tipi var:
 
 ### Dəyişənlər
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Dəyişən elan etmək
 int age = 25;
@@ -78,8 +87,13 @@ boolean isStudent = true;
 // Sabitlər (Constants)
 final double PI = 3.14159;
 ```
+</details>
 
 ### Operatorlar
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Riyazi operatorlar
@@ -102,10 +116,15 @@ boolean andResult = (a > 5) && (b < 10);  // true
 boolean orResult = (a > 15) || (b < 10);  // true
 boolean notResult = !(a == b);            // true
 ```
+</details>
 
 ## Şərt Operatorları
 
 ### if-else
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 int number = 10;
@@ -118,8 +137,13 @@ if (number > 0) {
     System.out.println("Sıfır");
 }
 ```
+</details>
 
 ### switch
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 int day = 3;
@@ -153,10 +177,15 @@ switch (day) {
 
 System.out.println("Bugün " + dayName);
 ```
+</details>
 
 ## Dövrlər (Loops)
 
 ### for
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // 1-dən 5-ə qədər ədədləri çap etmək
@@ -164,8 +193,13 @@ for (int i = 1; i <= 5; i++) {
     System.out.println(i);
 }
 ```
+</details>
 
 ### while
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // 1-dən 5-ə qədər ədədləri çap etmək
@@ -175,8 +209,13 @@ while (i <= 5) {
     i++;
 }
 ```
+</details>
 
 ### do-while
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // 1-dən 5-ə qədər ədədləri çap etmək
@@ -186,8 +225,13 @@ do {
     i++;
 } while (i <= 5);
 ```
+</details>
 
 ## Massivlər (Arrays)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Massiv yaratmaq
@@ -211,8 +255,13 @@ for (int number : numbers) {
     System.out.println(number);
 }
 ```
+</details>
 
 ## Metodlar
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class MethodExample {
@@ -239,7 +288,5 @@ public class MethodExample {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Bu təlimat, Java proqramlaşdırma dilinin əsas konseptlərini əhatə edir. Java-nı öyrənməyə davam etmək üçün, növbəti addım olaraq Obyekt Yönümlü Proqramlaşdırma (OOP) prinsiplərini öyrənmək tövsiyə olunur.

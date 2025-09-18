@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Adapter Design Pattern
 
-## Giriş
 
 Adapter Design Pattern, structural design pattern-lərdən biridir və uyğun olmayan interface-lərə malik class-ların birlikdə işləməsinə imkan verir. Bu pattern, mövcud class-ın interface-ini başqa bir interface-ə çevirir və beləliklə, müxtəlif sistemlərin inteqrasiyasını asanlaşdırır.
 
@@ -40,6 +39,10 @@ Adapter pattern-nin iki əsas növü var:
 ## Java-da Adapter Pattern İmplementasiyası
 
 ### Object Adapter Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Target interface
@@ -132,10 +135,15 @@ public class AdapterPatternDemo {
     }
 }
 ```
+</details>
 
 ### Class Adapter Nümunəsi
 
 Java-da multiple inheritance dəstəklənmədiyinə görə, class adapter implementasiyası interface-lər vasitəsilə həyata keçirilir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Target interface
@@ -166,10 +174,15 @@ public class ClassAdapterDemo {
     }
 }
 ```
+</details>
 
 ### Two-way Adapter Nümunəsi
 
 İki tərəfli adapter, hər iki interface-i implement edir və hər iki istiqamətdə çevirmə imkanı təqdim edir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // First interface
@@ -311,12 +324,17 @@ public class TwoWayAdapterDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Java I/O Streams
 
 Java I/O Streams, Adapter pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.io.*;
@@ -347,8 +365,13 @@ public class JavaIOAdapterExample {
     }
 }
 ```
+</details>
 
 ### Legacy System Integration
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Modern payment processing interface
@@ -425,6 +448,7 @@ public class LegacySystemIntegrationDemo {
     }
 }
 ```
+</details>
 
 ## Adapter Pattern-nin Üstünlükləri
 
@@ -463,6 +487,3 @@ public class LegacySystemIntegrationDemo {
 - **Adapter**: Bir interface-i başqa bir interface-ə çevirir
 - **Facade**: Mürəkkəb alt sistemlər üçün sadə interface təqdim edir
 
-## Nəticə
-
-Adapter Design Pattern, uyğun olmayan interface-lərə malik class-ların birlikdə işləməsinə imkan verən güclü bir structural pattern-dir. Bu pattern, xüsusilə legacy code inteqrasiyası, üçüncü tərəf kitabxanaların istifadəsi və interface standardizasiyası kimi ssenarilər üçün faydalıdır. Java-da Adapter pattern-i həm class inheritance, həm də object composition vasitəsilə implementasiya etmək mümkündür. Adapter pattern-in düzgün istifadəsi, kod-un daha flexible, maintainable və reusable olmasını təmin edir.

@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Java Concurrency
 
-## Giriş
 
 Java Concurrency, bir proqramda eyni zamanda bir neçə thread-in işləməsini təmin edən mexanizmdir. Bu, proqramın performansını artırmaq və sistem resurslarından daha effektiv istifadə etmək üçün istifadə olunur. Java-da concurrency, Thread class-ı, Runnable interface-i və java.util.concurrent paketi vasitəsilə təmin edilir.
 
@@ -32,6 +31,10 @@ Thread, proqramın icra edilən ən kiçik vahididir. Bir prosesdə bir neçə t
 ## Thread Yaratmaq
 
 ### 1. Thread Class-ını Extend Etmək
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class MyThread extends Thread {
@@ -75,8 +78,13 @@ public class ThreadExample {
     }
 }
 ```
+</details>
 
 ### 2. Runnable Interface-ini İmplement Etmək
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class MyRunnable implements Runnable {
@@ -123,8 +131,13 @@ public class RunnableExample {
     }
 }
 ```
+</details>
 
 ### 3. Lambda Expression ilə
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class LambdaThreadExample {
@@ -155,12 +168,17 @@ public class LambdaThreadExample {
     }
 }
 ```
+</details>
 
 ## Synchronization
 
 Synchronization, bir neçə thread-in eyni resursa eyni zamanda giriş etməsinin qarşısını almaq üçün istifadə olunur.
 
 ### Synchronized Methods
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class Counter {
@@ -211,8 +229,13 @@ public class SynchronizedMethodExample {
     }
 }
 ```
+</details>
 
 ### Synchronized Blocks
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class BankAccount {
@@ -290,10 +313,15 @@ public class SynchronizedBlockExample {
     }
 }
 ```
+</details>
 
 ## Wait və Notify
 
 Wait və notify metodları thread-lər arasında kommunikasiya təmin edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class ProducerConsumer {
@@ -367,12 +395,17 @@ public class WaitNotifyExample {
     }
 }
 ```
+</details>
 
 ## Executor Framework
 
 Executor Framework, thread-lərin idarə edilməsini asanlaşdırır və thread pool-ları təmin edir.
 
 ### ThreadPoolExecutor
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.*;
@@ -414,8 +447,13 @@ public class ExecutorExample {
     }
 }
 ```
+</details>
 
 ### Future və Callable
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.*;
@@ -457,12 +495,17 @@ public class FutureCallableExample {
     }
 }
 ```
+</details>
 
 ## Concurrent Collections
 
 Java-da thread-safe kolleksiyalar mövcuddur.
 
 ### ConcurrentHashMap
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.ConcurrentHashMap;
@@ -506,8 +549,13 @@ public class ConcurrentHashMapExample {
     }
 }
 ```
+</details>
 
 ### BlockingQueue
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.ArrayBlockingQueue;
@@ -557,8 +605,13 @@ public class BlockingQueueExample {
     }
 }
 ```
+</details>
 
 ## Locks və ReentrantLock
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.locks.ReentrantLock;
@@ -639,10 +692,15 @@ public class ReentrantLockExample {
     }
 }
 ```
+</details>
 
 ## CompletableFuture
 
 CompletableFuture, asynchronous programming üçün güclü bir vasitədir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.CompletableFuture;
@@ -696,6 +754,7 @@ public class CompletableFutureExample {
     }
 }
 ```
+</details>
 
 ## Thread Safety Best Practices
 
@@ -705,6 +764,3 @@ public class CompletableFutureExample {
 4. **Avoid Deadlocks**: Lock-ları həmişə eyni sırada əldə edin
 5. **Use Executor Framework**: Thread-ləri manual yaratmaq əvəzinə Executor Framework istifadə edin
 
-## Nəticə
-
-Java Concurrency, müasir proqramlaşdırmada çox vacib bir mövzudur. Thread-lər, synchronization, Executor Framework, concurrent collections və digər concurrency utilities-lər vasitəsilə effektiv və thread-safe proqramlar yazmaq mümkündür. Düzgün concurrency praktikalarını tətbiq etməklə, proqramın performansını artırmaq və race condition-lar kimi problemlərin qarşısını almaq olar.

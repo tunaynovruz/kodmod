@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Factory Design Pattern
 
-## Giriş
 
 Factory Design Pattern, creational design pattern-lərdən biridir və obyektlərin yaradılması prosesini encapsulate edir. Bu pattern, obyekt yaratma məntiqini client code-dan ayırır və obyektlərin yaradılması üçün mərkəzi bir interface təmin edir. Factory pattern, kod-un daha flexible və maintainable olmasını təmin edir.
 
@@ -36,6 +35,10 @@ Factory Method pattern, obyekt yaratma məsuliyyətini subclass-lara verir. Abst
 Abstract Factory pattern, əlaqəli obyektlərin ailəsini yaratmaq üçün istifadə olunur.
 
 ## Simple Factory İmplementasiyası
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Product interface
@@ -100,8 +103,13 @@ public class SimpleFactoryExample {
     }
 }
 ```
+</details>
 
 ## Factory Method İmplementasiyası
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Product interface
@@ -203,8 +211,13 @@ public class FactoryMethodExample {
     }
 }
 ```
+</details>
 
 ## Abstract Factory İmplementasiyası
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Abstract Products
@@ -341,6 +354,7 @@ public class AbstractFactoryExample {
     }
 }
 ```
+</details>
 
 ## Factory Pattern-nin Üstünlükləri
 
@@ -367,6 +381,10 @@ public class AbstractFactoryExample {
 ## Real-World Nümunələr
 
 ### Database Connection Factory
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 interface DatabaseConnection {
@@ -411,7 +429,5 @@ class DatabaseConnectionFactory {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Factory Design Pattern, obyekt yaratma prosesini encapsulate edərək kod-un daha flexible və maintainable olmasını təmin edir. Bu pattern, xüsusilə obyekt yaratma məntiqinin mürəkkəb olduğu və ya runtime-da müəyyən edildiyi hallarda çox faydalıdır. Simple Factory, Factory Method və Abstract Factory kimi müxtəlif implementasiya üsulları mövcuddur və hər biri müxtəlif ssenarilərdə istifadə oluna bilər.

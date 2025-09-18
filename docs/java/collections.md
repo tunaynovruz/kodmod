@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Java Collections Framework
 
-## Giriş
 
 Java Collections Framework (JCF), Java-da data strukturlarını və onlar üzərində əməliyyatları təmin edən bir API-dır. Bu framework, proqramçılara müxtəlif növ kolleksiyaları (məsələn, list, set, map, queue) idarə etmək üçün standart interfeys və implementasiyalar təqdim edir.
 
@@ -35,6 +34,10 @@ List interface-i, sıralı kolleksiyaları təmsil edir və dublikat elementlər
 ### ArrayList
 
 ArrayList, dinamik array əsasında List interface-nin implementasiyasıdır. Elementlərə random access təmin edir və ölçüsü dinamik olaraq dəyişir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -79,10 +82,15 @@ public class ArrayListExample {
     }
 }
 ```
+</details>
 
 ### LinkedList
 
 LinkedList, ikitərəfli əlaqəli list əsasında List və Deque interface-lərinin implementasiyasıdır. Elementlərin əlavə edilməsi və silinməsi əməliyyatları üçün effektivdir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.LinkedList;
@@ -127,6 +135,7 @@ public class LinkedListExample {
     }
 }
 ```
+</details>
 
 ## Set Interface
 
@@ -135,6 +144,10 @@ Set interface-i, unikal elementlər kolleksiyasını təmsil edir və dublikat e
 ### HashSet
 
 HashSet, hash table əsasında Set interface-nin implementasiyasıdır. Elementlərin sırası təmin edilmir, lakin əməliyyatlar O(1) zamanda yerinə yetirilir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashSet;
@@ -186,10 +199,15 @@ public class HashSetExample {
     }
 }
 ```
+</details>
 
 ### TreeSet
 
 TreeSet, red-black tree əsasında NavigableSet interface-nin implementasiyasıdır. Elementlər təbii sıra ilə və ya verilmiş comparator-a əsasən sıralanır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.TreeSet;
@@ -230,10 +248,15 @@ public class TreeSetExample {
     }
 }
 ```
+</details>
 
 ### LinkedHashSet
 
 LinkedHashSet, hash table və linked list əsasında Set interface-nin implementasiyasıdır. Elementlərin əlavə edilmə sırasını saxlayır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.LinkedHashSet;
@@ -264,6 +287,7 @@ public class LinkedHashSetExample {
     }
 }
 ```
+</details>
 
 ## Map Interface
 
@@ -272,6 +296,10 @@ Map interface-i, key-value cütlüklərini saxlayan kolleksiyanı təmsil edir. 
 ### HashMap
 
 HashMap, hash table əsasında Map interface-nin implementasiyasıdır. Key-value cütlüklərinin sırası təmin edilmir, lakin əməliyyatlar O(1) zamanda yerinə yetirilir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -330,10 +358,15 @@ public class HashMapExample {
     }
 }
 ```
+</details>
 
 ### TreeMap
 
 TreeMap, red-black tree əsasında NavigableMap interface-nin implementasiyasıdır. Key-value cütlükləri key-lərin təbii sırası ilə və ya verilmiş comparator-a əsasən sıralanır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.TreeMap;
@@ -374,10 +407,15 @@ public class TreeMapExample {
     }
 }
 ```
+</details>
 
 ### LinkedHashMap
 
 LinkedHashMap, hash table və linked list əsasında Map interface-nin implementasiyasıdır. Key-value cütlüklərinin əlavə edilmə sırasını və ya istifadə sırasını saxlayır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.LinkedHashMap;
@@ -423,6 +461,7 @@ public class LinkedHashMapExample {
     }
 }
 ```
+</details>
 
 ## Queue Interface
 
@@ -431,6 +470,10 @@ Queue interface-i, FIFO (First-In-First-Out) prinsipi ilə işləyən kolleksiya
 ### LinkedList as Queue
 
 LinkedList, Queue interface-ni implement edir və queue kimi istifadə edilə bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.LinkedList;
@@ -466,10 +509,15 @@ public class QueueExample {
     }
 }
 ```
+</details>
 
 ### PriorityQueue
 
 PriorityQueue, priority heap əsasında Queue interface-nin implementasiyasıdır. Elementlər təbii sıra ilə və ya verilmiş comparator-a əsasən sıralanır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.PriorityQueue;
@@ -521,6 +569,7 @@ public class PriorityQueueExample {
     }
 }
 ```
+</details>
 
 ## Deque Interface
 
@@ -529,6 +578,10 @@ Deque (Double-ended Queue) interface-i, hər iki tərəfdən elementlərin əlav
 ### ArrayDeque
 
 ArrayDeque, resizable array əsasında Deque interface-nin implementasiyasıdır. Stack və queue kimi istifadə edilə bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayDeque;
@@ -590,6 +643,7 @@ public class ArrayDequeExample {
     }
 }
 ```
+</details>
 
 ## Utility Classes
 
@@ -598,6 +652,10 @@ Java Collections Framework, kolleksiyalar üzərində əməliyyatlar üçün bir
 ### Collections
 
 Collections class-ı, kolleksiyalar üzərində statik metodlar təqdim edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -662,10 +720,15 @@ public class CollectionsExample {
     }
 }
 ```
+</details>
 
 ### Arrays
 
 Arrays class-ı, array-lər üzərində statik metodlar təqdim edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -710,6 +773,7 @@ public class ArraysExample {
     }
 }
 ```
+</details>
 
 ## Collections Framework-un Üstünlükləri
 
@@ -727,6 +791,3 @@ public class ArraysExample {
 4. **Algorithm Implementation**: Alqoritmlərin implementasiyası
 5. **Concurrency**: Thread-safe kolleksiyalar vasitəsilə paralel proqramlaşdırma
 
-## Nəticə
-
-Java Collections Framework, Java-da data strukturlarını və onlar üzərində əməliyyatları təmin edən güclü bir API-dır. Bu framework, proqramçılara müxtəlif növ kolleksiyaları idarə etmək üçün standart interfeys və implementasiyalar təqdim edir. Collections Framework-un düzgün istifadəsi, kod-un daha effektiv, oxunaqlı və maintainable olmasını təmin edir.

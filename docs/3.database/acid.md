@@ -59,6 +59,3 @@ NoSQL verilənlər bazaları adətən CAP teoreminə əsasən ACID prinsiplərin
 | İstifadə sahəsi | Maliyyə, kritik məlumatlar | Böyük həcmli, paylanmış sistemlər |
 | Nümunə DB | PostgreSQL, MySQL | MongoDB, Cassandra |
 
-## Nəticə
-
-ACID prinsipləri, xüsusilə məlumat bütövlüyünün kritik əhəmiyyət daşıdığı sistemlərdə, verilənlər bazası tranzaksiyalarının etibarlılığını təmin etmək üçün fundamental əhəmiyyət daşıyır. Müasir verilənlər bazası sistemləri, tətbiqin ehtiyaclarına uyğun olaraq, ACID və BASE prinsipləri arasında balans yaratmağa çalışır.

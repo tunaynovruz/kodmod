@@ -352,4 +352,3 @@ Design a photo sharing platform like Instagram that:
 - **Media Sharing**: Share posts and external content in messages
 - **Ephemeral Messages**: Support for disappearing messages
 - **Read Receipts**: Track message delivery and read status
-- **Encryption**: End-to-end encryption for message content

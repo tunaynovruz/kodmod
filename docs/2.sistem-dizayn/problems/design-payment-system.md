@@ -322,4 +322,3 @@ Design a robust and secure card payment processing system that:
 - **Recovery Time Objective (RTO)**: Define maximum acceptable downtime
 - **Recovery Point Objective (RPO)**: Define maximum acceptable data loss
 - **Failover Testing**: Regular testing of failover procedures
-- **Data Consistency**: Ensure data consistency during and after recovery

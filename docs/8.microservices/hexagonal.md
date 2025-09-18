@@ -72,6 +72,10 @@ Adapterlər, portların konkret implementasiyalarıdır:
 
 ### Domain Təbəqəsi
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Domain Model
 public class User {
@@ -93,8 +97,13 @@ public class UserId {
     // Getters, equals, hashCode...
 }
 ```
+</details>
 
 ### Tətbiq Təbəqəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Giriş Portu (Primary/Driving Port)
@@ -137,8 +146,13 @@ public class UserServiceImpl implements UserService {
     }
 }
 ```
+</details>
 
 ### İnfrastruktur Təbəqəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Giriş Adapteri (Primary/Driving Adapter)
@@ -193,6 +207,7 @@ public class UserRepositoryImpl implements UserRepository {
     }
 }
 ```
+</details>
 
 ## Mikroservislərdə Heksaqonal Arxitekturanın Üstünlükləri
 
@@ -221,6 +236,3 @@ Mikroservis mühitində hər bir servis öz heksaqonal arxitekturasına malik ol
 3. **Overengineering Riski**: Kiçik tətbiqlər üçün həddindən artıq mürəkkəb ola bilər
    - **Həll**: Tətbiqin mürəkkəbliyinə uyğun olaraq arxitekturanı uyğunlaşdırmaq
 
-## Nəticə
-
-Heksaqonal Arxitektura, mikroservis mühitində biznes məntiqini xarici asılılıqlardan ayırmaq və dayanıqlı, test edilə bilən və dəyişikliklərə açıq tətbiqlər yaratmaq üçün güclü bir nümunədir. Bu arxitektura, Domain-Driven Design prinsipləri ilə birlikdə istifadə edildikdə, mürəkkəb biznes tələblərinə cavab verən, yaxşı strukturlaşdırılmış mikroservislər yaratmağa kömək edir.

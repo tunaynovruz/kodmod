@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Java Streams API
 
-## Giriş
 
 Java Streams API, Java 8-də təqdim edilmiş və kolleksiyalar üzərində deklarativ əməliyyatlar aparmağa imkan verən güclü bir vasitədir. Streams API, data-nın emalını funksional proqramlaşdırma üslubunda həyata keçirməyə imkan verir və kod-un daha qısa, oxunaqlı və maintainable olmasını təmin edir.
 
@@ -29,6 +28,10 @@ Stream, data elementlərinin ardıcıllığıdır və kolleksiyalardan fərqli o
 Java-da stream yaratmağın bir neçə yolu var:
 
 ### Kolleksiyadan Stream Yaratmaq
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -76,10 +79,15 @@ public class StreamCreationExample {
     }
 }
 ```
+</details>
 
 ### Primitive Tiplər üçün Stream-lər
 
 Java, primitive tiplər üçün xüsusi stream-lər təqdim edir: `IntStream`, `LongStream` və `DoubleStream`.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.stream.IntStream;
@@ -119,6 +127,7 @@ public class PrimitiveStreamExample {
     }
 }
 ```
+</details>
 
 ## Intermediate Operations (Aralıq Əməliyyatlar)
 
@@ -127,6 +136,10 @@ Intermediate operations, stream üzərində əməliyyatlar aparır və yeni bir 
 ### filter()
 
 `filter()` metodu, verilmiş predicate-ə uyğun elementləri seçir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -165,10 +178,15 @@ public class FilterExample {
     }
 }
 ```
+</details>
 
 ### map()
 
 `map()` metodu, hər elementi başqa bir elementə çevirir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -206,10 +224,15 @@ public class MapExample {
     }
 }
 ```
+</details>
 
 ### flatMap()
 
 `flatMap()` metodu, hər elementi stream-ə çevirir və sonra bütün stream-ləri bir stream-də birləşdirir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -259,10 +282,15 @@ public class FlatMapExample {
     }
 }
 ```
+</details>
 
 ### distinct()
 
 `distinct()` metodu, stream-dəki dublikat elementləri silir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -288,10 +316,15 @@ public class DistinctExample {
     }
 }
 ```
+</details>
 
 ### sorted()
 
 `sorted()` metodu, stream-dəki elementləri sıralayır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -336,10 +369,15 @@ public class SortedExample {
     }
 }
 ```
+</details>
 
 ### limit() və skip()
 
 `limit()` metodu, stream-dəki elementlərin sayını məhdudlaşdırır, `skip()` metodu isə müəyyən sayda elementi atlayır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -378,10 +416,15 @@ public class LimitSkipExample {
     }
 }
 ```
+</details>
 
 ### peek()
 
 `peek()` metodu, stream-dəki elementlər üzərində əməliyyatlar aparmaq üçün istifadə olunur və debugging məqsədləri üçün faydalıdır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -403,6 +446,7 @@ public class PeekExample {
     }
 }
 ```
+</details>
 
 ## Terminal Operations (Terminal Əməliyyatlar)
 
@@ -411,6 +455,10 @@ Terminal operations, stream-in emalını başa çatdırır və nəticə qaytarı
 ### forEach()
 
 `forEach()` metodu, stream-dəki hər element üçün verilmiş əməliyyatı yerinə yetirir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -432,10 +480,15 @@ public class ForEachExample {
     }
 }
 ```
+</details>
 
 ### collect()
 
 `collect()` metodu, stream-dəki elementləri kolleksiyaya və ya başqa bir data strukturuna çevirir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -485,10 +538,15 @@ public class CollectExample {
     }
 }
 ```
+</details>
 
 ### reduce()
 
 `reduce()` metodu, stream-dəki elementləri bir nəticəyə birləşdirir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -537,10 +595,15 @@ public class ReduceExample {
     }
 }
 ```
+</details>
 
 ### count(), anyMatch(), allMatch(), noneMatch()
 
 Bu metodlar, stream-dəki elementlərin sayını və ya müəyyən şərtlərə uyğunluğunu yoxlamaq üçün istifadə olunur.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -578,10 +641,15 @@ public class MatchExample {
     }
 }
 ```
+</details>
 
 ### findFirst() və findAny()
 
 Bu metodlar, stream-dəki elementlərdən birini qaytarır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -616,10 +684,15 @@ public class FindExample {
     }
 }
 ```
+</details>
 
 ### min() və max()
 
 Bu metodlar, stream-dəki ən kiçik və ən böyük elementləri tapmaq üçün istifadə olunur.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -655,10 +728,15 @@ public class MinMaxExample {
     }
 }
 ```
+</details>
 
 ## Parallel Streams
 
 Parallel streams, stream əməliyyatlarını parallel olaraq yerinə yetirməyə imkan verir və çoxlu sayda elementlər üçün performance-ı artıra bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -707,10 +785,15 @@ public class ParallelStreamExample {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Fayl Emalı
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.io.IOException;
@@ -757,8 +840,13 @@ public class FileProcessingExample {
     }
 }
 ```
+</details>
 
 ### Data Transformation və Analysis
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -863,6 +951,7 @@ public class DataAnalysisExample {
     }
 }
 ```
+</details>
 
 ## Streams API-nin Üstünlükləri
 
@@ -879,6 +968,3 @@ public class DataAnalysisExample {
 3. **Öyrənmə Əyrisi**: Funksional proqramlaşdırma paradiqmasına alışmaq lazımdır
 4. **Mutable State**: Funksional proqramlaşdırmada mutable state-dən qaçmaq lazımdır
 
-## Nəticə
-
-Java Streams API, kolleksiyalar üzərində əməliyyatlar aparmaq üçün güclü və funksional bir vasitədir. Bu API, kod-un daha qısa, oxunaqlı və maintainable olmasını təmin edir və parallel emal imkanı təqdim edir. Streams API-nin düzgün istifadəsi, Java proqramçılarına daha effektiv və funksional kod yazmağa imkan verir.

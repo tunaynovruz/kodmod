@@ -38,4 +38,3 @@ Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar haqqında mə
 - Azure
 - Google Cloud Platform
 
-Bu bölmədə müasir texnologiyalar və onların istifadə sahələri haqqında məlumat verəcəyik.

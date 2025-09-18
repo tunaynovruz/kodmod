@@ -42,6 +42,10 @@ Design a parking lot system that can efficiently manage parking spaces for diffe
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -604,6 +608,7 @@ public class ParkingLotDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -632,4 +637,3 @@ public class ParkingLotDemo {
 2. **Payment Processing**: Integration with payment processing systems
 3. **Availability Tracking**: Real-time tracking of available spots by type
 4. **Ticket Management**: Comprehensive ticket system for entry and exit
-5. **Vehicle Tracking**: Efficient lookup of parked vehicles by license plate

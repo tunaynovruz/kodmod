@@ -34,6 +34,10 @@ testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
 
 ## Basic Test Structure
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -47,6 +51,7 @@ public class CalculatorTest {
     }
 }
 ```
+</details>
 
 ## Common JUnit Annotations
 
@@ -59,6 +64,10 @@ public class CalculatorTest {
 - `@DisplayName`: Provides a custom name for the test
 
 ## Example with Setup and Teardown
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import org.junit.jupiter.api.*;
@@ -94,10 +103,15 @@ public class UserServiceTest {
     }
 }
 ```
+</details>
 
 ## Assertions
 
 JUnit provides various assertion methods:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Basic assertions
@@ -122,10 +136,15 @@ assertAll(
     () -> assertTrue(4 > 3)
 );
 ```
+</details>
 
 ## Parameterized Tests
 
 Parameterized tests allow running the same test with different inputs:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import org.junit.jupiter.params.ParameterizedTest;
@@ -146,8 +165,13 @@ public class CalculatorParameterizedTest {
     }
 }
 ```
+</details>
 
 ## Testing Exceptions
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 @Test
@@ -167,6 +191,7 @@ int divide(int a, int b) {
     return a / b;
 }
 ```
+</details>
 
 ## Best Practices for JUnit Tests
 
@@ -177,4 +202,3 @@ int divide(int a, int b) {
 5. **Fast execution**: Keep tests lightweight and quick to run
 6. **Use mocks for external dependencies**: Isolate the unit being tested
 7. **Test edge cases**: Include boundary conditions and error scenarios
-8. **Keep tests simple**: Avoid complex logic in test methods

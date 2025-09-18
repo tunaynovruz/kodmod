@@ -44,4 +44,3 @@ draft: true
 - **Maintainability**: Easier to maintain and extend code over time.
 - **Readability**: Code is more organized and easier to understand.
 - **Flexibility**: System is more adaptable to changing requirements.
-- **Testability**: Components are more isolated, making them easier to test.

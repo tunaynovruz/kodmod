@@ -71,6 +71,10 @@ Integration testing focuses on testing the interactions between integrated compo
 
 ## Example: Integration Test for a REST API
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class UserControllerIntegrationTest {
@@ -106,8 +110,13 @@ public class UserControllerIntegrationTest {
     }
 }
 ```
+</details>
 
 ## Example: Integration Test with Testcontainers
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 @Testcontainers
@@ -148,6 +157,7 @@ public class UserServiceIntegrationTest {
     }
 }
 ```
+</details>
 
 ## When to Use Integration Tests
 
@@ -155,4 +165,3 @@ public class UserServiceIntegrationTest {
 - Verifying database operations
 - Testing API endpoints
 - Validating message processing in event-driven systems
-- Ensuring proper configuration of application components

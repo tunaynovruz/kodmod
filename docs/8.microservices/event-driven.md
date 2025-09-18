@@ -118,8 +118,3 @@ Bu ayrılma, hər bir tərəfin öz ehtiyaclarına uyğun optimallaşdırılmas�
    - Hadisələr: SensorMəlumatıAlındı, HəddAşıldı, CihazVəziyyətiDəyişdi
    - Servislər: Cihaz İdarəetmə, Analitika, Bildiriş, Avtomatlaşdırma
 
-## Nəticə
-
-Hadisə əsaslı arxitektura, mikroservis mühitində servislər arasında zəif əlaqəli, dayanıqlı və miqyaslanan ünsiyyət üçün güclü bir modeldir. Hadisə mənbəyi və CQRS kimi əlaqəli nümunələrlə birlikdə, bu yanaşma mürəkkəb, yüksək miqyaslı sistemlərin qurulması üçün effektiv bir yol təqdim edir.
-
-Lakin bu arxitektura əlavə mürəkkəblik gətirir və eventual consistency, idempotentlik və hadisə sıralaması kimi problemlərin həllini tələb edir. Bu çətinliklərə baxmayaraq, hadisə əsaslı arxitektura, müasir, çevik və dayanıqlı mikroservis sistemlərinin qurulması üçün getdikcə daha populyar bir seçimdir.

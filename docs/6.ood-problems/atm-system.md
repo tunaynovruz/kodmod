@@ -59,6 +59,10 @@ We'll use the State Pattern to model the ATM's operation:
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.*;
 import java.util.concurrent.locks.Lock;
@@ -1285,6 +1289,7 @@ public class ATMDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -1314,4 +1319,3 @@ public class ATMDemo {
 2. **Fund Transfer**: Transfer between accounts
 3. **Mini Statement**: View recent transaction history
 4. **Language Selection**: Support for multiple languages
-5. **Customizable Limits**: Set withdrawal and transfer limits

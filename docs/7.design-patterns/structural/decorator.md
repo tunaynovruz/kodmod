@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Decorator Design Pattern
 
-## Giriş
 
 Decorator Design Pattern, structural design pattern-lərdən biridir və mövcud obyektlərə dinamik olaraq əlavə funksionallıq əlavə etməyə imkan verir. Bu pattern, inheritance əvəzinə composition istifadə edərək, obyektlərin davranışını runtime-da dəyişdirməyə imkan verir.
 
@@ -33,6 +32,10 @@ Decorator pattern, "Open/Closed Principle"-i tətbiq edir - class-lar genişlən
 ## Java-da Decorator Pattern İmplementasiyası
 
 ### Sadə Decorator Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Component interface
@@ -147,8 +150,13 @@ public class CoffeeShop {
     }
 }
 ```
+</details>
 
 ### Daha Mürəkkəb Decorator Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Component interface
@@ -327,12 +335,17 @@ public class FileProcessingExample {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Java I/O Streams
 
 Java I/O Streams, Decorator pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.io.*;
@@ -382,8 +395,13 @@ public class JavaIODecoratorExample {
     }
 }
 ```
+</details>
 
 ### UI Component Decoration
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Component interface
@@ -527,6 +545,7 @@ public class UIComponentExample {
     }
 }
 ```
+</details>
 
 ## Decorator Pattern-nin Üstünlükləri
 
@@ -566,6 +585,3 @@ public class UIComponentExample {
 - **Decorator**: Mövcud obyektə funksionallıq əlavə edir
 - **Strategy**: Bir algoritmin müxtəlif variantlarını təqdim edir
 
-## Nəticə
-
-Decorator Design Pattern, mövcud obyektlərə dinamik olaraq əlavə funksionallıq əlavə etməyə imkan verən güclü bir structural pattern-dir. Bu pattern, inheritance əvəzinə composition istifadə edərək, kod-un daha flexible və maintainable olmasını təmin edir. Decorator pattern, xüsusilə Java I/O Streams kimi real-world ssenarilər üçün faydalıdır və Open/Closed Principle-i tətbiq etməyə kömək edir. Bu pattern-in düzgün istifadəsi, kod-un daha modular və genişləndirilə bilən olmasını təmin edir.

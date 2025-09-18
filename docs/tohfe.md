@@ -115,4 +115,3 @@ Aktiv töhfə verənlərin siyahısı README faylında göstərilir.
 
 ---
 
-Töhfəniz üçün təşəkkür edirik!

@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Fibonacci Alqoritmi
 
-## Giriş
 
 Fibonacci ardıcıllığı, hər bir ədədin özündən əvvəlki iki ədədin cəmi olduğu bir riyazi ardıcıllıqdır. Bu ardıcıllıq 0 və 1 ilə başlayır:
 
@@ -21,6 +20,10 @@ Ardıcıllıq: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
 ## Müxtəlif Yanaşmalar
 
 ### 1. Sadə Rekursiya (Naive Approach)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciNaive {
@@ -51,6 +54,7 @@ public class FibonacciNaive {
     }
 }
 ```
+</details>
 
 **Mürəkkəblik:**
 - Time Complexity: O(2^n) - Eksponensial
@@ -61,6 +65,10 @@ public class FibonacciNaive {
 - Eyni hesablamalar dəfələrlə təkrarlanır
 
 ### 2. Memoization (Top-Down DP)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -131,12 +139,17 @@ public class FibonacciMemoization {
     }
 }
 ```
+</details>
 
 **Mürəkkəblik:**
 - Time Complexity: O(n) - Hər dəyər yalnız bir dəfə hesablanır
 - Space Complexity: O(n) - Memo table və rekursiya stack-i
 
 ### 3. Tabulation (Bottom-Up DP)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciTabulation {
@@ -196,12 +209,17 @@ public class FibonacciTabulation {
     }
 }
 ```
+</details>
 
 **Mürəkkəblik:**
 - Time Complexity: O(n)
 - Space Complexity: O(n) - DP table üçün
 
 ### 4. Space Optimized (O(1) Space)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciOptimized {
@@ -260,12 +278,17 @@ public class FibonacciOptimized {
     }
 }
 ```
+</details>
 
 **Mürəkkəblik:**
 - Time Complexity: O(n)
 - Space Complexity: O(1) - Yalnız bir neçə dəyişən
 
 ### 5. Matrix Exponentiation (O(log n))
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciMatrix {
@@ -330,12 +353,17 @@ public class FibonacciMatrix {
     }
 }
 ```
+</details>
 
 **Mürəkkəblik:**
 - Time Complexity: O(log n)
 - Space Complexity: O(log n) - Rekursiya stack-i üçün
 
 ## Performance Müqayisəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciComparison {
@@ -392,6 +420,7 @@ public class FibonacciComparison {
     }
 }
 ```
+</details>
 
 ## Müsahibə Sualları
 
@@ -440,6 +469,3 @@ public class FibonacciComparison {
 3. **Modular arithmetic**: Overflow-dan qaçınmaq üçün
 4. **Caching**: Çoxlu sorğu üçün memoization
 
-## Nəticə
-
-Fibonacci alqoritmi, dinamik proqramlaşdırmanın əsas anlayışlarını öyrənmək üçün mükəmməl nümunədir. Sadə rekursiyadan başlayaraq, memoization, tabulation və space optimization kimi texnikaları tətbiq edərək performansı əhəmiyyətli dərəcədə artırmaq mümkündür. Matrix exponentiation kimi qabaqcıl texnikalar isə logaritmik zamanda həll təmin edir.

@@ -44,6 +44,10 @@ We'll use the Strategy Pattern to allow different URL shortening algorithms:
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -167,6 +171,7 @@ public class UrlShortenerDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -186,4 +191,3 @@ public class UrlShortenerDemo {
 1. **Custom URLs**: Allow users to specify their own short URLs
 2. **Analytics**: Track click-through rates and other metrics
 3. **Expiration**: Set expiration times for URLs
-4. **Rate Limiting**: Prevent abuse by limiting requests per user

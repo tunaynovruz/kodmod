@@ -192,6 +192,3 @@ CREATE INDEX idx_istifadeci_email ON istifadeciler(email);
   SELECT * FROM sifarisler WHERE sifaris_tarixi > DATE_SUB(NOW(), INTERVAL 30 DAY);
   ```
 
-## Nəticə
-
-SQL, verilənlər bazası ilə işləmək üçün güclü və universal bir dildir. Düzgün istifadə edildikdə, SQL sorğuları vasitəsilə mürəkkəb məlumat əməliyyatlarını effektiv şəkildə həyata keçirmək mümkündür. Sorğuların optimallaşdırılması və indekslərin düzgün istifadəsi, verilənlər bazası tətbiqlərinin performansını əhəmiyyətli dərəcədə artıra bilər.

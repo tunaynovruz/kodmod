@@ -148,6 +148,10 @@ Servis kəşfi, mikroservislərin bir-birini dinamik olaraq tapması üçün ist
 **Texnologiyalar**: Netflix Eureka, Consul, etcd, Kubernetes Service Discovery
 
 **Nümunə** (Spring Cloud + Eureka):
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -178,6 +182,7 @@ public class PaymentController {
     }
 }
 ```
+</details>
 
 ## Servis Mesh (Service Mesh)
 
@@ -309,8 +314,3 @@ Mikroservis kommunikasiya strategiyası seçərkən nəzərə alınmalı faktorl
 4. **Team Expertise**: Komandanın təcrübəsi və bilikləri
 5. **Ecosystem Compatibility**: Mövcud texnologiya stack-i ilə uyğunluq
 
-## Nəticə
-
-Mikroservis kommunikasiyası, sistemin ümumi arxitekturasının əsas hissəsidir. Düzgün kommunikasiya strategiyası və texnologiyaları seçmək, dayanıqlı, miqyaslanan və performanslı mikroservis sistemləri yaratmaq üçün kritik əhəmiyyət daşıyır.
-
-Sinxron və asinxron kommunikasiya modellərinin, müxtəlif protokolların, servis kəşfi və servis mesh kimi infrastruktur komponentlərinin güclü və zəif tərəflərini anlamaq, hər bir ssenari üçün ən uyğun həllin seçilməsinə kömək edir.

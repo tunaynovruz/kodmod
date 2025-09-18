@@ -53,6 +53,10 @@ We'll use the State Pattern to model the vending machine's operation:
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -645,6 +649,7 @@ public class VendingMachineDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 

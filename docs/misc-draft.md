@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Axtarış Alqoritmləri
 
-## Giriş
 
 Axtarış alqoritmləri, verilənlər içərisində müəyyən bir elementi və ya elementi tapmaq üçün istifadə olunan alqoritmlərdir. Bu alqoritmlər kompüter elmində fundamental əhəmiyyət daşıyır və müxtəlif data strukturları və problemlər üçün fərqli yanaşmalar tələb edir.
 
@@ -64,6 +63,10 @@ Heuristic istifadə edərək optimal yolu tapan alqoritm. Pathfinding üçün ç
 
 Java-da Arrays.binarySearch() və Collections.binarySearch() metodları mövcuddur:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.Arrays;
 import java.util.Collections;
@@ -90,6 +93,7 @@ public class JavaSearch {
     }
 }
 ```
+</details>
 
 ## Axtarış Strategiyaları
 
@@ -150,6 +154,3 @@ public class JavaSearch {
 - Multi-threading istifadə etmək
 - Distributed search sistemləri
 
-## Nəticə
-
-Axtarış alqoritmləri data-ya effektiv giriş təmin etmək üçün vacibdir. Düzgün alqoritm seçimi data-nın xüsusiyyətlərinə, performans tələblərinə və yaddaş məhdudiyyətlərinə əsaslanmalıdır. Modern sistemlərdə hybrid approach-lar və specialized data structures istifadə edilərək axtarış performansı daha da artırılır.

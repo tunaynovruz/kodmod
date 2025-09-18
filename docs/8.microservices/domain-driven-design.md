@@ -53,4 +53,3 @@ draft: true
 - **Learning Curve**: Requires deep understanding of both the domain and DDD principles.
 - **Complexity**: Can be overkill for simple applications.
 - **Time Investment**: Requires significant upfront investment in domain modeling.
-- **Team Buy-in**: Requires commitment from both technical and domain experts.

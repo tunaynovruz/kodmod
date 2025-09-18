@@ -345,4 +345,3 @@ Design a messaging service like WhatsApp that:
 - **Compression**: Compress messages and media before transmission
 - **Adaptive Polling**: Adjust polling frequency based on app state
 - **Lazy Loading**: Load media on demand rather than automatically
-- **Background Restrictions**: Respect platform-specific background processing limits

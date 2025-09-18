@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Prototype Design Pattern
 
-## Giriş
 
 Prototype Design Pattern, creational design pattern-lərdən biridir və mövcud obyektlərin klonlanması (kopyalanması) vasitəsilə yeni obyektlər yaratmağa imkan verir. Bu pattern, obyektlərin yaradılması prosesini sadələşdirir və performance-ı artırır, çünki yeni obyektlər yaratmaq əvəzinə mövcud obyektləri klonlayır.
 
@@ -32,6 +31,10 @@ Prototype pattern, xüsusilə obyektlərin yaradılması prosesi mürəkkəb və
 ## Java-da Prototype Pattern İmplementasiyası
 
 ### Sadə Prototype Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Prototype interface
@@ -118,8 +121,13 @@ public class PrototypeExample {
     }
 }
 ```
+</details>
 
 ### Prototype Registry ilə Prototype Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -217,10 +225,15 @@ public class PrototypeRegistryExample {
     }
 }
 ```
+</details>
 
 ### Java Cloneable Interface ilə Prototype Pattern
 
 Java-da `Cloneable` interface-i istifadə edərək də Prototype pattern-i tətbiq etmək mümkündür:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -280,6 +293,7 @@ public class CloneableExample {
     }
 }
 ```
+</details>
 
 ## Shallow Copy vs Deep Copy
 
@@ -288,6 +302,10 @@ Prototype pattern-də iki növ kopyalama mövcuddur:
 ### Shallow Copy (Dayaz Kopyalama)
 
 Shallow copy zamanı, obyektin primitive field-ləri kopyalanır, lakin reference field-ləri kopyalanmır, yəni original və klon eyni reference-ları paylaşır.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class ShallowCopyExample implements Cloneable {
@@ -318,10 +336,15 @@ class ShallowCopyExample implements Cloneable {
     }
 }
 ```
+</details>
 
 ### Deep Copy (Dərin Kopyalama)
 
 Deep copy zamanı, obyektin bütün field-ləri, o cümlədən reference field-ləri də kopyalanır, yəni original və klon tamamilə ayrı obyektlərdir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class DeepCopyExample implements Cloneable {
@@ -355,6 +378,7 @@ class DeepCopyExample implements Cloneable {
     }
 }
 ```
+</details>
 
 ## Prototype Pattern-nin Üstünlükləri
 
@@ -381,6 +405,10 @@ class DeepCopyExample implements Cloneable {
 ### Object Cloning in Java
 
 Java-da `Object.clone()` metodu, Prototype pattern-in nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class CloneExample implements Cloneable {
@@ -415,8 +443,13 @@ public class CloneExample implements Cloneable {
     }
 }
 ```
+</details>
 
 ### Game Character Prototype
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -529,7 +562,5 @@ public class GameCharacterExample {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Prototype Design Pattern, mövcud obyektlərin klonlanması vasitəsilə yeni obyektlər yaratmağa imkan verir. Bu pattern, xüsusilə obyektlərin yaradılması prosesi mürəkkəb və ya resource-intensive olduqda, həmçinin runtime-da dinamik olaraq obyektlər yaratmaq lazım olduqda faydalıdır. Java-da Prototype pattern-i tətbiq etmək üçün `Cloneable` interface-i və ya custom klonlama metodları istifadə etmək mümkündür. Pattern-in tətbiqi zamanı shallow copy və deep copy arasındakı fərqi nəzərə almaq lazımdır.

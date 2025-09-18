@@ -46,6 +46,10 @@ We'll use the Strategy Pattern to implement different load balancing algorithms:
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -310,6 +314,7 @@ public class LoadBalancerDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -321,6 +326,10 @@ public class LoadBalancerDemo {
 ## Health Checking
 
 In a real-world implementation, the load balancer would periodically check the health of each server:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class HealthChecker implements Runnable {
@@ -358,10 +367,10 @@ class HealthChecker implements Runnable {
     }
 }
 ```
+</details>
 
 ## Scaling Considerations
 
 1. **Distributed Load Balancers**: Deploy multiple load balancer instances with a shared state
 2. **Consistent Hashing**: Use consistent hashing for better distribution when servers are added/removed
 3. **Service Discovery**: Integrate with service discovery systems for dynamic server registration
-4. **Metrics Collection**: Collect performance metrics to optimize load balancing decisions

@@ -373,4 +373,3 @@ Design a ride-sharing service like Uber that:
 - **Currency Handling**: Support for different currencies and payment methods
 - **Regional Compliance**: Adapt to local regulations and requirements
 - **Cultural Considerations**: Customize features based on regional preferences
-- **Time Zone Handling**: Proper handling of time zones for scheduling and reporting

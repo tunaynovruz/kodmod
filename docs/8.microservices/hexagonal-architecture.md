@@ -51,4 +51,3 @@ draft: true
 - **Enterprise Applications**: Where business logic is complex and needs to be isolated.
 - **Systems with Multiple Interfaces**: Applications that need to support various types of clients.
 - **Legacy System Modernization**: Gradually replacing components while preserving business logic.
-- **Microservices**: Ensuring each service has well-defined boundaries and interfaces.

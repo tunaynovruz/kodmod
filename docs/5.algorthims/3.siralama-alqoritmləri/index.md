@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Sıralama Alqoritmləri
 
-## Giriş
 
 Sıralama alqoritmləri, verilənləri müəyyən bir qaydada (adətən artan və ya azalan) düzmək üçün istifadə olunan alqoritmlərdir. Bu alqoritmlər kompüter elmində ən fundamental və vacib alqoritmlər arasındadır.
 
@@ -76,6 +75,10 @@ Elementləri "bucket"-lərə bölərək sıralayan alqoritm.
 
 Java-da Arrays.sort() və Collections.sort() metodları mövcuddur:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.Arrays;
 import java.util.Collections;
@@ -101,6 +104,7 @@ public class JavaSorting {
     }
 }
 ```
+</details>
 
 ## Müsahibə Sualları
 
@@ -119,6 +123,3 @@ public class JavaSorting {
 5. **Merge Sort-un üstünlükləri nələrdir?**
    - Cavab: Həmişə O(n log n) performans, stable, predictable performance.
 
-## Nəticə
-
-Sıralama alqoritmləri kompüter elminin əsasını təşkil edir. Hər alqoritmin öz üstünlükləri və çatışmazlıqları var. Düzgün alqoritm seçimi məlumatın xüsusiyyətlərinə və tələblərə əsaslanmalıdır.

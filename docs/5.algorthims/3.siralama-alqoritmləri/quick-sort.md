@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Quick Sort
 
-## Giriş
 
 Quick Sort, "Divide and Conquer" (Böl və Hökm et) strategiyasından istifadə edən çox effektiv sıralama alqoritmdir. Bu alqoritm ortalama halda O(n log n) time complexity-ə malikdir və praktikada ən sürətli sıralama alqoritmlərindən biri hesab olunur.
 
@@ -49,6 +48,10 @@ Final nəticə: [11, 12, 22, 25, 34, 64, 90]
 ## Java İmplementasiyası
 
 ### Sadə Quick Sort
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class QuickSort {
@@ -110,8 +113,13 @@ public class QuickSort {
     }
 }
 ```
+</details>
 
 ### Randomized Quick Sort
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Random;
@@ -174,8 +182,13 @@ public class RandomizedQuickSort {
     }
 }
 ```
+</details>
 
 ### 3-Way Quick Sort (Dutch National Flag)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class ThreeWayQuickSort {
@@ -237,8 +250,13 @@ public class ThreeWayQuickSort {
     }
 }
 ```
+</details>
 
 ### Generic Quick Sort
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Comparator;
@@ -287,10 +305,15 @@ public class GenericQuickSort {
     }
 }
 ```
+</details>
 
 ## Java Built-in Quick Sort
 
 Java-da Arrays.sort() metodu Dual-Pivot Quick Sort istifadə edir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Arrays;
@@ -313,6 +336,7 @@ public class JavaBuiltInSort {
     }
 }
 ```
+</details>
 
 ## Mürəkkəblik Analizi
 
@@ -386,6 +410,3 @@ public class JavaBuiltInSort {
 ### 7. 3-way partitioning nə vaxt faydalıdır?
 **Cavab**: Çoxlu duplicate elementlər olduqda. Bu halda eyni dəyərli elementlər bir yerdə qruplaşdırılır və onlar üçün rekursiya çağırılmır.
 
-## Nəticə
-
-Quick Sort praktikada ən çox istifadə olunan sıralama alqoritmlərindən biridir. Ortalama halda excellent performance və in-place xüsusiyyəti onu çox cəlbedici edir. Worst case-dən qorunmaq üçün randomization və ya hybrid approach-lar istifadə edilə bilər. Modern programming language-lərdə built-in sort metodları əsasən Quick Sort-un optimizasiya edilmiş versiyalarını istifadə edir.

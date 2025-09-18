@@ -270,4 +270,3 @@ Design a video streaming platform like YouTube that:
 - **Ad Insertion**: Support for pre-roll, mid-roll, and post-roll ads
 - **Ad Targeting**: Infrastructure for targeted advertising based on user preferences
 - **Subscription Management**: Support for premium subscriptions with enhanced features
-- **Content ID System**: Automated copyright detection and monetization options

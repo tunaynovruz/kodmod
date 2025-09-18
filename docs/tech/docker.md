@@ -90,4 +90,3 @@ docker logs container_id
 - Tag images properly (don't rely on "latest")
 - Use Docker Compose for multi-container applications
 - Scan images for vulnerabilities
-- Implement proper logging and monitoring

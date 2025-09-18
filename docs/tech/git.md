@@ -155,4 +155,3 @@ Each developer has their own server-side repository, commonly used in open-sourc
 - **GitLab:** Complete DevOps platform with built-in CI/CD
 - **Bitbucket:** Integrates well with other Atlassian products
 - **Azure DevOps:** Microsoft's development platform with Git repositories
-- **AWS CodeCommit:** Amazon's managed Git service

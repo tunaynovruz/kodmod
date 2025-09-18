@@ -109,4 +109,3 @@ Client bir aggregate-i yeniləyib dərhal sorğu göndərdikdə köhnə məlumat
 
 Faydalı resurslar:
 - https://martinfowler.com/bliki/CQRS.html
-- 

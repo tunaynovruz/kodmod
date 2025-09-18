@@ -25,6 +25,10 @@ Java Generics, Java 5 (JDK 1.5) ilə təqdim edilmiş bir xüsusiyyətdir. Gener
 
 Generic class, bir və ya bir neçə tip parametri olan class-dır. Tip parametri, class yaradılarkən təyin olunur.
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Generic class
 public class Box<T> {
@@ -58,10 +62,15 @@ public class Main {
     }
 }
 ```
+</details>
 
 ## Generic Metodlar
 
 Generic metodlar, bir və ya bir neçə tip parametri olan metodlardır. Tip parametri, metod çağırılarkən təyin olunur.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class Util {
@@ -90,10 +99,15 @@ public class Main {
     }
 }
 ```
+</details>
 
 ## Bounded Type Parameters (Məhdud Tip Parametrləri)
 
 Bəzən, generic tip parametrlərini müəyyən tiplərə məhdudlaşdırmaq lazım olur. Bu, `extends` açar sözü ilə edilir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Bounded type parameter
@@ -133,10 +147,15 @@ public class Main {
     }
 }
 ```
+</details>
 
 ## Multiple Bounds (Çoxlu Məhdudiyyətlər)
 
 Bir tip parametri, bir class və bir neçə interface ilə məhdudlaşdırıla bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 interface Printable {
@@ -162,6 +181,7 @@ public class PrintableBox<T extends Number & Printable & Comparable<T>> {
     }
 }
 ```
+</details>
 
 ## Wildcards (Joker Simvollar)
 
@@ -170,6 +190,10 @@ Wildcards, bilinməyən tiplər üçün istifadə olunur və `?` simvolu ilə g�
 ### Unbounded Wildcards (Məhdudlaşdırılmamış Joker Simvollar)
 
 `<?>` - hər hansı bir tip ola bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public static void printList(List<?> list) {
@@ -185,10 +209,15 @@ List<String> stringList = Arrays.asList("a", "b", "c");
 printList(intList);
 printList(stringList);
 ```
+</details>
 
 ### Upper Bounded Wildcards (Yuxarı Məhdudlaşdırılmış Joker Simvollar)
 
 `<? extends Type>` - Type və ya onun alt tipləri ola bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public static double sumOfList(List<? extends Number> list) {
@@ -206,10 +235,15 @@ List<Double> doubleList = Arrays.asList(1.1, 2.2, 3.3);
 System.out.println(sumOfList(intList));  // 6.0 çap edir
 System.out.println(sumOfList(doubleList));  // 6.6 çap edir
 ```
+</details>
 
 ### Lower Bounded Wildcards (Aşağı Məhdudlaşdırılmış Joker Simvollar)
 
 `<? super Type>` - Type və ya onun üst tipləri ola bilər.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public static void addNumbers(List<? super Integer> list) {
@@ -231,10 +265,15 @@ System.out.println(intList);  // [1, 2, 3, 4, 5] çap edir
 System.out.println(numList);  // [1, 2, 3, 4, 5] çap edir
 System.out.println(objList);  // [1, 2, 3, 4, 5] çap edir
 ```
+</details>
 
 ## Type Erasure (Tip Silinməsi)
 
 Java-da generics, compile zamanı işləyir və runtime-da tip məlumatları silinir. Bu, geriyə uyğunluq (backward compatibility) üçün edilmişdir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Compile zamanı
@@ -255,6 +294,7 @@ public class Box {
     }
 }
 ```
+</details>
 
 Type erasure səbəbindən, aşağıdakı məhdudiyyətlər mövcuddur:
 
@@ -267,6 +307,10 @@ Type erasure səbəbindən, aşağıdakı məhdudiyyətlər mövcuddur:
 ## Generic Tiplər və Collections Framework
 
 Java Collections Framework, generics-dən geniş istifadə edir. Bu, kolleksiyaların tip təhlükəsizliyini təmin edir.
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Tip təhlükəsiz kolleksiyalar
@@ -289,7 +333,5 @@ students.put(3, "Ayşə");
 // Tip təhlükəsiz giriş
 String student = students.get(2);  // "Vəli" qaytarır
 ```
+</details>
 
-## Nəticə
-
-Java Generics, tip təhlükəsizliyini təmin etmək və kodun təkrar istifadəsini asanlaşdırmaq üçün güclü bir vasitədir. Generic class-lar, metodlar və wildcards istifadə edərək, daha ümumi və təhlükəsiz kod yazmaq mümkündür.

@@ -32,6 +32,10 @@ və ya
 
 Nümunələr:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Parametrsiz lambda
 Runnable r = () -> System.out.println("Salam, Dünya!");
@@ -54,6 +58,7 @@ Comparator<String> comp = (s1, s2) -> {
     return result;
 };
 ```
+</details>
 
 ## Funksional İnterfeyslər
 
@@ -191,6 +196,10 @@ Lambda ifadələri, Stream API ilə birlikdə istifadə edildikdə xüsusilə g�
 
 #### Nümunə 1: Ədədlərin cəmi
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
@@ -201,8 +210,13 @@ int sumOfEvens = numbers.stream()
                        .sum();
 // sumOfEvens: 30 (2 + 4 + 6 + 8 + 10)
 ```
+</details>
 
 #### Nümunə 2: Adların emalı
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 List<String> names = Arrays.asList("Ali", "Vali", "Ayşe", "Mehmet", "Zeynep");
@@ -214,8 +228,13 @@ List<String> filteredNames = names.stream()
                                  .collect(Collectors.toList());
 // filteredNames: ["ALI", "AYŞE"]
 ```
+</details>
 
 #### Nümunə 3: Statistika
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
@@ -231,6 +250,7 @@ System.out.println("Minimum: " + stats.getMin());
 System.out.println("Cəm: " + stats.getSum());
 System.out.println("Say: " + stats.getCount());
 ```
+</details>
 
 ## Lambda İfadələrinin Üstünlükləri
 
@@ -245,6 +265,3 @@ System.out.println("Say: " + stats.getCount());
 2. **Dəyişən əhatəsi (Variable Scope)**: Lambda ifadələri yalnız final və ya effektiv final dəyişənlərə çata bilər
 3. **this açar sözü**: Lambda ifadələrində this, lambda ifadəsini əhatə edən sinfə istinad edir, anonim siniflərdəki kimi lambda obyektinə deyil
 
-## Nəticə
-
-Lambda ifadələri, Java-da funksional proqramlaşdırmanı dəstəkləyən güclü bir xüsusiyyətdir. Onlar, kodun daha qısa, daha oxunaqlı və daha funksional olmasına imkan verir. Stream API ilə birlikdə istifadə edildikdə, kolleksiyalar üzərində əməliyyatları daha effektiv və deklarativ şəkildə yerinə yetirmək mümkündür.

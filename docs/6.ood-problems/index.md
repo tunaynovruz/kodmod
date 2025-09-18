@@ -49,4 +49,3 @@ When solving Object-Oriented Design problems, follow these steps:
 - **Open/Closed**: Open for extension, closed for modification
 - **Liskov Substitution**: Subtypes should be substitutable for their base types
 - **Interface Segregation**: Many specific interfaces are better than one general interface
-- **Dependency Inversion**: Depend on abstractions, not concrete implementations

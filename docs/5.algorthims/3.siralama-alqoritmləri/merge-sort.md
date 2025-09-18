@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Merge Sort
 
-## Giriş
 
 Merge Sort, "böl və hökm et" (divide and conquer) prinsipinə əsaslanan effektiv bir sıralama alqoritmidir. Bu alqoritm, massivi ardıcıl olaraq iki hissəyə bölür, hər bir hissəni rekursiv şəkildə sıralayır və sonra sıralanmış hissələri birləşdirir.
 
@@ -28,6 +27,10 @@ Merge Sort, "böl və hökm et" (divide and conquer) prinsipinə əsaslanan effe
 3. **Birləşdirmə**: Sıralanmış yarımları birləşdir
 
 ## Merge Sort-un Java-da İmplementasiyası
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class MergeSort {
@@ -108,6 +111,7 @@ public class MergeSort {
     }
 }
 ```
+</details>
 
 ## Zaman və Yaddaş Mürəkkəbliyi
 
@@ -128,6 +132,3 @@ public class MergeSort {
 - Əlavə yaddaş tələb edir (in-place deyil)
 - Kiçik massivlər üçün insertion sort kimi sadə alqoritmlər daha effektiv ola bilər
 
-## Nəticə
-
-Merge Sort, xüsusilə böyük massivlərin sıralanması üçün etibarlı və effektiv bir alqoritmdir. Zəmanətli O(n log n) zaman mürəkkəbliyi onu ən pis halda belə yaxşı performans göstərən bir seçim edir. Lakin, əlavə yaddaş tələbi onun məhdudiyyətidir.

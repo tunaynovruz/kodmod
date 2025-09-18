@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Bridge Design Pattern
 
-## Giriş
 
 Bridge Design Pattern, structural design pattern-lərdən biridir və abstraction-ı implementation-dan ayırmağa imkan verir. Bu pattern, iki ayrı hierarchy yaradır - biri abstraction üçün, digəri isə implementation üçün. Bu iki hierarchy bir-birindən asılı olmadan inkişaf edə bilər.
 
@@ -33,6 +32,10 @@ Bridge pattern, "Composition over Inheritance" prinsipini tətbiq edir. Bu patte
 ## Java-da Bridge Pattern İmplementasiyası
 
 ### Sadə Bridge Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Implementor interface
@@ -94,8 +97,13 @@ public class BridgePatternDemo {
     }
 }
 ```
+</details>
 
 ### Daha Mürəkkəb Bridge Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Implementor interface
@@ -284,12 +292,17 @@ public class BridgePatternAdvancedDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### JDBC API
 
 JDBC API, Bridge pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.sql.*;
@@ -327,8 +340,13 @@ public class JdbcBridgeExample {
     }
 }
 ```
+</details>
 
 ### Graphics System
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Implementor interface
@@ -445,6 +463,7 @@ public class GraphicsSystemDemo {
     }
 }
 ```
+</details>
 
 ## Bridge Pattern-nin Üstünlükləri
 
@@ -483,6 +502,3 @@ public class GraphicsSystemDemo {
 - **Bridge**: Abstraction və implementation arasında körpü yaradır
 - **Abstract Factory**: Əlaqəli obyektlərin ailəsini yaratmaq üçün istifadə olunur
 
-## Nəticə
-
-Bridge Design Pattern, abstraction-ı implementation-dan ayırmağa imkan verən güclü bir structural pattern-dir. Bu pattern, "Composition over Inheritance" prinsipini tətbiq edərək, kod-un daha flexible və maintainable olmasını təmin edir. Bridge pattern, xüsusilə cross-platform applications, multiple database support və different UI implementations kimi ssenarilər üçün faydalıdır. Bu pattern-in düzgün istifadəsi, kod-un daha modular və genişləndirilə bilən olmasını təmin edir.

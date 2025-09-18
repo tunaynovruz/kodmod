@@ -101,8 +101,3 @@ Addım-addım proses:
 9. **Test Etmək:** Orkestrasiya və məlumat idarəetməsi üçün unit və inteqrasiya testləri yazmaq.
 10. **Davamlı Təkmilləşdirmə:** Rəy toplayıb sistemi təkmilləşdirmək.
 
-## Nəticə
-
-API Composition Pattern mikroservislər arxitekturasında mürəkkəb məlumat tələblərini həll etmək üçün güclü bir vasitədir. Düzgün tətbiq edildikdə, müştəri qarşılıqlı təsirini sadələşdirir, performansı yaxşılaşdırır və sistemin ümumi genişlənməsinə imkan verir.
-
-Bu pattern-i istifadə edərkən dizayn mərhələsində diqqətli planlaşdırma, güclü xəta idarəetməsi və performans optimallaşdırması vacibdir.

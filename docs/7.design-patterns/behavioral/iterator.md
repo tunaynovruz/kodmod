@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Iterator Design Pattern
 
-## Giriş
 
 Iterator Design Pattern, behavioral design pattern-lərdən biridir və kolleksiya elementlərinə onların daxili strukturunu açıqlamadan ardıcıl çıxış təmin etməyə imkan verir. Bu pattern, kolleksiya üzərində iterasiya məntiqini kolleksiyanın özündən ayırır və beləliklə, müxtəlif kolleksiya növləri üçün vahid iterasiya interfeysi təqdim edir.
 
@@ -33,6 +32,10 @@ Iterator pattern, real həyatda kitabxana kataloqu ilə işləməyə bənzəyir.
 ## Java-da Iterator Pattern İmplementasiyası
 
 ### Sadə Iterator Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.NoSuchElementException;
@@ -121,8 +124,13 @@ public class IteratorPatternDemo {
     }
 }
 ```
+</details>
 
 ### Müxtəlif Kolleksiya Növləri üçün Iterator
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.NoSuchElementException;
@@ -298,8 +306,13 @@ public class MultipleCollectionsDemo {
     }
 }
 ```
+</details>
 
 ### Müxtəlif İterasiya Strategiyaları
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -574,10 +587,15 @@ public class TreeIteratorDemo {
     }
 }
 ```
+</details>
 
 ## Java Built-in Iterator
 
 Java, `java.util.Iterator` interface-i vasitəsilə built-in iterator dəstəyi təqdim edir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -627,10 +645,15 @@ public class JavaBuiltInIteratorDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Custom Collection ilə Iterator
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Iterator;
@@ -709,8 +732,13 @@ public class CustomCollectionDemo {
     }
 }
 ```
+</details>
 
 ### Composite Pattern ilə Iterator
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -869,6 +897,7 @@ public class CompositeIteratorDemo {
     }
 }
 ```
+</details>
 
 ## Iterator Pattern-nin Üstünlükləri
 
@@ -909,6 +938,3 @@ public class CompositeIteratorDemo {
 - **Iterator**: Daha çox nəzarət və xüsusi iterasiya davranışı təmin edir
 - **For-Each Loop**: Daha sadə sintaksis təqdim edir, lakin Java-da for-each loop-lar da Iterator istifadə edir
 
-## Nəticə
-
-Iterator Design Pattern, kolleksiya elementlərinə onların daxili strukturunu açıqlamadan ardıcıl çıxış təmin etməyə imkan verən güclü bir behavioral pattern-dir. Bu pattern, kolleksiya üzərində iterasiya məntiqini kolleksiyanın özündən ayırır və beləliklə, müxtəlif kolleksiya növləri üçün vahid iterasiya interfeysi təqdim edir. Java-da Iterator pattern-i həm custom implementasiya ilə, həm də built-in `java.util.Iterator` interface-i vasitəsilə istifadə etmək mümkündür. Iterator pattern-in düzgün istifadəsi, kod-un daha modular, maintainable və genişləndirilə bilən olmasını təmin edir.

@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Facade Design Pattern
 
-## Giriş
 
 Facade Design Pattern, structural design pattern-lərdən biridir və mürəkkəb alt sistemlər üçün sadə bir interface təqdim edir. Bu pattern, mürəkkəb sistemləri gizlədərək, client-lər üçün daha sadə və istifadəsi asan interface yaradır.
 
@@ -32,6 +31,10 @@ Facade pattern, real həyatda bir çox nümunələrə bənzəyir. Məsələn, bi
 ## Java-da Facade Pattern İmplementasiyası
 
 ### Sadə Facade Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Subsystem classes
@@ -115,8 +118,13 @@ public class FacadePatternDemo {
     }
 }
 ```
+</details>
 
 ### Daha Mürəkkəb Facade Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Subsystem 1: Video Conversion
@@ -240,12 +248,17 @@ public class VideoConversionDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### JDBC API
 
 JDBC API, Facade pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.sql.*;
@@ -336,8 +349,13 @@ public class JdbcFacadeExample {
     }
 }
 ```
+</details>
 
 ### Home Theater Facade
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Subsystem components
@@ -523,6 +541,7 @@ public class HomeTheaterDemo {
     }
 }
 ```
+</details>
 
 ## Facade Pattern-nin Üstünlükləri
 
@@ -561,6 +580,3 @@ public class HomeTheaterDemo {
 - **Facade**: Mürəkkəb alt sistemlər üçün sadə interface yaradır
 - **Proxy**: Başqa bir obyektin yerini tutur və ona çıxışı idarə edir
 
-## Nəticə
-
-Facade Design Pattern, mürəkkəb alt sistemlər üçün sadə interface təqdim edən güclü bir structural pattern-dir. Bu pattern, client-ləri alt sistemlərin mürəkkəbliyindən qoruyur və kod-un daha oxunaqlı və maintainable olmasını təmin edir. Facade pattern, xüsusilə mürəkkəb kitabxanalar, legacy sistemlər və layer boundaries kimi ssenarilər üçün faydalıdır. Bu pattern-in düzgün istifadəsi, kod-un daha modular və istifadəsi asan olmasını təmin edir.

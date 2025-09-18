@@ -230,4 +230,3 @@ Design a file storage and sharing service like Dropbox that:
 
 - **Local Cache**: Maintain a local cache of frequently accessed files
 - **Offline Edits**: Allow edits while offline and sync when connection is restored
-- **Conflict Resolution**: Implement strategies to resolve conflicts when same file is edited offline by multiple users

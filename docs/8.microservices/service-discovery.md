@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Service Discovery Pattern
 
-## Giriş
 
 Mikroservislər kiçik, loosely coupled distributed service-lərdir. Mikroservice architecture Monolithic Architecture-nin scalability, independently deployable və innovation problem-lərinin həlli kimi yaranıb. Bu bizə böyük application-ı efficiently manageable kiçik component-lərə bölməyə imkan verir.
 
@@ -139,8 +138,3 @@ Service-A Discovery Service ilə birbaşa danışmır.
 4. **Monitoring**: Service discovery metrics-lərini monitor edin
 5. **Security**: Service communication-u secure edin
 
-## Nəticə
-
-Service Discovery Pattern mikroservice architecture-da service-lər arasında communication-u təmin etmək üçün fundamental pattern-dir. Server-Side Service Discovery client-i sadələşdirir və load balancing functionality-ni təmin edir, lakin əlavə infrastructure component-lər tələb edir.
-
-Düzgün implement edildikdə, Service Discovery pattern dynamic və scalable mikroservice environment-da reliable service communication təmin edir.

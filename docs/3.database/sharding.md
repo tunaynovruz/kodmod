@@ -123,6 +123,3 @@ Sharding, aşağıdakı hallarda nəzərdən keçirilməlidir:
 
 Lakin, sharding mürəkkəblik gətirir və kiçik və orta ölçülü sistemlər üçün vertical scaling (daha güclü server) və ya read replicas kimi daha sadə həllər daha uyğun ola bilər.
 
-## Nəticə
-
-Sharding, böyük miqyaslı verilənlər bazası sistemlərinin miqyaslanabilirlik və performans problemlərini həll etmək üçün güclü bir texnikadır. Lakin, bu üstünlüklər mürəkkəblik və əlavə idarəetmə yükü hesabına əldə edilir. Sharding strategiyasının seçimi və tətbiqi, konkret tətbiqin tələblərinə, məlumat modelinə və sorğu nümunələrinə əsaslanmalıdır.

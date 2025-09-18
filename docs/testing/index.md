@@ -73,4 +73,3 @@ Software testing is a critical process in software development that ensures the 
 4. Maintain test independence (tests should not depend on each other)
 5. Keep tests fast, reliable, and maintainable
 6. Use continuous integration to run tests automatically
-7. Follow consistent naming conventions for test methods and classes

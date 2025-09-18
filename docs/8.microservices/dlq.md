@@ -176,8 +176,3 @@ sqs.createQueue(request);
    - Məlumatlar aqreqasiya edilir və trend analizi aparılır
    - Yalnız anomaliyalar manual müdaxilə tələb edir
 
-## Nəticə
-
-Ölü Məktub Növbəsi (DLQ), mikroservis mühitində etibarlı mesaj mübadiləsi üçün vacib bir komponentdir. Bu mexanizm, sistemin dayanıqlılığını artırır, məlumat itkisinin qarşısını alır və problemlərin effektiv şəkildə aşkarlanmasına və həllinə kömək edir.
-
-DLQ-nin effektiv tətbiqi üçün retry mexanizmləri, monitorinq, bildiriş sistemləri və yenidən emal strategiyaları ilə inteqrasiya edilməsi tövsiyə olunur. Hər bir mesaj brokeri üçün spesifik DLQ konfiqurasiyaları mövcuddur və tətbiqin tələblərinə uyğun olaraq seçilməlidir.

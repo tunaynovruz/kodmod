@@ -208,4 +208,3 @@ Design a news feed system like Facebook that:
 
 - Implement WebSockets for real-time feed updates
 - Use a notification service with pub/sub model (Kafka/Redis)
-- Batch updates for efficiency while maintaining perceived real-time experience

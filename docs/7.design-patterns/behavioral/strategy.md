@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Strategy Design Pattern
 
-## Giriş
 
 Strategy Design Pattern, behavioral design pattern-lərdən biridir və bir algoritmin müxtəlif variantlarını təyin etməyə, onları ayrı class-larda encapsulate etməyə və runtime-da onları dəyişdirməyə imkan verir. Bu pattern, bir class-ın davranışını və ya alqoritmini runtime-da dəyişdirməyə imkan verir.
 
@@ -33,6 +32,10 @@ Strategy pattern, "Open/Closed Principle"-i tətbiq edir - class-lar genişlənd
 ## Java-da Strategy Pattern İmplementasiyası
 
 ### Sadə Strategy Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Strategy interface
@@ -120,8 +123,13 @@ public class StrategyPatternDemo {
     }
 }
 ```
+</details>
 
 ### Daha Mürəkkəb Strategy Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -322,10 +330,15 @@ public class SortingStrategyDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Compression Strategies
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.io.*;
@@ -437,8 +450,13 @@ public class CompressionStrategyDemo {
     }
 }
 ```
+</details>
 
 ### Validation Strategies
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.regex.Pattern;
@@ -578,6 +596,7 @@ public class ValidationStrategyDemo {
     }
 }
 ```
+</details>
 
 ## Strategy Pattern-nin Üstünlükləri
 
@@ -618,6 +637,3 @@ public class ValidationStrategyDemo {
 - **Strategy**: Client tərəfindən seçilən alqoritmi dəyişdirir
 - **State**: Obyektin daxili vəziyyətinə əsasən davranışı dəyişdirir
 
-## Nəticə
-
-Strategy Design Pattern, bir algoritmin müxtəlif variantlarını təyin etməyə və runtime-da onları dəyişdirməyə imkan verən güclü bir behavioral pattern-dir. Bu pattern, kod-un daha flexible, maintainable və genişləndirilə bilən olmasını təmin edir. Strategy pattern, xüsusilə bir problemin həlli üçün müxtəlif alqoritmlər olduqda və runtime-da alqoritm seçimi tələb olunduqda faydalıdır. Bu pattern-in düzgün istifadəsi, kod-un daha modular və yenidən istifadə edilə bilən olmasını təmin edir.

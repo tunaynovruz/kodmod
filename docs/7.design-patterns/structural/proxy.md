@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Proxy Design Pattern
 
-## Giriş
 
 Proxy Design Pattern, structural design pattern-lərdən biridir və başqa bir obyektin yerini tutan və ona çıxışı idarə edən bir obyekt yaratmağa imkan verir. Proxy, orijinal obyektin əvəzinə işləyir və client-in sorğularını orijinal obyektə ötürməzdən əvvəl və ya sonra əlavə əməliyyatlar yerinə yetirə bilər.
 
@@ -41,6 +40,10 @@ Proxy pattern, real həyatda bir çox nümunələrə bənzəyir. Məsələn, kre
 ## Java-da Proxy Pattern İmplementasiyası
 
 ### Virtual Proxy Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Subject interface
@@ -110,8 +113,13 @@ public class VirtualProxyDemo {
     }
 }
 ```
+</details>
 
 ### Protection Proxy Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Subject interface
@@ -210,8 +218,13 @@ public class ProtectionProxyDemo {
     }
 }
 ```
+</details>
 
 ### Caching Proxy Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -295,10 +308,15 @@ public class CachingProxyDemo {
     }
 }
 ```
+</details>
 
 ## Java Dynamic Proxy
 
 Java, `java.lang.reflect.Proxy` class-ı vasitəsilə runtime-da dinamik proxy-lər yaratmağa imkan verir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.lang.reflect.InvocationHandler;
@@ -381,12 +399,17 @@ public class DynamicProxyDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Remote Method Invocation (RMI)
 
 Java RMI, Remote Proxy pattern-in real-world nümunəsidir:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.rmi.Remote;
@@ -446,8 +469,13 @@ class RMIClient {
     }
 }
 ```
+</details>
 
 ### JDBC Connection Pooling
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.sql.Connection;
@@ -546,6 +574,7 @@ class ConnectionProxy implements java.sql.Connection {
     // you would need to implement all methods of the Connection interface.
 }
 ```
+</details>
 
 ## Proxy Pattern-nin Üstünlükləri
 
@@ -585,6 +614,3 @@ class ConnectionProxy implements java.sql.Connection {
 - **Proxy**: Tək bir obyektə çıxışı idarə edir
 - **Facade**: Mürəkkəb alt sistemlər üçün sadə interface təqdim edir
 
-## Nəticə
-
-Proxy Design Pattern, başqa bir obyektin yerini tutan və ona çıxışı idarə edən güclü bir structural pattern-dir. Bu pattern, lazy loading, access control, logging, caching və remote representation kimi müxtəlif ssenarilər üçün faydalıdır. Java-da Proxy pattern-i həm manual olaraq, həm də `java.lang.reflect.Proxy` class-ı vasitəsilə dinamik olaraq implementasiya etmək mümkündür. Proxy pattern-in düzgün istifadəsi, kod-un daha modular, təhlükəsiz və effektiv olmasını təmin edir.

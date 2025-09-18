@@ -45,6 +45,10 @@ Design a restaurant management system that can handle menu management, order pro
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.time.LocalDateTime;
 import java.util.*;
@@ -1397,6 +1401,7 @@ public class RestaurantDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -1434,4 +1439,3 @@ public class RestaurantDemo {
 2. **Menu Categories**: Menu items are organized by categories
 3. **Special Instructions**: Support for special instructions on order items
 4. **Tax and Tip Handling**: Proper calculation of taxes and tips
-5. **Receipt Generation**: Detailed receipts for customers

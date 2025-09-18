@@ -51,6 +51,10 @@ We'll use the State Pattern to model elevator states:
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -584,6 +588,7 @@ public class ElevatorSystemDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -612,4 +617,3 @@ public class ElevatorSystemDemo {
 2. **Priority Service**: Support priority requests (e.g., for emergency personnel)
 3. **Express Elevators**: Elevators that only stop at certain floors
 4. **Maintenance Mode**: Take elevators out of service for maintenance
-5. **Power Saving Mode**: Optimize elevator usage during low-traffic periods

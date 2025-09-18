@@ -252,4 +252,3 @@ Maven supports building complex applications with multiple modules.
 - Use appropriate dependency scopes
 - Configure plugins in a parent POM when possible
 - Use Maven profiles for environment-specific configurations
-- Document your POM files with comments

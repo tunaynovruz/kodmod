@@ -95,8 +95,3 @@ Hər servis:
 └─────────────┘    └─────────────┘    └─────────────┘
 ```
 
-## Nəticə
-
-Mikroservislər böyük və mürəkkəb sistemlər üçün yaxşı həldir. Kiçik layihələr üçün monolitik yanaşma daha uyğundur.
-
-Seçim etməzdən əvvəl layihənin ölçüsünü və komandanın imkanlarını nəzərə alın.

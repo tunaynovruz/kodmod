@@ -290,4 +290,3 @@ Design a microblogging platform like Twitter that:
 - **CDN Integration**: Serve media content through CDN
 - **Image Resizing**: Resize images based on client device
 - **Lazy Loading**: Load media only when needed
-- **Progressive Loading**: Show low-resolution images first, then high-resolution

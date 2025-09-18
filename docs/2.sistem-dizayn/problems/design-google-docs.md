@@ -281,4 +281,3 @@ Design a collaborative document editing system like Google Docs that:
 - **Transport Security**: Use TLS for all communications
 - **Fine-grained Access Control**: Implement detailed permission system
 - **Audit Logging**: Log all access and modifications for security auditing
-- **Content Validation**: Sanitize document content to prevent XSS attacks

@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Command Design Pattern
 
-## Giriş
 
 Command Design Pattern, behavioral design pattern-lərdən biridir və bir sorğu və ya əməliyyatı obyekt şəklində encapsulate etməyə imkan verir. Bu pattern, sorğu göndərən obyekti (invoker) sorğunu yerinə yetirən obyektdən (receiver) ayırır və beləliklə, müxtəlif sorğuları parametrləşdirməyə, növbəyə qoymağa, log etməyə və ləğv etməyə (undo) imkan verir.
 
@@ -35,6 +34,10 @@ Command pattern, real həyatda restoranda sifariş vermə prosesinə bənzəyir.
 ## Java-da Command Pattern İmplementasiyası
 
 ### Sadə Command Pattern Nümunəsi
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Command interface
@@ -123,8 +126,13 @@ public class CommandPatternDemo {
     }
 }
 ```
+</details>
 
 ### Undo Funksionallığı ilə Command Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Command interface with undo
@@ -236,8 +244,13 @@ public class CommandWithUndoDemo {
     }
 }
 ```
+</details>
 
 ### Macro Commands (Command-lərin Kompozisiyası)
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.ArrayList;
@@ -582,10 +595,15 @@ public class MacroCommandDemo {
     }
 }
 ```
+</details>
 
 ## Real-World Nümunələr
 
 ### Thread Pool və Task Queue
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.concurrent.BlockingQueue;
@@ -693,8 +711,13 @@ public class ThreadPoolCommandDemo {
     }
 }
 ```
+</details>
 
 ### Undo/Redo Funksionallığı ilə Text Editor
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.Stack;
@@ -852,6 +875,7 @@ public class TextEditorDemo {
     }
 }
 ```
+</details>
 
 ## Command Pattern-nin Üstünlükləri
 
@@ -894,6 +918,3 @@ public class TextEditorDemo {
 - **Command**: Əməliyyatı encapsulate edir və undo/redo funksionallığı təqdim edir
 - **Memento**: Obyektin daxili vəziyyətini saxlayır və sonra bərpa etməyə imkan verir
 
-## Nəticə
-
-Command Design Pattern, bir sorğu və ya əməliyyatı obyekt şəklində encapsulate etməyə imkan verən güclü bir behavioral pattern-dir. Bu pattern, sorğu göndərən obyekti sorğunu yerinə yetirən obyektdən ayırır və beləliklə, müxtəlif sorğuları parametrləşdirməyə, növbəyə qoymağa, log etməyə və ləğv etməyə imkan verir. Command pattern, xüsusilə undo/redo funksionallığı, task scheduling və transaction processing kimi ssenarilər üçün faydalıdır. Bu pattern-in düzgün istifadəsi, kod-un daha flexible, maintainable və genişləndirilə bilən olmasını təmin edir.

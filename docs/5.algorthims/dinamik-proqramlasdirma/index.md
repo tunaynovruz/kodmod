@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Dinamik Proqramlaşdırma (Dynamic Programming)
 
-## Giriş
 
 Dinamik Proqramlaşdırma (DP), mürəkkəb problemləri daha kiçik alt-problemlərə bölərək həll edən bir alqoritm dizayn texnikasıdır. DP-nin əsas ideyası, eyni alt-problemləri dəfələrlə həll etmək əvəzinə, onların nəticələrini saxlamaq və yenidən istifadə etməkdir.
 
@@ -34,6 +33,10 @@ Rekursiv yanaşma ilə, nəticələri cache-də saxlamaq.
 
 ### Sadə Rekursiya (Inefficient)
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 public class FibonacciNaive {
     public static int fibonacci(int n) {
@@ -50,8 +53,13 @@ public class FibonacciNaive {
     }
 }
 ```
+</details>
 
 ### Memoization ilə
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -82,8 +90,13 @@ public class FibonacciMemoization {
     }
 }
 ```
+</details>
 
 ### Tabulation ilə
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciTabulation {
@@ -110,8 +123,13 @@ public class FibonacciTabulation {
     }
 }
 ```
+</details>
 
 ### Space Optimized
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class FibonacciOptimized {
@@ -139,10 +157,15 @@ public class FibonacciOptimized {
     }
 }
 ```
+</details>
 
 ## DP Template-ləri
 
 ### Memoization Template
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import java.util.HashMap;
@@ -187,8 +210,13 @@ public class MemoizationTemplate {
     }
 }
 ```
+</details>
 
 ### Tabulation Template
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 public class TabulationTemplate {
@@ -209,10 +237,15 @@ public class TabulationTemplate {
     }
 }
 ```
+</details>
 
 ## Space Optimization Texnikaları
 
 ### 1. Rolling Array
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // O(n) space-dən O(1) space-ə keçid
 int prev2 = 0; // base value
@@ -223,8 +256,13 @@ for (int i = 2; i <= n; i++) {
     prev1 = current;
 }
 ```
+</details>
 
 ### 2. 1D Array for 2D DP
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // O(m*n) space-dən O(min(m,n)) space-ə keçid
 int[] dp = new int[n + 1];
@@ -234,6 +272,7 @@ for (int i = 1; i <= m; i++) {
     }
 }
 ```
+</details>
 
 ## Müsahibə Sualları
 
@@ -268,18 +307,32 @@ for (int i = 1; i <= m; i++) {
 ## Ümumi DP Patterns
 
 ### 1. Decision Making
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Hər addımda seçim etmək
 dp[i] = Math.max(take_it, leave_it);
 ```
+</details>
 
 ### 2. Path Counting
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Yolların sayını hesablamaq
 dp[i][j] = dp[i-1][j] + dp[i][j-1];
 ```
+</details>
 
 ### 3. String Matching
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Sətir uyğunlaşdırması
 if (s1.charAt(i) == s2.charAt(j)) {
@@ -288,8 +341,13 @@ if (s1.charAt(i) == s2.charAt(j)) {
     dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
 }
 ```
+</details>
 
 ### 4. Interval DP
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // İnterval üzərində DP
 for (int len = 2; len <= n; len++) {
@@ -301,6 +359,7 @@ for (int len = 2; len <= n; len++) {
     }
 }
 ```
+</details>
 
 ## Real-World Tətbiqləri
 
@@ -320,6 +379,3 @@ for (int len = 2; len <= n; len++) {
 | Knapsack | O(n*W) | O(W) optimized |
 | Edit Distance | O(n*m) | O(min(n,m)) optimized |
 
-## Nəticə
-
-Dinamik Proqramlaşdırma, optimization problemlərini həll etmək üçün güclü bir texnikadır. Düzgün state definition və recurrence relation ilə mürəkkəb problemləri effektiv şəkildə həll etmək mümkündür. DP-nin mənimsənilməsi alqoritm dizaynında mühüm addımdır və bir çox real dünya problemlərində tətbiq olunur.

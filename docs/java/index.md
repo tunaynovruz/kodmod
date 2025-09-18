@@ -19,4 +19,3 @@ Java proqramlaşdırma dili, collections, streams, multithreading və digər xü
 - Exception Handling
 - Java 8+ xüsusiyyətləri
 
-Bu bölmədə Java proqramlaşdırma dili ilə bağlı müxtəlif mövzuları əhatə edəcəyik.

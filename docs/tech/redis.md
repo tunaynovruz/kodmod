@@ -7,4 +7,3 @@ draft: true
 - Cache
 - Counter (məsələn, view sayğacı)
 - Shopping cart
-- Rate limiter (IP əsaslı)

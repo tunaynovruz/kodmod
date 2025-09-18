@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Circuit Breaker Pattern
 
-## Giriş
 
 Circuit Breaker pattern mikroservislər üçün təhlükəsizlik açarı kimi işləyir. Təsəvvür edin ki, payment service-dən asılı olan onlayn mağazanız var. Əgər bu payment service davamlı olaraq fail olmağa başlayırsa, mağazanızın onu dəfələrlə əlaqə saxlamağa çalışması əvəzinə (bu vəziyyəti daha da pisləşdirə bilər), circuit breaker "işə düşür" və müəyyən müddətə sonrakı cəhdləri dayandırır.
 
@@ -112,6 +111,3 @@ Mikroservice-inizi circuit breaker ilə production environment-a deploy edin.
 - **Configuration**: Threshold-lar və timeout-lar düzgün configure edilməlidir
 - **Testing**: Müxtəlif scenario-larda test edilməlidir
 
-## Nəticə
-
-Circuit Breaker Pattern mikroservice architecture-da system reliability-ni təmin etmək üçün vacib bir pattern-dir. Düzgün implement edildikdə, sistemin overall performance-ını və reliability-ni əhəmiyyətli dərəcədə improve edir.

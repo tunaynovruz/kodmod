@@ -425,8 +425,3 @@ Deployment prosesinin effektiv monitorinqi üçün izlənilməli metrikalar:
 5. **CPU/Yaddaş İstifadəsi**: Sistem resurslarının istifadəsi
 6. **Biznes Metrikaları**: Konversiya dərəcəsi, istifadəçi aktivliyi və s.
 
-## Nəticə
-
-Mikroservis mühitində düzgün deployment strategiyasının seçilməsi, sistemin dayanıqlılığını, əlçatanlığını və təhlükəsizliyini təmin etmək üçün kritik əhəmiyyət daşıyır. Hər strategiyanın öz üstünlükləri və çatışmazlıqları var, və seçim konkret tətbiqin tələblərinə, risk tolerantlığına və mövcud resurslara əsaslanmalıdır.
-
-Müasir deployment alətləri və platformaları (Kubernetes, Istio, Spinnaker və s.) bu strategiyaların tətbiqini asanlaşdırır və avtomatlaşdırır. Deployment prosesinin effektiv monitorinqi və avtomatlaşdırılmış geri qayıtma mexanizmləri, problemlərin tez aşkar edilməsini və həll edilməsini təmin edir.

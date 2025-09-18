@@ -62,6 +62,10 @@ Sifariş Servisi ---> [SifarişYaradıldı] ---> Ödəniş Servisi ---> [Ödəni
 - Hadisə asılılıqlarını idarə etmək çətinləşir
 
 **Nümunə Kod** (Spring Cloud Stream ilə):
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Sifariş Servisi
 @Service
@@ -132,6 +136,7 @@ public class PaymentService {
     }
 }
 ```
+</details>
 
 #### 2. Orkestrləşdirmə (Orchestration) Əsaslı Saga
 
@@ -164,6 +169,10 @@ Saga Orkestratoru +---> Ödəniş Servisi
 - Yeni servislər əlavə etmək üçün orkestratoru dəyişdirmək lazımdır
 
 **Nümunə Kod** (Spring Statemachine ilə):
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 // Saga Orkestratoru
 @Service
@@ -278,6 +287,7 @@ public class OrderSagaOrchestrator {
     // Digər action metodları...
 }
 ```
+</details>
 
 ## Saga Nümunəsinin Tətbiqi
 
@@ -385,10 +395,3 @@ Kompensasiya tranzaksiyaları özləri də uğursuz ola bilər.
 - **Manual Müdaxilə**: Kritik hallarda manual müdaxilə üçün mexanizm təmin edin
 - **Dead Letter Queue**: Uğursuz kompensasiya hadisələrini DLQ-yə göndərin
 
-## Nəticə
-
-Saga nümunəsi, mikroservis mühitində paylanmış tranzaksiyaları idarə etmək üçün güclü bir həll təqdim edir. Bu nümunə, ənənəvi ACID tranzaksiyalarının məhdudiyyətlərini aşmağa və mikroservislərin muxtariyyətini qorumağa imkan verir.
-
-Xoreoqrafiya və orkestrləşdirmə yanaşmalarının hər birinin öz üstünlükləri və çatışmazlıqları var. Tətbiqin mürəkkəbliyi, komandanın təcrübəsi və texnoloji stack kimi faktorlara əsaslanaraq ən uyğun yanaşmanı seçmək lazımdır.
-
-Saga nümunəsini tətbiq edərkən, idempotentlik, kompensasiya tranzaksiyaları və vəziyyət idarəetməsi kimi aspektlərə xüsusi diqqət yetirmək vacibdir. Bu aspektlərin düzgün idarə edilməsi, dayanıqlı və etibarlı mikroservis sistemlərinin yaradılmasına kömək edir.

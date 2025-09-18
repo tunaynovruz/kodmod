@@ -321,6 +321,3 @@ Effektiv replikasiya üçün aşağıdakı aspektlərin monitorinqi və idarə e
 4. **Failover Mexanizmləri:** Primary nasazlığı halında avtomatik keçid.
 5. **Konflikt Aşkarlanması və Həlli:** Konfliktlərin effektiv idarə edilməsi.
 
-## Nəticə
-
-Verilənlər bazası replikasiyası, müasir distributed sistemlərin əsas komponentlərindən biridir. Düzgün replikasiya strategiyasının seçilməsi, sistemin tələblərinə, iş yükünə və məlumat uyğunluğu (consistency) ehtiyaclarına əsaslanmalıdır. Hər bir replikasiya metodu və strategiyasının öz üstünlükləri və çatışmazlıqları var, və bunların balanslaşdırılması uğurlu bir replikasiya həllinin açarıdır.

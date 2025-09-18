@@ -4,7 +4,6 @@ draft: true
 # Optimistic vs Pessimistic Lock
 draft: true
 
-## Giriş
 
 Verilənlər bazasında konkurent (eyni zamanda) əməliyyatlar zamanı məlumatın bütövlüyünü qorumaq üçün iki əsas yanaşma mövcuddur: Optimistic Lock (nikbin kilid) və Pessimistic Lock (bədbin kilid). Bu iki strategiya, eyni məlumatın eyni zamanda bir neçə istifadəçi tərəfindən dəyişdirilməsi zamanı yaranan konfliktləri idarə etmək üçün fərqli metodlar təklif edir.
 
@@ -114,6 +113,3 @@ UPDATE items SET data = 'new value' WHERE id = 1;
 COMMIT;
 ```
 
-## Nəticə
-
-Optimistic və Pessimistic Lock strategiyaları arasında seçim, tətbiqin xüsusi tələblərinə və iş yükünün xarakteristikalarına əsaslanmalıdır. Oxu-ağır və nadir konfliktli sistemlər üçün Optimistic Lock daha uyğun ola bilər, halbuki yazı-ağır və tez-tez konfliktli sistemlər üçün Pessimistic Lock daha yaxşı seçim ola bilər. Müasir tətbiqlərdə çox vaxt hər iki strategiyanın kombinasiyası istifadə olunur, müxtəlif məlumat növləri və əməliyyatlar üçün ən uyğun yanaşma seçilir.

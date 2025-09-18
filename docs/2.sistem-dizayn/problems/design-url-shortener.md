@@ -358,4 +358,3 @@ Response:
 - **System Health**: Track server load, database performance
 - **Business Metrics**: Monitor URL creation rate, click volumes
 - **Error Rates**: Track failed redirects, invalid URLs
-- **Alerting**: Set up alerts for abnormal patterns or service degradation

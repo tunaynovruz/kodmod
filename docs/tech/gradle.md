@@ -192,4 +192,3 @@ subprojects {
 - Use appropriate dependency configurations
 - Optimize build performance with parallel execution
 - Document custom tasks and plugins
-- Use continuous integration with Gradle

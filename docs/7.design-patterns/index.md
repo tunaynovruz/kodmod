@@ -39,4 +39,3 @@ Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da impleme
 - Template Method
 - Visitor
 
-Bu bölmədə müxtəlif dizayn pattern-ləri və onların real dünya tətbiqlərini əhatə edəcəyik.

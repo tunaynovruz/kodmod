@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 # Builder Design Pattern
 
-## Giriş
 
 Builder Design Pattern, creational design pattern-lərdən biridir və mürəkkəb obyektlərin addım-addım yaradılmasını təmin edir. Bu pattern, eyni yaradılma prosesindən istifadə edərək müxtəlif təmsilçilər yaratmağa imkan verir və yaradılma prosesini məhsulun təmsilindən ayırır.
 
@@ -33,6 +32,10 @@ Builder pattern, xüsusilə çoxlu parametrləri olan obyektlərin yaradılması
 ## Java-da Builder Pattern İmplementasiyası
 
 ### Sadə Builder Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Product class
@@ -97,8 +100,13 @@ public class BuilderExample {
     }
 }
 ```
+</details>
 
 ### Director ilə Builder Pattern
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 // Product
@@ -213,10 +221,15 @@ public class DirectorBuilderExample {
     }
 }
 ```
+</details>
 
 ### Lombok ilə Builder Pattern
 
 Java-da Lombok kitabxanası istifadə edərək, Builder pattern-i daha asan tətbiq etmək mümkündür:
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 import lombok.Builder;
@@ -249,6 +262,7 @@ public class LombokBuilderExample {
     }
 }
 ```
+</details>
 
 ## Builder Pattern-nin Üstünlükləri
 
@@ -277,6 +291,10 @@ public class LombokBuilderExample {
 
 Java-nın özündə olan `StringBuilder` class-ı, Builder pattern-in real nümunəsidir:
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 public class StringBuilderExample {
     public static void main(String[] args) {
@@ -290,8 +308,13 @@ public class StringBuilderExample {
     }
 }
 ```
+</details>
 
 ### Document Builder
+
+
+<details>
+<summary>Koda bax</summary>
 
 ```java
 class Document {
@@ -370,7 +393,5 @@ public class DocumentBuilderExample {
     }
 }
 ```
+</details>
 
-## Nəticə
-
-Builder Design Pattern, mürəkkəb obyektlərin yaradılması prosesini sadələşdirir və kod-un daha oxunaqlı və maintainable olmasını təmin edir. Bu pattern, xüsusilə çoxlu parametrləri olan obyektlərin yaradılması zamanı və immutable obyektlər yaratmaq istədiyimiz hallarda çox faydalıdır. Java-da Builder pattern-i tətbiq etmək üçün müxtəlif üsullar mövcuddur və hər bir üsul müxtəlif ssenarilərdə istifadə oluna bilər.

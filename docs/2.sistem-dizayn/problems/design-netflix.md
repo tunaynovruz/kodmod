@@ -337,4 +337,3 @@ Design a video streaming service like Netflix that:
 - **Personalized Rows**: Customize content rows based on user preferences
 - **Time-based Recommendations**: Recommend different content based on time of day
 - **Multi-profile Support**: Support different recommendations for different profiles
-- **Taste Communities**: Group users with similar tastes for better recommendations

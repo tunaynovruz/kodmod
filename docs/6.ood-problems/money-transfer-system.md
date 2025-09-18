@@ -45,6 +45,10 @@ Design a money transfer system that allows users to transfer funds between accou
 
 ## Implementation
 
+
+<details>
+<summary>Koda bax</summary>
+
 ```java
 import java.time.LocalDateTime;
 import java.util.*;
@@ -702,6 +706,7 @@ public class MoneyTransferDemo {
     }
 }
 ```
+</details>
 
 ## Thread Safety Considerations
 
@@ -737,4 +742,3 @@ public class MoneyTransferDemo {
 2. **Notification System**: Users are notified of transaction status
 3. **Transaction History**: Comprehensive history of all transactions
 4. **Different Account Types**: Support for checking, savings, and investment accounts
-5. **Extensible Design**: Easy to add new features like scheduled transfers or recurring payments
