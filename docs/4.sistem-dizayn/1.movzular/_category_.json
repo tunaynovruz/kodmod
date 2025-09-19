@@ -1,0 +1,14 @@
+{
+  "label": "Mövzular",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Sistem Dizayn Mövzuları",
+    "slug": "sistem-dizayn/movzular"
+  },
+  "customProps": {
+    "description": "Sistem Dizayn Mövzuları"
+  }
+}
