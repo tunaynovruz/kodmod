@@ -1,0 +1,14 @@
+{
+  "label": "Behavioral",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Behavioral Design Patternlər",
+    "slug": "design-patternler/behavioral"
+  },
+  "customProps": {
+    "description": "Behavioral Design Patternlər"
+  }
+}

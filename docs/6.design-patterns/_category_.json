@@ -1,0 +1,14 @@
+{
+  "label": "Design Patternlər",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Design Patternlər",
+    "slug": "design-patternler"
+  },
+  "customProps": {
+    "description": "Design Patternlər"
+  }
+}

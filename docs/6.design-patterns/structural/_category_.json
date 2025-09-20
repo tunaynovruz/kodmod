@@ -1,0 +1,14 @@
+{
+  "label": "Structural",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Structural Design Patternlər",
+    "slug": "design-patternler/structural"
+  },
+  "customProps": {
+    "description": "Structural Design Patternlər"
+  }
+}
