@@ -62,11 +62,11 @@ const config = {
             label: 'Sistem Dizaynı',
             position: 'left',
           },
-          /*{
+          {
             to: '/mikroservisler',
             label: 'Mikroservislər',
             position: 'left',
-          },*/
+          },
 
           {
             to: '/database',
@@ -148,11 +148,11 @@ const config = {
               /*{
                 label: 'Texnologiyalar',
                 to: '/tech',
-              },
+              },*/
               {
                 label: 'Mikroservislər',
-                to: '/mikroservisler/giris',
-              },*/
+                to: '/mikroservisler',
+              },
             ],
           },
           {

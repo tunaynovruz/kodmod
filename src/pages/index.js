@@ -7,13 +7,13 @@ const topics = [
         description: 'Müasir tətbiqlər üçün miqyaslana bilən və etibarlı sistemlər qurun.',
         link: '/sistem-dizayn',
         icon: '🏗️',
-    },/*
+    },
     {
         title: 'Mikroservislər',
         description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
         link: '/mikroservisler',
         icon: '🔌',
-    },*/
+    },
 
     {
         title: 'DataBase',
