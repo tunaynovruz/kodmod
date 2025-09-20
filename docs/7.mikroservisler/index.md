@@ -1,8 +1,6 @@
 ---
-draft: true
 description: Mikroservis arxitekturasının əsasları, üstünlükləri və çətinlikləri
 slug: /mikroservisler
-authors: [tunay]
 ---
 # Mikroservislər
 
@@ -56,41 +54,45 @@ Hər servis:
 ## Arxitektura Diaqramları
 
 ### Monolitik Sistem
-```
-┌──────────────────────────────┐
-│                              │
-│        Monolitik App         │
-│                              │
-│  ┌─────────────────────────┐ │
-│  │    UI Layer             │ │
-│  ├─────────────────────────┤ │
-│  │    Business Logic       │ │
-│  ├─────────────────────────┤ │
-│  │    Data Access          │ │
-│  └─────────────────────────┘ │
-│                              │
-└─────────────┬────────────────┘
-              │
-    ┌─────────▼─────────┐
-    │                   │
-    │     Database      │
-    │                   │
-    └───────────────────┘
+
+```mermaid
+graph TB
+    subgraph "Monolitik Aplikasiya"
+        A[UI Layer]
+        B[Business Logic]
+        C[Data Access Layer]
+        
+        A --> B
+        B --> C
+    end
+    
+    C --> D[(Database)]
 ```
 
-### Mikroservis Sistemi (sadə)
-```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│             │    │             │    │             │
-│   User      │    │   Order     │    │   Payment   │
-│   Service   │    │   Service   │    │   Service   │
-│             │    │             │    │             │
-└──────┬──────┘    └──────┬──────┘    └──────┬──────┘
-       │                  │                  │
-┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
-│             │    │             │    │             │
-│   User DB   │    │  Order DB   │    │ Payment DB  │
-│             │    │             │    │             │
-└─────────────┘    └─────────────┘    └─────────────┘
+### Mikroservis Sistemi
+
+```mermaid
+graph TB
+    subgraph "User Service"
+        A[User Logic]
+        A --> B[(User DB)]
+    end
+    
+    subgraph "Order Service"
+        C[Order Logic] 
+        C --> D[(Order DB)]
+    end
+    
+    subgraph "Payment Service"
+        E[Payment Logic]
+        E --> F[(Payment DB)]
+    end
+    
+    G[Client] --> A
+    G --> C
+    G --> E
+    
+    C -.-> A
+    C -.-> E
 ```
 
