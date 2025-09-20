@@ -1,41 +1,57 @@
 ---
 description: Mikroservis arxitekturasının əsasları, üstünlükləri və çətinlikləri
 slug: /mikroservisler
+tags: [mikroservislər]
+keywords: [mikroservislər]
 ---
 # Mikroservislər
 
-## Mikroservis nədir?
-
-Mikroservis böyük tətbiqi kiçik və müstəqil hissələrə ayıran arxitektura yanaşmasıdır.
-
-Hər servis:
-- Öz işini görür
-- Ayrı-ayrı işləyir
-- Başqa servislə rabitə qurur
+Mikroservis böyük tətbiqi kiçik və müstəqil hissələrə ayıran arxitektura yanaşmasıdır. Hər servis öz işini görür və başqa servislə rabitə qurur.
 
 ## Niyə ehtiyac var?
 
 - Böyük layihələr idarə etmək çətindir
-- Komanda işi daha asan olur
-- Yenilik əlavə etmək sürətlənir
-- Xəta bir yerdə qalarsa, bütün sistem dayanmır
+- Komanda işi asanlaşır
+- Yenilik əlavə etmək sürətlənir  
+- Xəta bir yerdə qalarsa, sistem dayanmır
 
-## Üstünlükləri
+| Üstünlüklər | Çətinliklər |
+|-------------|-------------|
+| Müstəqil işləmə | Şəbəkə mürəkkəbliyi |
+| Asan scale | Servislər arası əlaqə |
+| Texnologiya seçimi | Test mürəkkəbliyi |
+| Ayrı deploy | Monitorinq çətinliyi |
+| Yaxşı performans | Data uyğunsuzluğu |
 
-- **Müstəqillik**: Hər servis ayrı işləyir
-- **Scale**: Lazım olan servis böyüdülür
-- **Texnologiya seçimi**: Hər servis üçün uyğun texnologiya
-- **Deploy**: Hər servis ayrı yenilənir
-- **Performance**: Daha yaxşı performans
-- **Komanda işi**: Kiçik qruplar işləyir
+## Mövzular və Keçidlər
 
-## Çətinlikləri
+### 🔧 İnfrastruktur və Rabitə
+| Mövzu | Təsvir |
+|-------|---------|
+| [Service Discovery](/mikroservisler/service-discovery) | Servislər bir-birini necə tapır |
+| [Kommunikasiya](/mikroservisler/kommunikasiya) | Servislər arası rabitə növləri |
+| [Deployment Strategiyaları](/mikroservisler/deployment-strategiyalar) | Servisləri yeniləmə yolları |
 
-- Şəbəkə rabitəsi mürəkkəbdir
-- Servislər arası əlaqə çətindir
-- Test etmək çox vaxt alır
-- Monitorinq çətinləşir
-- Data consistency problemi
+### 💾 Data İdarəetməsi  
+| Mövzu | Təsvir |
+|-------|---------|
+| [Database Per Service](/mikroservisler/database-per-service) | Hər servis üçün ayrı database |
+| [API Composition](/mikroservisler/api-composition) | Data birləşdirmə pattern-i |
+| [CQRS](/mikroservisler/cqrs) | Command Query ayrılığı |
+
+### 🛡️ Etibarlılıq və Resilience
+| Mövzu | Təsvir |
+|-------|---------|
+| [Circuit Breaker](/mikroservisler/circuit-breaker) | Sistem qoruma mexanizmi |
+| [Saga](/mikroservisler/saga) | Transaction idarəetməsi |
+| [Dead Letter Queue](/mikroservisler/dlq) | Uğursuz mesajlar üçün növbə |
+
+### 🏗️ Arxitektura Pattern-ləri
+| Mövzu | Təsvir |
+|-------|---------|
+| [Domain-Driven Design](/mikroservisler/domain-driven-design) | Domain mərkəzli dizayn |
+| [Event-Driven](/mikroservisler/event-driven) | Hadisə əsaslı arxitektura |
+| [Hexagonal](/mikroservisler/hexagonal) | Port və Adapter pattern-i |
 
 ## Monolitik vs Microservice
 
