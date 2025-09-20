@@ -1,0 +1,14 @@
+{
+  "label": "Suallar",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Sistem Dizayn Sualları",
+    "slug": "sistem-dizayn/suallar"
+  },
+  "customProps": {
+    "description": "Sistem Dizayn Sualları"
+  }
+}

@@ -66,18 +66,18 @@ const config = {
             to: '/mikroservisler',
             label: 'Mikroservislər',
             position: 'left',
-          },
+          },*/
 
           {
-            to: '/db',
-            label: 'DataBase',
+            to: '/database',
+            label: 'Database',
             position: 'left',
           },
           {
-            to: '/design-patterns',
-            label: 'Dizayn Pattern-lər',
+            to: '/design-patternler',
+            label: 'Dizayn Patternlər',
             position: 'left',
-          },*/
+          },
           {
             to: '/alqoritmler',
             label: 'Alqoritmlər',
@@ -114,11 +114,11 @@ const config = {
               /*{
                 label: 'Java',
                 to: '/java',
-              },
+              },*/
               {
                 label: 'Dizayn Pattern-lər',
-                to: '/design-patterns',
-              },*/
+                to: '/design-patternler',
+              },
               {
                 label: 'Sistem Dizaynı',
                 to: '/sistem-dizayn',

@@ -13,20 +13,20 @@ const topics = [
         description: 'Mikroservis arxitekturası, dizayn prinsipləri və implementasiya nümunələri.',
         link: '/mikroservisler',
         icon: '🔌',
-    },
+    },*/
 
     {
         title: 'DataBase',
         description: 'SQL və NoSQL database-lər, indexing, optimization və digər konseptlər.',
-        link: '/db',
+        link: '/database',
         icon: '🗄️',
     },
     {
-        title: 'Dizayn Pattern-lər',
+        title: 'Dizayn Patternlər',
         description: 'Proqram təminatı dizaynında istifadə olunan pattern-lər və Java-da implementasiyaları.',
-        link: '/design-patterns',
+        link: '/design-patternler',
         icon: '🧩',
-    },*/
+    },
     {
         title: 'Data Strukturları',
         description: 'Əsas data strukturları, onların implementasiyası və istifadə sahələri.',

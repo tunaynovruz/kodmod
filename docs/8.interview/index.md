@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Sistem Dizayn
 sidebar_label: Sistem Dizayn
 sidebar_class_name: green

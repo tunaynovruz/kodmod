@@ -1,0 +1,14 @@
+{
+  "label": "Sistem Dizayn",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Sistem Dizayn",
+    "slug": "sistem-dizayn"
+  },
+  "customProps": {
+    "description": "Sistem Dizayn"
+  }
+}
