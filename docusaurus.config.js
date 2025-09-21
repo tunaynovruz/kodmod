@@ -174,7 +174,7 @@ const config = {
       prism: {
         theme: prismThemes.vsLight,
         darkTheme: prismThemes.vsDark,
-        additionalLanguages: ['java'],
+        additionalLanguages: ['java','powershell','http'],
       },
     }),
 
