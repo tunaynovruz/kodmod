@@ -1,0 +1,14 @@
+{
+  "label": "Texnologiyalar",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Texnologiyalar",
+    "slug": "texnologiyalar"
+  },
+  "customProps": {
+    "description": "Texnologiyalar"
+  }
+}

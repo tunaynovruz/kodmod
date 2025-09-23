@@ -1,0 +1,14 @@
+{
+  "label": "Testing",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Testing",
+    "slug": "testing"
+  },
+  "customProps": {
+    "description": "Testing"
+  }
+}

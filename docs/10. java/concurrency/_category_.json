@@ -1,0 +1,14 @@
+{
+  "label": "Concurency",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Java Concurency",
+    "slug": "java/concurency"
+  },
+  "customProps": {
+    "description": "Java Concurency"
+  }
+}
