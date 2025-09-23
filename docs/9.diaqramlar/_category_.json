@@ -1,0 +1,14 @@
+{
+  "label": "Diaqramlar",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Diaqramlar",
+    "slug": "diaqramlar"
+  },
+  "customProps": {
+    "description": "Diaqramlar"
+  }
+}
