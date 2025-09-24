@@ -1,0 +1,14 @@
+{
+  "label": "OOD Suallar",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "OOD Suallar",
+    "slug": "ood"
+  },
+  "customProps": {
+    "description": "OOD Suallar"
+  }
+}
