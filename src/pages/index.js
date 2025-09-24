@@ -37,7 +37,7 @@ const topics = [
         description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
         link: '/alqoritmler',
         icon: '🧮',
-    },/*
+    },
     {
         title: 'Java',
         description: 'Java proqramlaşdırma dili, collections, streams, multithreading və digər xüsusiyyətlər.',
@@ -47,15 +47,9 @@ const topics = [
     {
         title: 'Texnologiyalar',
         description: 'Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.',
-        link: '/tech',
+        link: '/texnologiyalar',
         icon: '🚀',
-    },
-    {
-        title: 'Necə dəstək olmaq olar?',
-        description: 'Layihəyə töhfə vermək və əməkdaşlıq etmək haqqında məlumat.',
-        link: '/contribute',
-        icon: '🤝',
-    },*/
+    }
 ];
 
 function TopicCard({ title, description, link, icon }) {

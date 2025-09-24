@@ -1,0 +1,200 @@
+---
+draft: true
+---
+# Redis
+draft: true
+
+- **In-Memory Məlumat Strukturu Mağazası:** Redis (Remote Dictionary Server) açıq mənbəli, yaddaşda məlumat strukturu mağazasıdır.
+- **NoSQL Verilənlər Bazası:** Key-value əsaslı NoSQL verilənlər bazası olaraq istifadə olunur.
+- **Yüksək Performans:** Məlumatları əsasən RAM-da saxladığı üçün çox sürətlidir.
+- **Müxtəlif Məlumat Növləri:** String, Hash, List, Set, Sorted Set, Bitmap və digər məlumat strukturlarını dəstəkləyir.
+- **Dayanıqlılıq:** RDB snapshots və AOF (Append Only File) vasitəsilə məlumatları diskə saxlayır.
+- **Cluster Dəstəyi:** Horizontal miqyaslanma üçün Redis Cluster təqdim edir.
+- **Pub/Sub:** Publish/Subscribe messaging pattern dəstəyi.
+
+## Əsas Xüsusiyyətlər
+
+### Məlumat Strukturları
+
+- **String:** Sadə key-value cütlükləri
+- **Hash:** Field-value xəritələri
+- **List:** Sıralı string məcmuları
+- **Set:** Unikal stringlərin sıralanmamış məcmusu
+- **Sorted Set:** Bal əsasında sıralanmış stringlər
+- **Bitmap:** Bit əməliyyatları üçün
+- **HyperLogLog:** Təxmini kardinallik hesablaması
+- **Stream:** Log məlumat strukturu
+
+### Redis vs Digər Cache Həlləri
+
+| Xüsusiyyət | Redis | Memcached | Hazelcast |
+|------------|-------|-----------|-----------|
+| Məlumat Strukturları | Zəngin (String, Hash, List və s.) | Yalnız key-value | Object, Map, List |
+| Dayanıqlılıq | RDB və AOF | Yoxdur | Var |
+| Replikasiya | Master-Slave | Yoxdur | Avtomatik |
+| Cluster | Redis Cluster | Consistent Hashing | Daxili cluster |
+| Pub/Sub | Var | Yoxdur | Var |
+| Performans | Çox yüksək | Çox yüksək | Yüksək |
+| Memory İstifadəsi | Səmərəli | Çox səmərəli | Orta |
+
+## Redis İstifadə Sahələri
+
+- **Mikroservislər arasında session paylaşımı**
+- **Cache (Keşləmə)**
+- **Counter (məsələn, view sayğacı)**
+- **Shopping cart (Alış-veriş səbəti)**
+- **Real-time Analytics**
+- **Leaderboard (Liderlik cədvəli)**
+- **Message Queue**
+- **Rate Limiting**
+- **Geospatial İndeksləmə**
+
+## Ümumi Redis Əmrləri
+
+### String Əməliyyatları
+```bash
+# Dəyər təyin et
+SET key value
+
+# Dəyər oxu
+GET key
+
+# TTL ilə təyin et
+SETEX key 3600 value
+
+# Artır
+INCR counter
+
+# Artır (spesifik miqdar)
+INCRBY counter 5
+```
+
+### Hash Əməliyyatları
+```bash
+# Hash field təyin et
+HSET user:1 name "John" age 30
+
+# Hash field oxu
+HGET user:1 name
+
+# Bütün hash-ı oxu
+HGETALL user:1
+```
+
+### List Əməliyyatları
+```bash
+# Sola əlavə et
+LPUSH mylist element1
+
+# Sağa əlavə et
+RPUSH mylist element2
+
+# List elementlərini oxu
+LRANGE mylist 0 -1
+```
+
+### Set Əməliyyatları
+```bash
+# Element əlavə et
+SADD myset member1
+
+# Set üzvlərini oxu
+SMEMBERS myset
+
+# İki set-in kəsişməsi
+SINTER set1 set2
+```
+
+## Performans Optimallaşdırması
+
+### Memory Optimallaşdırması
+- Hash-max-ziplist parametrlərini tənzimlə
+- String encoding optimallaşdırması
+- Expire policy-ni düzgün seç
+
+### Connection Pooling
+```java
+// Java ilə Redis connection pool
+JedisPool pool = new JedisPool("localhost", 6379);
+try (Jedis jedis = pool.getResource()) {
+    jedis.set("key", "value");
+}
+```
+
+## Dayanıqlılıq və Backup
+
+### RDB (Redis Database)
+- Point-in-time snapshot
+- Kompakt fayl formatı
+- Sürətli restart
+
+### AOF (Append Only File)
+- Hər yazı əməliyyatını log-layır
+- Daha yaxşı dayanıqlılıq
+- Böyük fayl ölçüsü
+
+## Redis Cluster
+
+### Şarding
+- 16384 hash slot
+- Avtomatik data distribution
+- Horizontal scaling
+
+### Master-Slave Replikasiya
+```bash
+# Slave konfiqurasiyası
+SLAVEOF master-ip master-port
+
+# Replikasiya statusu
+INFO replication
+```
+
+## Security
+
+### Authentication
+```bash
+# Password təyin et
+CONFIG SET requirepass mypassword
+
+# Authentication
+AUTH mypassword
+```
+
+### Network Security
+- bind directive istifadə et
+- Firewall qaydaları
+- TLS/SSL dəstəyi
+
+## Monitoring və Debugging
+
+### Vacib Metrikalar
+- Memory istifadəsi
+- Hit/miss ratio
+- Slow queries
+- Connection count
+
+### Redis-CLI Alətləri
+```bash
+# Redis-cli bağlantı
+redis-cli -h host -p port
+
+# Monitor əmrləri
+MONITOR
+
+# Statistika
+INFO stats
+
+# Yavaş sorğular
+SLOWLOG GET 10
+```
+
+## Ən Yaxşı Təcrübələr
+
+- **Connection Pooling** istifadə edin
+- **Pipeline** əməliyyatlarını batch-ləyin
+- **Expire time** düzgün təyin edin
+- **Memory monitoring** aparın
+- **Backup strategiyası** hazırlayın
+- **Security** tənzimləmələrini tətbiq edin
+- **Replication** disaster recovery üçün quraşdırın
+- **Cluster** yüksək əlçatanlıq üçün istifadə edin

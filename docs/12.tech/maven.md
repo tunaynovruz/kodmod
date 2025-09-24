@@ -1,0 +1,182 @@
+---
+draft: true
+---
+# Maven
+draft: true
+
+- **Build Avtomatlaşdırma Aləti:** Maven əsasən Java layihələri üçün istifadə olunan build avtomatlaşdırma və layihə idarəetmə alətidir.
+- **Konfiqurasiya üzərində Konvensiya:** Standart qovluq strukturu və build həyat dövrünü izləyir, konfiqurasiya ehtiyacını azaldır.
+- **Asılılıq İdarəetməsi:** Layihə asılılıqlarını idarə edir, lazım olan kitabxanaları avtomatik yükləyir.
+- **Layihə Obyekt Modeli (POM):** Layihəni, onun asılılıqlarını və build prosesini təsvir etmək üçün XML əsaslı POM fayllarından istifadə edir.
+- **Plugin-lər:** Plugin arxitekturası vasitəsilə funksionallığı genişləndirir.
+- **Anbar Sistemi:** Artifaktları lokal və uzaq anbarlardan saxlayır və gətirir.
+- **Çox-Modül Layihələr:** Çoxlu modulları olan mürəkkəb tətbiqetmələrin qurulmasını dəstəkləyir.
+
+## Əsas Anlayışlar
+
+### Layihə Obyekt Modeli (POM)
+
+POM layihə haqqında məlumat və Maven tərəfindən layihəni qurmaq üçün istifadə olunan konfiqurasiya təfərrüatlarını ehtiva edən XML faylıdır.
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.example</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
+
+### Maven Koordinatları
+
+Maven artifaktları unikal şəkildə müəyyən etmək üçün koordinatlardan istifadə edir:
+
+- **groupId:** Təşkilat və ya qrup (məsələn, com.example)
+- **artifactId:** Layihə adı (məsələn, my-app)
+- **version:** Layihənin spesifik versiyası (məsələn, 1.0-SNAPSHOT)
+- **packaging:** Artifakt növü (məsələn, jar, war, ear)
+
+### Maven vs Digər Build Alətləri
+
+| Xüsusiyyət | Maven | Gradle | Ant |
+|------------|-------|--------|-----|
+| Build Dili | XML | Groovy/Kotlin DSL | XML |
+| Çeviklik | Konvensiya əsaslı | Yüksək dərəcədə çevik | Yüksək dərəcədə çevik |
+| Performans | Orta | Artan build-lərlə sürətli | Sadə build-lər üçün sürətli |
+| Asılılıq İdarəetməsi | Yaxşı | Təkmil | Məhdud (Ivy ilə) |
+| Öyrənmə Əyrisi | Orta | Dik | Orta |
+| Plugin-lər | Zəngin ekosistem | Zəngin ekosistem | Məhdud |
+| Çox-layihə Dəstəyi | Yaxşı | Əla | Məhdud |
+
+## Maven Həyat Dövrü
+
+Maven-də üç daxili build həyat dövrü var:
+
+1. **Default:** Layihə yerləşdirilməsini idarə edir
+2. **Clean:** Layihə təmizlənməsini idarə edir
+3. **Site:** Layihə sənədləşdirməsinin yaradılmasını idarə edir
+
+Hər həyat dövrü fazalardan ibarətdir:
+
+- **validate:** Layihə strukturunu təsdiq edir
+- **compile:** Mənbə kodunu kompile edir
+- **test:** Test-ləri işlədir
+- **package:** Kompile edilmiş kodu paketləyir
+- **verify:** İnteqrasiya test-lərini işlədir
+- **install:** Paketi lokal anbara quraşdırır
+- **deploy:** Paketi uzaq anbara kopyalayır
+
+## Ümumi Maven Əmrləri
+
+```bash
+# Layihəni qur
+mvn clean install
+
+# Yalnız kompile et
+mvn compile
+
+# Test-ləri çalışdır
+mvn test
+
+# JAR/WAR yarat
+mvn package
+
+# Lokal anbara quraşdır
+mvn install
+
+# Uzaq anbara deploy et
+mvn deploy
+
+# Dependency-ləri göstər
+mvn dependency:tree
+
+# Layihə məlumatını göstər
+mvn help:effective-pom
+```
+
+## Asılılıq İdarəetməsi
+
+Maven-də asılılıqlar POM faylında təyin edilir:
+
+```xml
+<dependencies>
+    <!-- Kompile üçün lazım -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>5.3.0</version>
+    </dependency>
+    
+    <!-- Yalnız test üçün -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <!-- Runtime üçün -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.28</version>
+        <scope>runtime</scope>
+    </dependency>
+</dependencies>
+```
+
+## Dependency Scope-ları
+
+- **compile:** Default scope, kompilyasiya və runtime üçün lazım
+- **provided:** Kompilyasiya üçün lazım, amma runtime-da container tərəfindən təmin edilir
+- **runtime:** Runtime üçün lazım, kompilyasiya üçün deyil
+- **test:** Test kompilyasiya və icra üçün lazım
+- **system:** Provided-a bənzər, amma JAR-ı əl ilə təmin etmək lazımdır
+- **import:** Yalnız POM dependency-lərdə, dependency management-i import etmək üçün
+
+## İstifadə Halları
+
+- **Enterprise Java Tətbiqetmələri:** Böyük miqyaslı Java layihələri
+- **Spring Boot Tətbiqetmələri:** Mikroxidmətlər və veb tətbiqetmələr
+- **Çox-modül Layihələr:** Mürəkkəb layihə strukturları
+- **CI/CD Pipeline:** Avtomatik build və deployment
+- **Kitabxana İnkişafı:** Maven Central-a publish
+
+## Ən Yaxşı Təcrübələr
+
+- Versiya nəzarətini düzgün idarə edin
+- Dependency-ləri minimal saxlayın
+- Maven Wrapper istifadə edin
+- Parent POM-lardan istifadə edin
+- Profile-ları müxtəlif mühitlər üçün istifadə edin
+- Plugin versiyalarını kilidləyin
+- Dependency scope-larını düzgün istifadə edin
+- Maven repository-ni təmiz saxlayın

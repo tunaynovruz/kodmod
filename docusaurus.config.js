@@ -87,9 +87,9 @@ const config = {
             to: '/data-strukturlar',
             label: 'Data Strukturları',
             position: 'left',
-          },/*
+          },
           {
-            to: '/tech',
+            to: '/texnologiyalar',
             label: 'Texnologiyalar',
             position: 'left',
           },
@@ -97,12 +97,7 @@ const config = {
             to: '/java',
             label: 'Java',
             position: 'left',
-          },*/
-          {
-            href: 'https://github.com/tunaynovruz/kodmod',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
@@ -111,10 +106,10 @@ const config = {
           {
             title: 'Əsas Mövzular',
             items: [
-              /*{
+              {
                 label: 'Java',
                 to: '/java',
-              },*/
+              },
               {
                 label: 'Dizayn Pattern-lər',
                 to: '/design-patternler',
@@ -135,37 +130,24 @@ const config = {
               {
                 label: 'Data Strukturları',
                 to: '/data-strukturlar',
-              },/*
+              },
               {
                 label: 'Verilənlər Bazası',
-                to: '/verilenler-bazasi',
-              },*/
+                to: '/database',
+              },
             ],
           },
           {
             title: 'Texnologiyalar',
             items: [
-              /*{
+              {
                 label: 'Texnologiyalar',
                 to: '/tech',
-              },*/
+              },
               {
                 label: 'Mikroservislər',
                 to: '/mikroservisler',
               },
-            ],
-          },
-          {
-            title: 'Əlaqə',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/tunaynovruz/kodmod',
-              },
-              /*{
-                label: 'Töhfə Ver',
-                to: '/contribute',
-              },*/
             ],
           }
         ],

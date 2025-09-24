@@ -1,0 +1,153 @@
+---
+draft: true
+---
+# Gradle
+draft: true
+
+- **Build Avtomatlaşdırma Aləti:** Gradle çoxdilli inkişafı və çoxlu platformaları dəstəkləyən build avtomatlaşdırma alətidir.
+- **Groovy/Kotlin DSL:** Build-ləri elan etmək üçün Groovy və ya Kotlin əsaslı DSL (Domain Specific Language) istifadə edir.
+- **Asılılıq İdarəetməsi:** Layihə asılılıqlarını həll etmək və istifadə etmək üçün güclü asılılıq idarəetməsi.
+- **Yüksək Dərəcədə Fərdiləşdirilə bilən:** Plugin-lər və fərdi task növləri ilə genişlənə bilən build sistemi.
+- **Artan Build-lər:** Giriş və çıxış dəyişikliklərini izləyərək lazımsız işlərin qarşısını alır.
+- **Build Cache:** Daha sürətli build-lər üçün əvvəlki build-lərdən çıxışları təkrar istifadə edir.
+- **Çox-Layihə Build-ləri:** Mürəkkəb, çox-layihəli build-ləri asanlıqla dəstəkləyir.
+
+## Əsas Anlayışlar
+
+### Build Skriptləri
+
+Gradle build-ləri build skriptlərində təyin olunur, adətən `build.gradle` (Groovy) və ya `build.gradle.kts` (Kotlin) adlanır.
+
+```groovy
+// Sadə Gradle build skripti (Groovy)
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+```
+
+### Layihələr və Task-lər
+
+- **Layihə:** Build edilə bilən komponenti təmsil edir (məsələn, kitabxana və ya tətbiqetmə)
+- **Task:** Build-də atomik iş parçasını təmsil edir (məsələn, siniflərin kompilyasiyası, JAR yaradılması)
+
+```groovy
+// Fərdi task nümunəsi
+task hello {
+    doLast {
+        println 'Salam, Dünya!'
+    }
+}
+```
+
+### Gradle vs Digər Build Alətləri
+
+| Xüsusiyyət | Gradle | Maven | Ant |
+|------------|--------|-------|-----|
+| Build Dili | Groovy/Kotlin DSL | XML | XML |
+| Çeviklik | Yüksək dərəcədə çevik | Konvensiya əsaslı | Yüksək dərəcədə çevik |
+| Performans | Artan build-lərlə sürətli | Yavaş | Sadə build-lər üçün sürətli |
+| Asılılıq İdarəetməsi | Təkmil | Yaxşı | Məhdud (Ivy ilə) |
+| Öyrənmə Əyrisi | Dik | Orta | Orta |
+| Plugin-lər | Zəngin ekosistem | Zəngin ekosistem | Məhdud |
+| Çox-layihə Dəstəyi | Əla | Yaxşı | Məhdud |
+
+## Gradle Həyat Dövrü
+
+1. **İnisializasiya:** Build-də hansı layihələrin iştirak edəcəyini müəyyən edir
+2. **Konfiqurasiya:** Layihə obyektlərini konfiqurasiya edir, task-ları yaradır və konfigurasiya edir
+3. **İcra:** Seçilmiş task-ları icra edir
+
+## Ümumi Gradle Əmrləri
+
+```bash
+# Build çalışdır
+gradle build
+
+# Build qovluğunu təmizlə
+gradle clean
+
+# Test-ləri çalışdır
+gradle test
+
+# Spesifik task-larla build et
+gradle compile jar
+
+# Asılılıqları göstər
+gradle dependencies
+
+# Debug məlumatı ilə çalışdır
+gradle --info build
+
+# Build scan ilə çalışdır
+gradle build --scan
+
+# Gradle wrapper istifadə et
+./gradlew build
+```
+
+## Plugin Sistemi
+
+Gradle-in güclü plugin sistemi build funksionallığını genişləndirir:
+
+```groovy
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.0'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+```
+
+## Asılılıq İdarəetməsi
+
+```groovy
+dependencies {
+    // Kompilyasiya və runtime üçün
+    implementation 'org.springframework:spring-core:5.3.0'
+    
+    // Yalnız kompilyasiya üçün
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    
+    // Runtime üçün
+    runtimeOnly 'mysql:mysql-connector-java:8.0.28'
+    
+    // Test üçün
+    testImplementation 'junit:junit:4.13.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+```
+
+## İstifadə Halları
+
+- **Java/Kotlin Layihələri:** Enterprise və kiçik layihələr
+- **Android İnkişafı:** Rəsmi Android build aləti
+- **Çox-modül Layihələr:** Mürəkkəb layihə strukturları
+- **Mikroxidmətlər:** Ayrı-ayrı xidmətlərin build edilməsi
+- **CI/CD Pipeline:** Avtomatik build və deployment
+
+## Ən Yaxşı Təcrübələr
+
+- Gradle Wrapper-dən istifadə edin
+- Build cache-i aktiv edin
+- Incremental compilation istifadə edin
+- Uyğun dependency scope-larından istifadə edin
+- Build skriptlərini modular saxlayın
+- Build performance-ını izləyin
+- Gradle daemon istifadə edin
+- Versiya kataloqlarından istifadə edin
+- Build scan-dən performans təhlili üçün istifadə edin
