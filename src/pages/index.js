@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.module.css';
+import CustomSearchBar from '@site/src/components/CustomSearchBar';
 
 const topics = [
     {
@@ -100,6 +101,9 @@ export default function HomePage() {
                     </div>
                 </header>
 
+                {/* Add Algolia search bar before topics */}
+                <CustomSearchBar />
+
                 <section className={styles.topicsSection}>
                     <h2 className={styles.sectionTitle}>Mövzular</h2>
                     <div className={styles.topicsGrid}>
@@ -120,6 +124,7 @@ export default function HomePage() {
                     </div>
                 </footer>
             </main>
+            <meta name="algolia-site-verification"  content="0A3C3630DDD5C1E1" />
         </div>
     );
 }
