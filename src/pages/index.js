@@ -14,9 +14,8 @@ const topics = [
         link: '/mikroservisler',
         icon: '🔌',
     },
-
     {
-        title: 'DataBase',
+        title: 'Database',
         description: 'SQL və NoSQL database-lər, indexing, optimization və digər konseptlər.',
         link: '/database',
         icon: '🗄️',
@@ -32,7 +31,8 @@ const topics = [
         description: 'Əsas data strukturları, onların implementasiyası və istifadə sahələri.',
         link: '/data-strukturlar',
         icon: '📊',
-    },{
+    },
+    {
         title: 'Alqoritmlər',
         description: 'Alqoritmlər, problem həll etmə strategiyaları və mürəkkəblik analizi haqqında.',
         link: '/alqoritmler',
@@ -49,7 +49,31 @@ const topics = [
         description: 'Docker, Kubernetes, Kafka, Redis və digər müasir texnologiyalar.',
         link: '/texnologiyalar',
         icon: '🚀',
-    }
+    },
+    {
+        title: 'Testing',
+        description: 'Unit, integration, e2e testlər, test piramidası və keyfiyyət strategiyaları.',
+        link: '/testing',
+        icon: '🧪',
+    },
+    {
+        title: 'Security',
+        description: 'Veb və tətbiq təhlükəsizliyi mövzuları: CSRF, XSS, OAuth, Rate Limiting, SQL Injection.',
+        link: '/security',
+        icon: '🔒',
+    },
+    {
+        title: 'Interview',
+        description: 'Texniki və behavioral interview hazırlığı, OOD və sistem dizayn sualları.',
+        link: '/interview',
+        icon: '💼',
+    },
+    {
+        title: 'Diaqramlar',
+        description: 'UML, Use Case, Sequence, Class və E-R diaqramları ilə sistem modelləşdirmə.',
+        link: '/diaqramlar',
+        icon: '🗂️',
+    },
 ];
 
 function TopicCard({ title, description, link, icon }) {

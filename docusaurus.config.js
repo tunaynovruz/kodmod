@@ -108,6 +108,26 @@ const config = {
             to: '/java',
             label: 'Java',
             position: 'left',
+          },
+          {
+            to: '/testing',
+            label: 'Testing',
+            position: 'left',
+          },
+          {
+            to: '/security',
+            label: 'Security',
+            position: 'left',
+          },
+          {
+            to: '/interview',
+            label: 'Interview',
+            position: 'left',
+          },
+          {
+            to: '/diaqramlar',
+            label: 'Diaqramlar',
+            position: 'left',
           }
         ],
       },
@@ -129,6 +149,10 @@ const config = {
                 label: 'Sistem Dizaynı',
                 to: '/sistem-dizayn',
               },
+              {
+                label: 'Mikroservislər',
+                to: '/mikroservisler',
+              }
             ],
           },
           {
@@ -146,19 +170,31 @@ const config = {
                 label: 'Verilənlər Bazası',
                 to: '/database',
               },
+              {
+                label: 'Texnologiyalar',
+                to: '/texnologiyalar',
+              }
             ],
           },
           {
-            title: 'Texnologiyalar',
+            title: 'Təhlükəsizlik & Test',
             items: [
               {
-                label: 'Texnologiyalar',
-                to: '/tech',
+                label: 'Security',
+                to: '/security',
               },
               {
-                label: 'Mikroservislər',
-                to: '/mikroservisler',
+                label: 'Testing',
+                to: '/testing',
               },
+              {
+                label: 'Interview',
+                to: '/interview',
+              },
+              {
+                label: 'Diaqramlar',
+                to: '/diaqramlar',
+              }
             ],
           }
         ],

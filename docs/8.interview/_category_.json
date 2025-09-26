@@ -5,7 +5,8 @@
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Interview"
+    "title": "Interview",
+    "slug": "interview"
   },
   "customProps": {
     "description": "Interview"
