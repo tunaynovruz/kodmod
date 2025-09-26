@@ -1,0 +1,14 @@
+{
+  "label": "Security",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Təhlükəsizlik",
+    "slug": "security"
+  },
+  "customProps": {
+    "description": "Təhlükəsizlik"
+  }
+}

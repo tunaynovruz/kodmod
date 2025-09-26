@@ -1,0 +1,14 @@
+{
+  "label": "Spring",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Spring",
+    "slug": "spring"
+  },
+  "customProps": {
+    "description": "Spring"
+  }
+}
