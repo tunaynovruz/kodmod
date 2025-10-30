@@ -1,0 +1,14 @@
+{
+  "label": "Image Processing",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Image Processing",
+    "slug": "image-processing"
+  },
+  "customProps": {
+    "description": "Image Processing - filtering, convolution, edge detection, transformations, color spaces and compression"
+  }
+}

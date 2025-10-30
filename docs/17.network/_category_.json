@@ -1,0 +1,14 @@
+{
+  "label": "Network",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Network",
+    "slug": "network"
+  },
+  "customProps": {
+    "description": "Network - OSI model, TCP/IP, HTTP/HTTPS, DNS, security, load balancing and CDN"
+  }
+}
