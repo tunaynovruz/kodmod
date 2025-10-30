@@ -111,11 +111,11 @@ const learningPaths = [
                 title: 'İrəli Səviyyə Mövzular',
                 description: 'Mürəkkəb sistem dizayn konseptləri',
                 steps: [
-                    { title: 'Distributed Systems', link: '/sistem-dizayn/movzular/distributed-systems' },
-                    { title: 'Consistency Patterns', link: '/sistem-dizayn/movzular/consistency' },
-                    { title: 'Availability Patterns', link: '/sistem-dizayn/movzular/availability' },
-                    { title: 'API Gateway və Rate Limiting', link: '/sistem-dizayn/movzular/api-gateway' },
-                    { title: 'Service Discovery', link: '/sistem-dizayn/movzular/service-discovery' },
+                    { title: 'Distributed Systems', link: '/sistem-dizayn/distributed-systems' },
+                    { title: 'Consistency Patterns', link: '/sistem-dizayn/consistency' },
+                    { title: 'Availability Patterns', link: '/sistem-dizayn/availability' },
+                    { title: 'API Gateway və Rate Limiting', link: '/sistem-dizayn/api-gateway' },
+                    { title: 'Service Discovery', link: '/sistem-dizayn/service-discovery' },
                 ]
             },
             {
@@ -123,9 +123,9 @@ const learningPaths = [
                 description: 'Sistem performansını artırmaq üçün texnikalar',
                 steps: [
                     { title: 'Database Optimization', link: '/database' },
-                    { title: 'Caching Strategies', link: '/sistem-dizayn/movzular/caching' },
-                    { title: 'Horizontal vs Vertical Scaling', link: '/sistem-dizayn/movzular/scaling' },
-                    { title: 'Monitoring və Logging', link: '/sistem-dizayn/movzular/monitoring' },
+                    { title: 'Caching Strategies', link: '/sistem-dizayn/caching' },
+                    { title: 'Horizontal vs Vertical Scaling', link: '/sistem-dizayn/scaling' },
+                    { title: 'Monitoring və Logging', link: '/sistem-dizayn/monitoring' },
                 ]
             }
         ]
