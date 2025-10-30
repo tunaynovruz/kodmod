@@ -55,7 +55,7 @@ const config = {
           createSitemapItems: async (params) => {
             const {defaultCreateSitemapItems, ...rest} = params;
             const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/etiketler/'));
+            return items.filter((item) => !item.url.includes('/etiketler/') && !item.url.includes('/blog/'));
           }}
       }),
     ],
