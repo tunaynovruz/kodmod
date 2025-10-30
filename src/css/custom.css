@@ -5,26 +5,57 @@
  */
 
 /* You can override the default Infima variables here. */
+/* Purple theme colors matching learning path gradient (#667eea to #764ba2) */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #4d5fd8;
+  --ifm-color-primary-darker: #4152d4;
+  --ifm-color-primary-darkest: #3443b8;
+  --ifm-color-primary-light: #7f92ed;
+  --ifm-color-primary-lighter: #8b9def;
+  --ifm-color-primary-lightest: #aab6f3;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #8b9def;
+  --ifm-color-primary-dark: #7185eb;
+  --ifm-color-primary-darker: #6378ea;
+  --ifm-color-primary-darkest: #3f56e3;
+  --ifm-color-primary-light: #a5b5f3;
+  --ifm-color-primary-lighter: #b3c1f5;
+  --ifm-color-primary-lightest: #d7dff9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar styling to match purple gradient theme */
+.navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+}
+
+.navbar__title,
+.navbar__item,
+.navbar__link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px;
+}
+
+.navbar__brand:hover {
+  color: white !important;
+}
+
+/* Dark mode navbar adjustments */
+[data-theme='dark'] .navbar {
+  background: linear-gradient(135deg, #7f92ed 0%, #8b6bb8 100%) !important;
+  box-shadow: 0 2px 8px rgba(139, 157, 239, 0.3);
 }
