@@ -44,7 +44,7 @@ const config = {
           customCss: './src/css/custom.css',
         },
         googleTagManager: {
-          containerId: 'GTM-NK8FH8HZ',
+          containerId: 'G-Q2EKHFXM0N',
         },
         sitemap: {
           lastmod: 'date',
