@@ -1,0 +1,83 @@
+.topicCard {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e5e7eb;
+    height: 100%;
+}
+
+.topicCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #667eea;
+    text-underline: none;
+    text-decoration: none;
+}
+
+.topicIcon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+    border-radius: 12px;
+}
+
+.topicTitle {
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.topicDescription {
+    margin: 0 0 16px 0;
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.topicLink {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #667eea;
+    margin-top: auto;
+    transition: color 0.2s ease;
+}
+
+.topicCard:hover .topicLink {
+    color: #764ba2;
+}
+
+@media (max-width: 768px) {
+    .topicCard {
+        padding: 20px;
+    }
+
+    .topicIcon {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 12px;
+    }
+
+    .topicTitle {
+        font-size: 1.1rem;
+    }
+
+    .topicDescription {
+        font-size: 0.9rem;
+    }
+}

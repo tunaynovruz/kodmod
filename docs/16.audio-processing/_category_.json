@@ -1,0 +1,14 @@
+{
+  "label": "Audio Processing",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Audio Processing",
+    "slug": "audio-processing"
+  },
+  "customProps": {
+    "description": "Audio Processing - fundamentals, sampling, quantization, digital filters, FFT, compression and effects"
+  }
+}

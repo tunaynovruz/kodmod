@@ -1,0 +1,14 @@
+{
+  "label": "Computer Architecture",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Computer Architecture",
+    "slug": "computer-architecture"
+  },
+  "customProps": {
+    "description": "Computer Architecture - CPU, memory hierarchy, cache, performance, parallelism and modern architectures"
+  }
+}
