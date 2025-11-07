@@ -1,0 +1,15 @@
+{
+  "position": 8,
+  "label": "String Alqoritmləri",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "String Alqoritmləri",
+    "slug": "string-alqoritmleri"
+  },
+  "customProps": {
+    "description": "String üzərində axtarış və uyğunlaşdırma alqoritmləri"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "position": 5,
+  "label": "Qraf Alqoritmləri",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Qraf Alqoritmləri",
+    "slug": "graph-alqoritmleri"
+  },
+  "customProps": {
+    "description": "Qraf üzərində əsas alqoritmlər"
+  }
+}
